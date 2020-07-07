@@ -2,7 +2,7 @@
     "id": "zi0tsIDk3RL1cLLzAIz5",
     "name": "Printing with Indexes",
     "tests": [
-        "python -m doctest -v lists_and_strings.py"
+        "python -m doctest lists_and_strings.py"
     ],
     "hints": [],
     "files": {
@@ -26,6 +26,6 @@
         "lists_and_strings.py"
     ],
     "description": "SW1wbGVtZW50JTIwdGhlJTIwZnVuY3Rpb24lMjAlNjBwcmludF93aXRoX2luZGV4ZXMlNjAlMjBhY2NvcmRpbmclMjB0byUyMGl0cyUyMGRvY3VtZW50YXRpb24uJTBBJTBBRG9uJ3QlMjBmb3JnZXQlMjB0byUyMGxvb2slMjBhdCUyMHRoZSUyMHNvbHV0aW9uLg==",
-    "app_version": "0.1.2",
+    "app_version": "0.1.3",
     "file_version": "1.0.1"
 }
