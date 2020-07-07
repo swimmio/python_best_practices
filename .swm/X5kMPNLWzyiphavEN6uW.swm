@@ -1,0 +1,33 @@
+{
+    "id": "X5kMPNLWzyiphavEN6uW",
+    "name": "First Middle Last",
+    "tests": [
+        "python -m doctest lists_and_strings.py"
+    ],
+    "hints": [
+        "https://www.geeksforgeeks.org/unpacking-a-tuple-in-python/"
+    ],
+    "files": {
+        "lists_and_strings.py": {
+            "index": [
+                "5813842..5c77d3c",
+                "100644"
+            ],
+            "fileA": "lists_and_strings.py",
+            "fileB": "lists_and_strings.py",
+            "status": "MODIFIED",
+            "numLineDeletions": 4,
+            "numLineAdditions": 1,
+            "hunkContainers": [
+                "JTdCJTIyaHVuayUyMiUzQSU3QiUyMmhlYWRlciUyMiUzQSUyMiU0MCU0MCUyMC0xNTYlMkM3JTIwJTJCMTU2JTJDNCUyMCU0MCU0MCUyMGRlZiUyMGZpcnN0X21pZGRsZV9sYXN0KGl0ZXJhYmxlKSUzQSUyMiUyQyUyMmNoYW5nZXMlMjIlM0ElNUIlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjAlMjAlNUIyJTJDJTIwMyUyQyUyMDQlNUQlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0ExNTYlMkMlMjJiJTIyJTNBMTU2JTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwJTIwNSUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTE1NyUyQyUyMmIlMjIlM0ExNTclN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjAlMjAlNUMlMjIlNUMlMjIlNUMlMjIlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0ExNTglMkMlMjJiJTIyJTNBMTU4JTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmRlbCUyMiUyQyUyMm1hcmslMjIlM0ElMjItJTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMGZpcnN0JTJDJTIwKm1pZGRsZSUyQyUyMGxhc3QlMjAlM0QlMjBpdGVyYWJsZSUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTE1OSU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJkZWwlMjIlMkMlMjJtYXJrJTIyJTNBJTIyLSUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjBwcmludChmaXJzdCklMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0ExNjAlN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyZGVsJTIyJTJDJTIybWFyayUyMiUzQSUyMi0lMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwcHJpbnQobWlkZGxlKSUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTE2MSU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJkZWwlMjIlMkMlMjJtYXJrJTIyJTNBJTIyLSUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjBwcmludChsYXN0KSUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTE2MiU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJhZGQlMjIlMkMlMjJtYXJrJTIyJTNBJTIyJTJCJTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMHBhc3MlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmIlMjIlM0ExNTklN0QlN0QlNUQlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0ElN0IlMjJzdGFydExpbmUlMjIlM0ExNTYlMkMlMjJsaW5lc0NvdW50JTIyJTNBNyU3RCUyQyUyMmIlMjIlM0ElN0IlMjJzdGFydExpbmUlMjIlM0ExNTYlMkMlMjJsaW5lc0NvdW50JTIyJTNBNCU3RCU3RCU3RCU3RA=="
+            ]
+        }
+    },
+    "diff": "ZGlmZiUyMC0tZ2l0JTIwYSUyRmxpc3RzX2FuZF9zdHJpbmdzLnB5JTIwYiUyRmxpc3RzX2FuZF9zdHJpbmdzLnB5JTBBaW5kZXglMjA1ODEzODQyLi41Yzc3ZDNjJTIwMTAwNjQ0JTBBLS0tJTIwYSUyRmxpc3RzX2FuZF9zdHJpbmdzLnB5JTBBJTJCJTJCJTJCJTIwYiUyRmxpc3RzX2FuZF9zdHJpbmdzLnB5JTBBJTQwJTQwJTIwLTE1NiUyQzclMjAlMkIxNTYlMkM0JTIwJTQwJTQwJTIwZGVmJTIwZmlyc3RfbWlkZGxlX2xhc3QoaXRlcmFibGUpJTNBJTBBJTIwJTIwJTIwJTIwJTIwJTVCMiUyQyUyMDMlMkMlMjA0JTVEJTBBJTIwJTIwJTIwJTIwJTIwNSUwQSUyMCUyMCUyMCUyMCUyMCUyMiUyMiUyMiUwQS0lMjAlMjAlMjAlMjBmaXJzdCUyQyUyMCptaWRkbGUlMkMlMjBsYXN0JTIwJTNEJTIwaXRlcmFibGUlMEEtJTIwJTIwJTIwJTIwcHJpbnQoZmlyc3QpJTBBLSUyMCUyMCUyMCUyMHByaW50KG1pZGRsZSklMEEtJTIwJTIwJTIwJTIwcHJpbnQobGFzdCklMEElMkIlMjAlMjAlMjAlMjBwYXNzJTBB",
+    "solution_files": [
+        "lists_and_strings.py"
+    ],
+    "description": "SW1wbGVtZW50JTIwJTYwZmlyc3RfbWlkZGxlX2xhc3QlNjAlMjBhY2NvcmRpbmclMjB0byUyMGl0cyUyMGRvY3VtZW50YXRpb24lMEE=",
+    "app_version": "0.1.3",
+    "file_version": "1.0.1"
+}
