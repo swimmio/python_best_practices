@@ -62,7 +62,7 @@ def is_only_upper_strings(iterable):
     >>> is_only_upper_strings(["SWIMM", "UNIT", "SWimmING"])
     False
     """
-    return all([s.isupper() for s in iterable])
+    return all((s.isupper() for s in iterable))
 
 
 def is_any_string_upper_here(iterable):
@@ -75,7 +75,7 @@ def is_any_string_upper_here(iterable):
     >>> is_any_string_upper_here(["swimm", "UNIt", "swIMMING"])
     False
     """
-    return any([s.isupper() for s in iterable])
+    return any((s.isupper() for s in iterable))
 
 
 def full_names(first_names, last_names):
