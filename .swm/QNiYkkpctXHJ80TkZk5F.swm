@@ -2,7 +2,7 @@
     "id": "QNiYkkpctXHJ80TkZk5F",
     "name": "Is any string UPPER here?",
     "tests": [
-        "python -m doctest lists_and_strings.py"
+        "python3 -m doctest lists_and_strings.py"
     ],
     "hints": [],
     "files": {

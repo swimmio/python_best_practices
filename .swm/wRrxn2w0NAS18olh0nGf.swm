@@ -2,7 +2,7 @@
     "id": "wRrxn2w0NAS18olh0nGf",
     "name": "Full Names",
     "tests": [
-        "python -m doctest lists_and_strings.py"
+        "python3 -m doctest lists_and_strings.py"
     ],
     "hints": [
         "`zip`"

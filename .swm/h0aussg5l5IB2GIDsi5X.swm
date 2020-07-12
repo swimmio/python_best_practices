@@ -2,7 +2,7 @@
     "id": "h0aussg5l5IB2GIDsi5X",
     "name": "Convert to Decimal",
     "tests": [
-        "python -m doctest general.py"
+        "python3 -m doctest general.py"
     ],
     "hints": [
         "`int` is also a function"

@@ -2,7 +2,7 @@
     "id": "M1vpSdk22OT4Mxr2n2bx",
     "name": "Squared List",
     "tests": [
-        "python -m doctest comprehensions.py"
+        "python3 -m doctest comprehensions.py"
     ],
     "hints": [],
     "files": {

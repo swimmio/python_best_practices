@@ -2,7 +2,7 @@
     "id": "DIYxrT3tqouey26aHdKm",
     "name": "Add Points",
     "tests": [
-        "python -m doctest common_libs.py"
+        "python3 -m doctest common_libs.py"
     ],
     "hints": [],
     "files": {

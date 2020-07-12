@@ -2,7 +2,7 @@
     "id": "IesjO0jpPlZGqjbsXyZs",
     "name": "Is greater than 2?",
     "tests": [
-        "python -m doctest general.py"
+        "python3 -m doctest general.py"
     ],
     "hints": [],
     "files": {

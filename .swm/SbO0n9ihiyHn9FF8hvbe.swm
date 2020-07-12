@@ -2,7 +2,7 @@
     "id": "SbO0n9ihiyHn9FF8hvbe",
     "name": "Is Ascending",
     "tests": [
-        "python -m doctest general.py"
+        "python3 -m doctest general.py"
     ],
     "hints": [],
     "files": {

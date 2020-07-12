@@ -2,7 +2,7 @@
     "id": "bwFXIM8iwj1PuRZgyhA6",
     "name": "Default Value",
     "tests": [
-        "python -m doctest general.py"
+        "python3 -m doctest general.py"
     ],
     "hints": [],
     "files": {

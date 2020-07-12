@@ -2,7 +2,7 @@
     "id": "TXYHAFpCGqLUBIvK4b4J",
     "name": "Path Join",
     "tests": [
-        "python -m doctest lists_and_strings.py"
+        "python3 -m doctest lists_and_strings.py"
     ],
     "hints": [
         "*args"

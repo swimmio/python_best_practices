@@ -2,7 +2,7 @@
     "id": "0CdggOZT3Zs6yiIucH9X",
     "name": "Counting Occurrences",
     "tests": [
-        "python -m doctest common_libs.py"
+        "python3 -m doctest common_libs.py"
     ],
     "hints": [
         "`import collections`"

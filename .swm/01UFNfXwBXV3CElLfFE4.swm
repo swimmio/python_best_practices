@@ -2,7 +2,7 @@
     "id": "01UFNfXwBXV3CElLfFE4",
     "name": "Merging Dicts",
     "tests": [
-        "python -m doctest dicts.py"
+        "python3 -m doctest dicts.py"
     ],
     "hints": [
         "https://www.geeksforgeeks.org/python-merging-two-dictionaries/"

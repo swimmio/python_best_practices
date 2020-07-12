@@ -2,7 +2,7 @@
     "id": "VnYDrfNLMtbbLZGgWFMA",
     "name": "Squared Generator",
     "tests": [
-        "python -m doctest comprehensions.py"
+        "python3 -m doctest comprehensions.py"
     ],
     "hints": [],
     "files": {

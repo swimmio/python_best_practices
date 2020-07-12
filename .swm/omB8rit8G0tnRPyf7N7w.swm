@@ -2,7 +2,7 @@
     "id": "omB8rit8G0tnRPyf7N7w",
     "name": "Reverse Dictionary",
     "tests": [
-        "python -m doctest comprehensions.py"
+        "python3 -m doctest comprehensions.py"
     ],
     "hints": [],
     "files": {

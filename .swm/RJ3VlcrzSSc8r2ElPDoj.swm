@@ -2,7 +2,7 @@
     "id": "RJ3VlcrzSSc8r2ElPDoj",
     "name": "Multiple Factorial",
     "tests": [
-        "python -m doctest common_libs.py"
+        "python3 -m doctest common_libs.py"
     ],
     "hints": [],
     "files": {

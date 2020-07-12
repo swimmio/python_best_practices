@@ -2,7 +2,7 @@
     "id": "gxEZEZX6AfBpPsrS2K29",
     "name": "Numbers Dict",
     "tests": [
-        "python -m doctest general.py"
+        "python3 -m doctest general.py"
     ],
     "hints": [],
     "files": {

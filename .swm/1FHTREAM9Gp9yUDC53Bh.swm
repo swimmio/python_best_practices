@@ -2,7 +2,7 @@
     "id": "1FHTREAM9Gp9yUDC53Bh",
     "name": "Filter strings starting with `a`",
     "tests": [
-        "python -m doctest lists_and_strings.py"
+        "python3 -m doctest lists_and_strings.py"
     ],
     "hints": [
         "`startswith`"

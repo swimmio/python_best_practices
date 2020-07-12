@@ -2,7 +2,7 @@
     "id": "X5kMPNLWzyiphavEN6uW",
     "name": "First Middle Last",
     "tests": [
-        "python -m doctest lists_and_strings.py"
+        "python3 -m doctest lists_and_strings.py"
     ],
     "hints": [
         "https://www.geeksforgeeks.org/unpacking-a-tuple-in-python/"

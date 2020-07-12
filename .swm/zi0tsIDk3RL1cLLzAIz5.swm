@@ -2,7 +2,7 @@
     "id": "zi0tsIDk3RL1cLLzAIz5",
     "name": "Printing with Indexes",
     "tests": [
-        "python -m doctest lists_and_strings.py"
+        "python3 -m doctest lists_and_strings.py"
     ],
     "hints": [],
     "files": {

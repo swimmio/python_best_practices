@@ -2,7 +2,7 @@
     "id": "PoowcN5mVvmj1LRybqty",
     "name": "Squared for Even Numbers",
     "tests": [
-        "python -m doctest comprehensions.py"
+        "python3 -m doctest comprehensions.py"
     ],
     "hints": [],
     "files": {

@@ -2,7 +2,7 @@
     "id": "EN5xOCRibx715suxOWmj",
     "name": "The last element",
     "tests": [
-        "python -m doctest lists_and_strings.py"
+        "python3 -m doctest lists_and_strings.py"
     ],
     "hints": [],
     "files": {

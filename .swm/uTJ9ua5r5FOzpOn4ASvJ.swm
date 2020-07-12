@@ -2,7 +2,7 @@
     "id": "uTJ9ua5r5FOzpOn4ASvJ",
     "name": "Sum of Keys",
     "tests": [
-        "python -m doctest dicts.py"
+        "python3 -m doctest dicts.py"
     ],
     "hints": [
         "defaultdict"

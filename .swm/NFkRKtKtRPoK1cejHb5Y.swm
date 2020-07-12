@@ -2,7 +2,7 @@
     "id": "NFkRKtKtRPoK1cejHb5Y",
     "name": "Dictionary's default values",
     "tests": [
-        "python -m doctest dicts.py"
+        "python3 -m doctest dicts.py"
     ],
     "hints": [
         "https://realpython.com/python-dicts/"

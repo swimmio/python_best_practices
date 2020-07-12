@@ -2,7 +2,7 @@
     "id": "yFtIUhRoE7GuKhM24Xjg",
     "name": "Swap Variables",
     "tests": [
-        "python -m doctest lists_and_strings.py"
+        "python3 -m doctest lists_and_strings.py"
     ],
     "hints": [],
     "files": {

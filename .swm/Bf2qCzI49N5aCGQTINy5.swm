@@ -2,7 +2,7 @@
     "id": "Bf2qCzI49N5aCGQTINy5",
     "name": "Print with underscores",
     "tests": [
-        "python -m doctest general.py"
+        "python3 -m doctest general.py"
     ],
     "hints": [
         "`help(print)`"

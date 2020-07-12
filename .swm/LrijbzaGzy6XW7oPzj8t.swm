@@ -2,7 +2,7 @@
     "id": "LrijbzaGzy6XW7oPzj8t",
     "name": "Squared Set",
     "tests": [
-        "python -m doctest comprehensions.py"
+        "python3 -m doctest comprehensions.py"
     ],
     "hints": [],
     "files": {

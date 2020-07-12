@@ -2,7 +2,7 @@
     "id": "5UFHwSCW30etM97RufMw",
     "name": "Is only UPPER strings?",
     "tests": [
-        "python -m doctest lists_and_strings.py"
+        "python3 -m doctest lists_and_strings.py"
     ],
     "hints": [
         "`dir(str)`"

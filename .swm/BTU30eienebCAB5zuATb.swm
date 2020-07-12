@@ -2,7 +2,7 @@
     "id": "BTU30eienebCAB5zuATb",
     "name": "Pretty Print Number",
     "tests": [
-        "python -m doctest general.py"
+        "python3 -m doctest general.py"
     ],
     "hints": [],
     "files": {
