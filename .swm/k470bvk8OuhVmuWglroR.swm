@@ -1,6 +1,6 @@
 {
     "id": "k470bvk8OuhVmuWglroR",
-    "name": "Squared List",
+    "name": "Squared List Type",
     "tests": [
         "mypy --strict swimm_typing.py"
     ],
