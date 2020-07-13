@@ -166,9 +166,6 @@ my_map([1, 2, 3], cb)
 my_map({1, 2, 3}, cb)
 
 
-####
-
-
 class A:
     pass  # The implementation doesn't matter here
 
