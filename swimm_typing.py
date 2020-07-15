@@ -1,4 +1,3 @@
-import random
 from typing import (
     Union,
     TypeVar,
@@ -12,24 +11,6 @@ from typing import (
     Set,
     Callable, Mapping, TypedDict,
 )
-
-
-def ret_str() -> str:
-    return "Swimm"
-
-
-def ret_int() -> int:
-    return 42
-
-
-def ret_nothing() -> None:
-    pass
-
-
-def ret_either_str_int() -> Union[str, int]:
-    if random.random() > 0.5:
-        return "Swimm"
-    return 42
 
 
 def handle_variable_type_input(str_int: Union[str, int]) -> int:
