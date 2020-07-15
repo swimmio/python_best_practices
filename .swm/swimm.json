@@ -1,3 +1,4 @@
 {
-    "repo_id": "3egoQiVcDy5E9US72y0k"
+    "repo_id": "3egoQiVcDy5E9US72y0k",
+    "configuration": {"always_mark_done_when_tests_succeed":  true}
 }
