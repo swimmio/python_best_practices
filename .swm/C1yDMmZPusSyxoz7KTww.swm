@@ -1,0 +1,31 @@
+{
+    "id": "C1yDMmZPusSyxoz7KTww",
+    "name": "Hello Async Swimm",
+    "tests": [
+        "python3 -m doctest async_io/hello_swimm.py"
+    ],
+    "hints": [],
+    "files": {
+        "async_io/hello_swimm.py": {
+            "index": [
+                "d5e8490..aefd349",
+                "100644"
+            ],
+            "fileA": "async_io/hello_swimm.py",
+            "fileB": "async_io/hello_swimm.py",
+            "status": "MODIFIED",
+            "numLineDeletions": 1,
+            "numLineAdditions": 1,
+            "hunkContainers": [
+                "JTdCJTIyaHVuayUyMiUzQSU3QiUyMmhlYWRlciUyMiUzQSUyMiU0MCU0MCUyMC0xMyUyQzQlMjAlMkIxMyUyQzQlMjAlNDAlNDAlMjBkZWYlMjBydW5uZXIoKSUzQSUyMiUyQyUyMmNoYW5nZXMlMjIlM0ElNUIlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjAlMjBoZWxsbyUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTEzJTJDJTIyYiUyMiUzQTEzJTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwJTIwc3dpbW0lMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0ExNCUyQyUyMmIlMjIlM0ExNCU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMCUyMCU1QyUyMiU1QyUyMiU1QyUyMiUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTE1JTJDJTIyYiUyMiUzQTE1JTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmRlbCUyMiUyQyUyMm1hcmslMjIlM0ElMjItJTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMGFzeW5jaW8ucnVuKGhlbGxvX3N3aW1tKCkpJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBMTYlN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyYWRkJTIyJTJDJTIybWFyayUyMiUzQSUyMiUyQiUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjBoZWxsb19zd2ltbSgpJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJiJTIyJTNBMTYlN0QlN0QlNUQlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0ElN0IlMjJzdGFydExpbmUlMjIlM0ExMyUyQyUyMmxpbmVzQ291bnQlMjIlM0E0JTdEJTJDJTIyYiUyMiUzQSU3QiUyMnN0YXJ0TGluZSUyMiUzQTEzJTJDJTIybGluZXNDb3VudCUyMiUzQTQlN0QlN0QlN0QlN0Q="
+            ]
+        }
+    },
+    "diff": "ZGlmZiUyMC0tZ2l0JTIwYSUyRmFzeW5jX2lvJTJGaGVsbG9fc3dpbW0ucHklMjBiJTJGYXN5bmNfaW8lMkZoZWxsb19zd2ltbS5weSUwQWluZGV4JTIwZDVlODQ5MC4uYWVmZDM0OSUyMDEwMDY0NCUwQS0tLSUyMGElMkZhc3luY19pbyUyRmhlbGxvX3N3aW1tLnB5JTBBJTJCJTJCJTJCJTIwYiUyRmFzeW5jX2lvJTJGaGVsbG9fc3dpbW0ucHklMEElNDAlNDAlMjAtMTMlMkM0JTIwJTJCMTMlMkM0JTIwJTQwJTQwJTIwZGVmJTIwcnVubmVyKCklM0ElMEElMjAlMjAlMjAlMjAlMjBoZWxsbyUwQSUyMCUyMCUyMCUyMCUyMHN3aW1tJTBBJTIwJTIwJTIwJTIwJTIwJTIyJTIyJTIyJTBBLSUyMCUyMCUyMCUyMGFzeW5jaW8ucnVuKGhlbGxvX3N3aW1tKCkpJTBBJTJCJTIwJTIwJTIwJTIwaGVsbG9fc3dpbW0oKSUwQQ==",
+    "solution_files": [
+        "async_io/hello_swimm.py"
+    ],
+    "description": "SW4lMjB0aGlzJTIwVW5pdCUyQyUyMHdlJTIwd2lsbCUyMGxlYXJuJTIwaG93JTIwdG8lMjBleGVjdXRlJTIwYW4lMjAlNjBhc3luYyU2MCUyMGZ1bmN0aW9uLiUwQSUwQU1ha2UlMjB0aGUlMjB0ZXN0cyUyMGZvciUyMCU2MHJ1bm5lciU2MCUyMHBhc3MlMjAtJTIwYnklMjAqKm9ubHklMjBjaGFuZ2luZyUyMHRoZSUyMGltcGxlbWVudGF0aW9uJTIwb2YlMjAlNjBydW5uZXIlNjAqKi4lMEElMEElMjMlMjBSZWZlcmVuY2VzJTBBKiUyMGh0dHBzJTNBJTJGJTJGZG9jcy5weXRob24ub3JnJTJGMyUyRmxpYnJhcnklMkZhc3luY2lvLXRhc2suaHRtbA==",
+    "app_version": "0.1.2",
+    "file_version": "1.0.1"
+}
