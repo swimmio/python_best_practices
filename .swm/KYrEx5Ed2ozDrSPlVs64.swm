@@ -2,7 +2,7 @@
     "id": "KYrEx5Ed2ozDrSPlVs64",
     "name": "Hello Async World!",
     "tests": [
-        "python -m doctest async_io/hello_world.py"
+        "python3 -m doctest async_io/hello_world.py"
     ],
     "hints": [
         "`print_hello_world` and `print_hello_world_three_times` should be async functions",
