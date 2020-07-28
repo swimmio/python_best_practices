@@ -2,7 +2,7 @@
     "id": "NJCEhPBAMmscho5vcTPm",
     "name": "Maybe Return",
     "tests": [
-        "mypy --strict swimm_typing.py"
+        "mypy --strict maybe_return.py"
     ],
     "hints": [],
     "files": {
