@@ -1,16 +1,3 @@
-def reverse(my_list_or_string):
-    """
-    Returns the list in reverse order
-    >>> reverse([1,2,3])
-    [3, 2, 1]
-    >>> reverse("swimm")
-    'mmiws'
-    """
-    # Here we use the slicing operator meaning we start from index 0, all the way to the end, with a
-    # step of -1
-    return my_list_or_string[::-1]
-
-
 def sort_by_third_element(iterable):
     """
     This function gets a list of tuples and returns the list sorted by its third element.
