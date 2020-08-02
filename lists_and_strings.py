@@ -1,29 +1,3 @@
-def is_only_upper_strings(iterable):
-    """
-    Returns True iff every string within `iterable` contains only uppercase characters.
-    >>> is_only_upper_strings(["SWIMM", "UNIT", "SWIMMING"])
-    True
-    >>> is_only_upper_strings(["SWImm", "UNIT", "SWIMMING"])
-    False
-    >>> is_only_upper_strings(["SWIMM", "UNIT", "SWimmING"])
-    False
-    """
-    return all((s.isupper() for s in iterable))
-
-
-def is_any_string_upper_here(iterable):
-    """
-    Returns True iff there is at least one string within `iterable` that contains only uppercase characters.
-    >>> is_any_string_upper_here(["SWIMM", "UNIT", "SWIMMING"])
-    True
-    >>> is_any_string_upper_here(["SWIMM", "UNit", "swimming"])
-    True
-    >>> is_any_string_upper_here(["swimm", "UNIt", "swIMMING"])
-    False
-    """
-    return any((s.isupper() for s in iterable))
-
-
 def full_names(first_names, last_names):
     """
     Receives a list of first_names (e.g., ["Peter", "Tinker"]) and last_names (e.g., ["Pan", "Bell"])
