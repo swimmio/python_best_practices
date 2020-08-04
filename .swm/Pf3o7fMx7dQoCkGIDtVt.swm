@@ -4,7 +4,7 @@
     "tests": [
         "mypy --strict add_int_str.py"
     ],
-    "hints": [],
+    "hints": ["https://docs.python.org/3/library/typing.html#typing.TypeVar"],
     "files": {
         "add_int_str.py": {
             "index": [
