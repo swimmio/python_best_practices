@@ -1,4 +1,5 @@
 {
     "repo_id": "3egoQiVcDy5E9US72y0k",
-    "configuration": {"always_mark_done_when_tests_succeed":  true}
+    "configuration": {"always_mark_done_when_tests_succeed":  true,
+    "show_swimm_files_automatically": true}
 }
