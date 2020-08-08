@@ -1,19 +1,3 @@
-def is_greater_than_2(number):
-    """
-    Returns True iff `number > 2`. Otherwise returns False.
-    >>> is_greater_than_2(1)
-    False
-    >>> is_greater_than_2(2)
-    False
-    >>> is_greater_than_2(3)
-    True
-    >>> is_greater_than_2(100)
-    True
-    """
-    # We don't need `if` or `else` here
-    return number > 2
-
-
 def print_with_underscores(my_list):
     """
     Using only `print`, this function prints all elements of `my_list`, with two underscores between elements.
