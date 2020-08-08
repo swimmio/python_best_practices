@@ -1,12 +1,3 @@
-def numbers_dict():
-    """
-    >>> numbers_dict()
-    {'one': 1, 'thousand': 1000, 'million': 1000000}
-    """
-    # Using numeric literals (with `_`) improve readability
-    return {'one': 1, 'thousand': 1_000, 'million': 1_000_000}
-
-
 def pretty_print_number(number):
     """
     Returns a string representation of `number` where every three digits (from the right) are delimited by `,`
