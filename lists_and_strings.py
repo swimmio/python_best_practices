@@ -1,16 +1,3 @@
-def swap_variables(x, y):
-    """
-    Prints `y: x` using a cool implementation
-    >>> swap_variables(1, 2)
-    2: 1
-    >>> swap_variables('hello', 'world')
-    world: hello
-    """
-    y, x = x, y
-    # Don't change the line below - just add one line of code
-    print('{}: {}'.format(x, y))
-
-
 def filter_string_starting_with_a(list_of_strings):
     """
     Returns a list of all the strings in `_list_of_strings` starting with `a`:
