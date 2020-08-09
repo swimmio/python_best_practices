@@ -1,12 +1,3 @@
-def path_join(*args):
-    """
-    Receives paths and joins them by '/'
-    >>> path_join('a', 'b', 'c')
-    'a/b/c'
-    """
-    return '/'.join(args)
-
-
 def first_middle_last(iterable):
     """
     Receives an iterable and prints:
