@@ -1,23 +1,6 @@
 import collections
 
 
-def key_and_value_or_swimm(dictionary, key):
-    """
-    Receives a dictionary and a key.
-    If the key exists within the dictionary - returns its corresponding value.
-    Else, returns "swimm".
-    >>> d = {"my_key": 1, "leet": 1337}
-    >>> key_and_value_or_swimm(d, "my_key")
-    1
-    >>> key_and_value_or_swimm(d, "leet")
-    1337
-    >>> key_and_value_or_swimm(d, "non_existing")
-    'swimm'
-    """
-    # Note: `get` has a second argument of a default value. This is a very elegant solution.
-    return dictionary.get(key, "swimm")
-
-
 def sum_of_keys(input_dict):
     """
     Receives `input_dict`, and returns a dictionary where every key is the a value in `input_dict`,
