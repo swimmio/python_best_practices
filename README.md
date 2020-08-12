@@ -11,6 +11,9 @@ This is a public repo maintinaed by [Swimm](https://swimm.io).
 
 Enjoy 😎
 
+# Prerequisites
+Have `python3` in your path launch Python 3. That is, you should be able to launch `python3` from the terminal.
+
 # I have a question
 Contact us at `info@swimm.io`.
 
