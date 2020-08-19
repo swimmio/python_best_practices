@@ -1,11 +1,11 @@
-from typing import TypedDict, List, Optional
+from typing import TypedDict, List, Optional, Any
 
 
 class MySpecialDict(TypedDict):
     str_field: str
     int_field: int
     float_field: float
-    list_field: List[int]
+    list_field: List[Any]
     optional_str_field: Optional[str]
 
 
