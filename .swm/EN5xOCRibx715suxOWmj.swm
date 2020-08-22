@@ -2,8 +2,13 @@
     "id": "EN5xOCRibx715suxOWmj",
     "name": "The last element",
     "tests": [
-        "python3 -m doctest last_element.py"
+        "python -m doctest last_element.py"
     ],
+    "cr": [{"action": "includes",
+            "value": "len(",
+            "message": "there is no need to use `len` here. Read about list slicing."
+            }
+            ],
     "hints": [],
     "files": {
         "last_element.py": {
