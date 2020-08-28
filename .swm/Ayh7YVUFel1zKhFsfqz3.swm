@@ -25,7 +25,10 @@
     "solution_files": [
         "get_set_int.py"
     ],
-    "description": "JTYwZ2V0X3NldF9pbnQlNjAlMjBpcyUyMG1pc3NpbmclMjB0eXBlJTIwYW5ub3RhdGlvbiUyMC0lMjBzbyUyMCU1Qm15cHklNUQoaHR0cHMlM0ElMkYlMkZteXB5LnJlYWR0aGVkb2NzLmlvJTJGZW4lMkZzdGFibGUlMkZpbnRyb2R1Y3Rpb24uaHRtbCklMjBpcyUyMG5vdCUyMGhhcHB5LiUwQSUwQUFkZCUyMHRoZSUyMHJpZ2h0JTIwYW5ub3RhdGlvbi4lMEElMEElMjMlMjBSZWZlcmVuY2VzJTBBKiUyMGh0dHBzJTNBJTJGJTJGbXlweS5yZWFkdGhlZG9jcy5pbyUyRmVuJTJGc3RhYmxlJTJGYnVpbHRpbl90eXBlcy5odG1sJTBBKiUyMGh0dHBzJTNBJTJGJTJGbXlweS5yZWFkdGhlZG9jcy5pbyUyRmVuJTJGc3RhYmxlJTJGdHlwZV9pbmZlcmVuY2VfYW5kX2Fubm90YXRpb25zLmh0bWw=",
-    "app_version": "0.1.2",
-    "file_version": "1.0.1"
+    "description": "JTYwZ2V0X3NldF9pbnQlNjAlMjBpcyUyMG1pc3NpbmclMjB0eXBlJTIwYW5ub3RhdGlvbiUyMC0lMjBzbyUyMCU1Qm15cHklNUQoaHR0cHMlM0ElMkYlMkZteXB5LnJlYWR0aGVkb2NzLmlvJTJGZW4lMkZzdGFibGUlMkZpbnRyb2R1Y3Rpb24uaHRtbCklMjBpcyUyMG5vdCUyMGhhcHB5LiUwQSUwQUFkZCUyMHRoZSUyMHJpZ2h0JTIwYW5ub3RhdGlvbi4lMEElMEElMjMlMjBSZWZlcmVuY2VzJTBBKiUyMGh0dHBzJTNBJTJGJTJGbXlweS5yZWFkdGhlZG9jcy5pbyUyRmVuJTJGc3RhYmxlJTJGY2hlYXRfc2hlZXRfcHkzLmh0bWwlMEEqJTIwaHR0cHMlM0ElMkYlMkZteXB5LnJlYWR0aGVkb2NzLmlvJTJGZW4lMkZzdGFibGUlMkZidWlsdGluX3R5cGVzLmh0bWwlMEEqJTIwaHR0cHMlM0ElMkYlMkZteXB5LnJlYWR0aGVkb2NzLmlvJTJGZW4lMkZzdGFibGUlMkZ0eXBlX2luZmVyZW5jZV9hbmRfYW5ub3RhdGlvbnMuaHRtbA==",
+    "app_version": "0.1.70",
+    "file_version": "1.0.2",
+    "dod": "TWFrZSUyMHRoZSUyMHRlc3RzJTIwcGFzcyUyMA==",
+    "summary": "",
+    "isUnitApplicableLocally": "applicable"
 }
