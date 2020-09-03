@@ -1,11 +1,16 @@
 {
     "id": "TXYHAFpCGqLUBIvK4b4J",
     "name": "Path Join",
+    "dod": "SW1wbGVtZW50JTIwJTYwcGF0aF9qb2luJTYwJTIwYWNjb3JkaW5nJTIwdG8lMjBpdHMlMjBkb2N1bWVudGF0aW9u",
+    "description": "",
+    "summary": "",
+    "diff": "ZGlmZiUyMC0tZ2l0JTIwYSUyRnBhdGhfam9pbi5weSUyMGIlMkZwYXRoX2pvaW4ucHklMEFpbmRleCUyMDRmZmE3NzkuLjFlYjE4OTglMjAxMDA2NDQlMEEtLS0lMjBhJTJGcGF0aF9qb2luLnB5JTBBJTJCJTJCJTJCJTIwYiUyRnBhdGhfam9pbi5weSUwQSU0MCU0MCUyMC00JTJDNCUyMCUyQjQlMkM0JTIwJTQwJTQwJTIwZGVmJTIwcGF0aF9qb2luKCphcmdzKSUzQSUwQSUyMCUyMCUyMCUyMCUyMCUzRSUzRSUzRSUyMHBhdGhfam9pbignYSclMkMlMjAnYiclMkMlMjAnYycpJTBBJTIwJTIwJTIwJTIwJTIwJ2ElMkZiJTJGYyclMEElMjAlMjAlMjAlMjAlMjAlMjIlMjIlMjIlMEEtJTIwJTIwJTIwJTIwcmV0dXJuJTIwJyUyRicuam9pbihhcmdzKSUwQSUyQiUyMCUyMCUyMCUyMHBhc3MlMEE=",
     "tests": [
         "python3 -m doctest path_join.py"
     ],
     "hints": [
-        "*args"
+        "*args",
+        "`join` is a useful method"
     ],
     "files": {
         "path_join.py": {
@@ -23,13 +28,6 @@
             ]
         }
     },
-    "diff": "ZGlmZiUyMC0tZ2l0JTIwYSUyRnBhdGhfam9pbi5weSUyMGIlMkZwYXRoX2pvaW4ucHklMEFpbmRleCUyMDRmZmE3NzkuLjFlYjE4OTglMjAxMDA2NDQlMEEtLS0lMjBhJTJGcGF0aF9qb2luLnB5JTBBJTJCJTJCJTJCJTIwYiUyRnBhdGhfam9pbi5weSUwQSU0MCU0MCUyMC00JTJDNCUyMCUyQjQlMkM0JTIwJTQwJTQwJTIwZGVmJTIwcGF0aF9qb2luKCphcmdzKSUzQSUwQSUyMCUyMCUyMCUyMCUyMCUzRSUzRSUzRSUyMHBhdGhfam9pbignYSclMkMlMjAnYiclMkMlMjAnYycpJTBBJTIwJTIwJTIwJTIwJTIwJ2ElMkZiJTJGYyclMEElMjAlMjAlMjAlMjAlMjAlMjIlMjIlMjIlMEEtJTIwJTIwJTIwJTIwcmV0dXJuJTIwJyUyRicuam9pbihhcmdzKSUwQSUyQiUyMCUyMCUyMCUyMHBhc3MlMEE=",
-    "solution_files": [
-        "path_join"
-    ],
-    "description": "",
-    "app_version": "0.1.50",
-    "file_version": "1.0.2",
-    "dod": "SW1wbGVtZW50JTIwJTYwcGF0aF9qb2luJTYwJTIwYWNjb3JkaW5nJTIwdG8lMjBpdHMlMjBkb2N1bWVudGF0aW9u",
-    "summary": ""
+    "app_version": "0.1.80",
+    "file_version": "1.0.2"
 }
