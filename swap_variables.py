@@ -8,4 +8,4 @@ def swap_variables(x, y):
     """
     y, x = x, y
     # Don't change the line below - just add one line of code
-    print('{}: {}'.format(x, y))
+    print(f'{x}: {y}')
