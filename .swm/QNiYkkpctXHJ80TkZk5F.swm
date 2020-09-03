@@ -1,10 +1,16 @@
 {
     "id": "QNiYkkpctXHJ80TkZk5F",
     "name": "Is any string UPPER here?",
+    "dod": "SW1wbGVtZW50JTIwJTYwaXNfYW55X3N0cmluZ191cHBlcl9oZXJlJTYwJTIwYWNjb3JkaW5nJTIwdG8lMjBpdHMlMjBkb2N1bWVudGF0aW9u",
+    "description": "",
+    "summary": "JTYwYW55JTYwJTIwaXMlMjB1c2VmdWwh",
+    "diff": "ZGlmZiUyMC0tZ2l0JTIwYSUyRmlzX2FueV9zdHJpbmdfdXBwZXIucHklMjBiJTJGaXNfYW55X3N0cmluZ191cHBlci5weSUwQWluZGV4JTIwZjcwZWQzMy4uZmE5MGJlZCUyMDEwMDY0NCUwQS0tLSUyMGElMkZpc19hbnlfc3RyaW5nX3VwcGVyLnB5JTBBJTJCJTJCJTJCJTIwYiUyRmlzX2FueV9zdHJpbmdfdXBwZXIucHklMEElNDAlNDAlMjAtOCUyQzQlMjAlMkI4JTJDNCUyMCU0MCU0MCUyMGRlZiUyMGlzX2FueV9zdHJpbmdfdXBwZXJfaGVyZShpdGVyYWJsZSklM0ElMEElMjAlMjAlMjAlMjAlMjAlM0UlM0UlM0UlMjBpc19hbnlfc3RyaW5nX3VwcGVyX2hlcmUoJTVCJTIyc3dpbW0lMjIlMkMlMjAlMjJVTkl0JTIyJTJDJTIwJTIyc3dJTU1JTkclMjIlNUQpJTBBJTIwJTIwJTIwJTIwJTIwRmFsc2UlMEElMjAlMjAlMjAlMjAlMjAlMjIlMjIlMjIlMEEtJTIwJTIwJTIwJTIwcmV0dXJuJTIwYW55KChzLmlzdXBwZXIoKSUyMGZvciUyMHMlMjBpbiUyMGl0ZXJhYmxlKSklMEElMkIlMjAlMjAlMjAlMjBwYXNzJTBB",
     "tests": [
         "python3 -m doctest is_any_string_upper.py"
     ],
-    "hints": [],
+    "hints": [
+        "`any` is a useful builtin function"
+    ],
     "files": {
         "is_any_string_upper.py": {
             "index": [
@@ -21,13 +27,6 @@
             ]
         }
     },
-    "diff": "ZGlmZiUyMC0tZ2l0JTIwYSUyRmlzX2FueV9zdHJpbmdfdXBwZXIucHklMjBiJTJGaXNfYW55X3N0cmluZ191cHBlci5weSUwQWluZGV4JTIwZjcwZWQzMy4uZmE5MGJlZCUyMDEwMDY0NCUwQS0tLSUyMGElMkZpc19hbnlfc3RyaW5nX3VwcGVyLnB5JTBBJTJCJTJCJTJCJTIwYiUyRmlzX2FueV9zdHJpbmdfdXBwZXIucHklMEElNDAlNDAlMjAtOCUyQzQlMjAlMkI4JTJDNCUyMCU0MCU0MCUyMGRlZiUyMGlzX2FueV9zdHJpbmdfdXBwZXJfaGVyZShpdGVyYWJsZSklM0ElMEElMjAlMjAlMjAlMjAlMjAlM0UlM0UlM0UlMjBpc19hbnlfc3RyaW5nX3VwcGVyX2hlcmUoJTVCJTIyc3dpbW0lMjIlMkMlMjAlMjJVTkl0JTIyJTJDJTIwJTIyc3dJTU1JTkclMjIlNUQpJTBBJTIwJTIwJTIwJTIwJTIwRmFsc2UlMEElMjAlMjAlMjAlMjAlMjAlMjIlMjIlMjIlMEEtJTIwJTIwJTIwJTIwcmV0dXJuJTIwYW55KChzLmlzdXBwZXIoKSUyMGZvciUyMHMlMjBpbiUyMGl0ZXJhYmxlKSklMEElMkIlMjAlMjAlMjAlMjBwYXNzJTBB",
-    "solution_files": [
-        "is_any_string_upper.py"
-    ],
-    "description": "",
-    "app_version": "0.1.31",
-    "file_version": "1.0.2",
-    "dod": "SW1wbGVtZW50JTIwJTYwaXNfYW55X3N0cmluZ191cHBlcl9oZXJlJTYwJTIwYWNjb3JkaW5nJTIwdG8lMjBpdHMlMjBkb2N1bWVudGF0aW9u",
-    "summary": "JTYwYW55JTYwJTIwaXMlMjB1c2VmdWwh"
+    "app_version": "0.1.80",
+    "file_version": "1.0.2"
 }
