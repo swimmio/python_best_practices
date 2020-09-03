@@ -7,6 +7,11 @@
     "hints": [
         "https://realpython.com/python-dicts/"
     ],
+    "cr": [{"action": "includes",
+            "value": "if ",
+            "message": "There is no need to use conditions here. The solution can contain a single line only."
+            }
+            ],
     "files": {
         "key_and_value_or_swimm.py": {
             "index": [
