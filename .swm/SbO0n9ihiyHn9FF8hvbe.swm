@@ -25,6 +25,11 @@
     "solution_files": [
         "is_ascending.py"
     ],
+    [{"action": "includes",
+            "value": "and  ",
+            "message": "There is no need to use `and` here."
+            }
+            ],
     "description": "",
     "app_version": "0.1.50",
     "file_version": "1.0.2",
