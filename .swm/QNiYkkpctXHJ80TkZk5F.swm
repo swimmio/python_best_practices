@@ -11,6 +11,11 @@
     "hints": [
         "`any` is a useful builtin function"
     ],
+    "cr": [{"action": "includes",
+            "value": "if ",
+            "message": "There is no need to use conditions here. The solution can contain a single line only."
+            }
+            ],
     "files": {
         "is_any_string_upper.py": {
             "index": [
