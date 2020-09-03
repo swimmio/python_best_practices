@@ -1,10 +1,16 @@
 {
     "id": "zi0tsIDk3RL1cLLzAIz5",
     "name": "Printing with Indexes",
+    "dod": "SW1wbGVtZW50JTIwdGhlJTIwZnVuY3Rpb24lMjAlNjBwcmludF93aXRoX2luZGV4ZXMlNjAlMjBhY2NvcmRpbmclMjB0byUyMGl0cyUyMGRvY3VtZW50YXRpb24u",
+    "description": "",
+    "summary": "VXNpbmclMjAlNjBlbnVtZXJhdGUlNjAlMjBpcyUyMHZlcnklMjBlbGVnYW50JTIwaW4lMjB0aGlzJTIwY2FzZSE=",
+    "diff": "ZGlmZiUyMC0tZ2l0JTIwYSUyRnByaW50X3dpdGhfaW5kZXhlcy5weSUyMGIlMkZwcmludF93aXRoX2luZGV4ZXMucHklMEFpbmRleCUyMGVhNzVjYWUuLjA3NGU0ZmIlMjAxMDA2NDQlMEEtLS0lMjBhJTJGcHJpbnRfd2l0aF9pbmRleGVzLnB5JTBBJTJCJTJCJTJCJTIwYiUyRnByaW50X3dpdGhfaW5kZXhlcy5weSUwQSU0MCU0MCUyMC03JTJDNSUyMCUyQjclMkM0JTIwJTQwJTQwJTIwZGVmJTIwcHJpbnRfd2l0aF9pbmRleGVzKG15X2xpc3QpJTNBJTBBJTIwJTIwJTIwJTIwJTIwMSUzQSUyMGIlMEElMjAlMjAlMjAlMjAlMjAyJTNBJTIwYyUwQSUyMCUyMCUyMCUyMCUyMCUyMiUyMiUyMiUwQS0lMjAlMjAlMjAlMjBmb3IlMjAoaSUyQyUyMHZhbHVlKSUyMGluJTIwZW51bWVyYXRlKG15X2xpc3QpJTNBJTBBLSUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMHByaW50KCclN0IlN0QlM0ElMjAlN0IlN0QnLmZvcm1hdChpJTJDJTIwdmFsdWUpKSUwQSUyQiUyMCUyMCUyMCUyMHBhc3MlMEE=",
     "tests": [
         "python3 -m doctest print_with_indexes.py"
     ],
-    "hints": [],
+    "hints": [
+        "Search for `enumerate`"
+    ],
     "files": {
         "print_with_indexes.py": {
             "index": [
@@ -21,13 +27,6 @@
             ]
         }
     },
-    "diff": "ZGlmZiUyMC0tZ2l0JTIwYSUyRnByaW50X3dpdGhfaW5kZXhlcy5weSUyMGIlMkZwcmludF93aXRoX2luZGV4ZXMucHklMEFpbmRleCUyMGVhNzVjYWUuLjA3NGU0ZmIlMjAxMDA2NDQlMEEtLS0lMjBhJTJGcHJpbnRfd2l0aF9pbmRleGVzLnB5JTBBJTJCJTJCJTJCJTIwYiUyRnByaW50X3dpdGhfaW5kZXhlcy5weSUwQSU0MCU0MCUyMC03JTJDNSUyMCUyQjclMkM0JTIwJTQwJTQwJTIwZGVmJTIwcHJpbnRfd2l0aF9pbmRleGVzKG15X2xpc3QpJTNBJTBBJTIwJTIwJTIwJTIwJTIwMSUzQSUyMGIlMEElMjAlMjAlMjAlMjAlMjAyJTNBJTIwYyUwQSUyMCUyMCUyMCUyMCUyMCUyMiUyMiUyMiUwQS0lMjAlMjAlMjAlMjBmb3IlMjAoaSUyQyUyMHZhbHVlKSUyMGluJTIwZW51bWVyYXRlKG15X2xpc3QpJTNBJTBBLSUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMHByaW50KCclN0IlN0QlM0ElMjAlN0IlN0QnLmZvcm1hdChpJTJDJTIwdmFsdWUpKSUwQSUyQiUyMCUyMCUyMCUyMHBhc3MlMEE=",
-    "solution_files": [
-        "print_with_indexes.py"
-    ],
-    "description": "",
-    "app_version": "0.1.60",
-    "file_version": "1.0.2",
-    "dod": "SW1wbGVtZW50JTIwdGhlJTIwZnVuY3Rpb24lMjAlNjBwcmludF93aXRoX2luZGV4ZXMlNjAlMjBhY2NvcmRpbmclMjB0byUyMGl0cyUyMGRvY3VtZW50YXRpb24u",
-    "summary": "VXNpbmclMjAlNjBlbnVtZXJhdGUlNjAlMjBpcyUyMHZlcnklMjBlbGVnYW50JTIwaW4lMjB0aGlzJTIwY2FzZSE="
+    "app_version": "0.1.80",
+    "file_version": "1.0.2"
 }
