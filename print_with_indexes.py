@@ -8,4 +8,4 @@ def print_with_indexes(my_list):
     2: c
     """
     for (i, value) in enumerate(my_list):
-        print('{}: {}'.format(i, value))
+        print(f'{i}: {value}')
