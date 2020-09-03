@@ -1,11 +1,16 @@
 {
     "id": "vaiZRcd60f8TEqrlnXSL",
     "name": "Reverse",
+    "dod": "SW1wbGVtZW50JTIwdGhlJTIwZnVuY3Rpb24lMjAlNjByZXZlcnNlJTYwJTIwYWNjb3JkaW5nJTIwdG8lMjBpdHMlMjBkb2N1bWVudGF0aW9uLg==",
+    "description": "",
+    "summary": "SGVyZSUyMHdlJTIwdXNlJTIwdGhlJTIwc2xpY2luZyUyMG9wZXJhdG9yJTIwbWVhbmluZyUyMHdlJTIwc3RhcnQlMjBmcm9tJTIwaW5kZXglMjAlNjAwJTYwJTJDJTIwYWxsJTIwdGhlJTIwd2F5JTIwdG8lMjB0aGUlMjBlbmQlMkMlMjB3aXRoJTIwYSUyMCU2MHN0ZXAlNjAlMjBvZiUyMCU2MC0xJTYw",
+    "diff": "ZGlmZiUyMC0tZ2l0JTIwYSUyRnJldmVyc2UucHklMjBiJTJGcmV2ZXJzZS5weSUwQWluZGV4JTIwOGI2YTZjNy4uZTc0MzE1NCUyMDEwMDY0NCUwQS0tLSUyMGElMkZyZXZlcnNlLnB5JTBBJTJCJTJCJTJCJTIwYiUyRnJldmVyc2UucHklMEElNDAlNDAlMjAtNiUyQzUlMjAlMkI2JTJDNSUyMCU0MCU0MCUyMGRlZiUyMHJldmVyc2UobXlfbGlzdF9vcl9zdHJpbmcpJTNBJTBBJTIwJTIwJTIwJTIwJTIwJTNFJTNFJTNFJTIwcmV2ZXJzZSglMjJzd2ltbSUyMiklMEElMjAlMjAlMjAlMjAlMjAnbW1pd3MnJTBBJTIwJTIwJTIwJTIwJTIwJTIyJTIyJTIyJTBBLSUyMCUyMCUyMCUyMHJldHVybiUyMG15X2xpc3Rfb3Jfc3RyaW5nJTVCJTNBJTNBLTElNUQlMEElMkIlMjAlMjAlMjAlMjBwYXNzJTBBJTIwJTBB",
     "tests": [
         "python3 -m doctest reverse.py"
     ],
     "hints": [
-        "Using slicing may be helpful"
+        "Using slicing may be helpful",
+        "https://www.w3schools.com/python/python_howto_reverse_string.asp"
     ],
     "files": {
         "reverse.py": {
@@ -23,13 +28,6 @@
             ]
         }
     },
-    "diff": "ZGlmZiUyMC0tZ2l0JTIwYSUyRnJldmVyc2UucHklMjBiJTJGcmV2ZXJzZS5weSUwQWluZGV4JTIwOGI2YTZjNy4uZTc0MzE1NCUyMDEwMDY0NCUwQS0tLSUyMGElMkZyZXZlcnNlLnB5JTBBJTJCJTJCJTJCJTIwYiUyRnJldmVyc2UucHklMEElNDAlNDAlMjAtNiUyQzUlMjAlMkI2JTJDNSUyMCU0MCU0MCUyMGRlZiUyMHJldmVyc2UobXlfbGlzdF9vcl9zdHJpbmcpJTNBJTBBJTIwJTIwJTIwJTIwJTIwJTNFJTNFJTNFJTIwcmV2ZXJzZSglMjJzd2ltbSUyMiklMEElMjAlMjAlMjAlMjAlMjAnbW1pd3MnJTBBJTIwJTIwJTIwJTIwJTIwJTIyJTIyJTIyJTBBLSUyMCUyMCUyMCUyMHJldHVybiUyMG15X2xpc3Rfb3Jfc3RyaW5nJTVCJTNBJTNBLTElNUQlMEElMkIlMjAlMjAlMjAlMjBwYXNzJTBBJTIwJTBB",
-    "solution_files": [
-        "reverse.py"
-    ],
-    "description": "",
-    "app_version": "0.1.31",
-    "file_version": "1.0.2",
-    "dod": "SW1wbGVtZW50JTIwdGhlJTIwZnVuY3Rpb24lMjAlNjByZXZlcnNlJTYwJTIwYWNjb3JkaW5nJTIwdG8lMjBpdHMlMjBkb2N1bWVudGF0aW9uLg==",
-    "summary": "SGVyZSUyMHdlJTIwdXNlJTIwdGhlJTIwc2xpY2luZyUyMG9wZXJhdG9yJTIwbWVhbmluZyUyMHdlJTIwc3RhcnQlMjBmcm9tJTIwaW5kZXglMjAlNjAwJTYwJTJDJTIwYWxsJTIwdGhlJTIwd2F5JTIwdG8lMjB0aGUlMjBlbmQlMkMlMjB3aXRoJTIwYSUyMCU2MHN0ZXAlNjAlMjBvZiUyMCU2MC0xJTYw"
+    "app_version": "0.1.80",
+    "file_version": "1.0.2"
 }
