@@ -12,6 +12,11 @@
         "`dir(str)`",
         "`all` is a useful builtin function"
     ],
+    "cr": [{"action": "includes",
+            "value": "if ",
+            "message": "There is no need to use conditions here. The solution can contain a single line only."
+            }
+            ],
     "files": {
         "is_only_upper_strings.py": {
             "index": [
