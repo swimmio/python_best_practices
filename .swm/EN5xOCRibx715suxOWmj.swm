@@ -2,7 +2,7 @@
     "id": "EN5xOCRibx715suxOWmj",
     "name": "The last element",
     "tests": [
-        "python -m doctest last_element.py"
+        "python3 -m doctest last_element.py"
     ],
     "cr": [{"action": "includes",
             "value": "len(",
