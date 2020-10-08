@@ -25,7 +25,7 @@
     "solution_files": [
         "is_ascending.py"
     ],
-    [{"action": "includes",
+    "cr": [{"action": "includes",
             "value": "and  ",
             "message": "There is no need to use `and` here."
             }
