@@ -1,30 +1,35 @@
 {
     "id": "yFtIUhRoE7GuKhM24Xjg",
     "name": "Swap Variables",
-    "dod": "SW1wbGVtZW50JTIwJTYwc3dhcF92YXJpYWJsZXMlNjAlMjBhY2NvcmRpbmclMjB0byUyMGl0cyUyMGRvY3VtZW50YXRpb24u",
-    "description": "Tm90ZSUyMC0lMjBkb24ndCUyMHJlbW92ZSUyMG9yJTIwY2hhbmdlJTIwdGhlJTIwZ2l2ZW4lMjBjb2RlJTIwbGluZSUyMC0lMjBqdXN0JTIwYWRkJTIwYW5vdGhlciUyMGxpbmUu",
+    "dod": "Implement `swap_variables` according to its documentation.",
+    "description": "Note - don't remove or change the given code line - just add another line.",
     "summary": "",
-    "diff": "ZGlmZiUyMC0tZ2l0JTIwYSUyRnN3YXBfdmFyaWFibGVzLnB5JTIwYiUyRnN3YXBfdmFyaWFibGVzLnB5JTBBaW5kZXglMjA0YWMzOWEzLi40YzgwNWQ2JTIwMTAwNjQ0JTBBLS0tJTIwYSUyRnN3YXBfdmFyaWFibGVzLnB5JTBBJTJCJTJCJTJCJTIwYiUyRnN3YXBfdmFyaWFibGVzLnB5JTBBJTQwJTQwJTIwLTglMkM0JTIwJTJCOCUyQzQlMjAlNDAlNDAlMjBkZWYlMjBzd2FwX3ZhcmlhYmxlcyh4JTJDJTIweSklM0ElMEElMjAlMjAlMjAlMjAlMjAlMjIlMjIlMjIlMEElMjAlMjAlMjAlMjAlMjB5JTJDJTIweCUyMCUzRCUyMHglMkMlMjB5JTBBJTIwJTIwJTIwJTIwJTIwJTIzJTIwRG9uJ3QlMjBjaGFuZ2UlMjB0aGUlMjBsaW5lJTIwYmVsb3clMjAtJTIwanVzdCUyMGFkZCUyMG9uZSUyMGxpbmUlMjBvZiUyMGNvZGUlMEEtJTIwJTIwJTIwJTIwcHJpbnQoZiclN0J4JTdEJTNBJTIwJTdCeSU3RCcpJTBBJTJCJTIwJTIwJTIwJTIwcGFzcyUwQQ==",
     "tests": [
         "python3 -m doctest swap_variables.py"
     ],
     "hints": [],
-    "files": {
+    "swimmPatch": {
         "swap_variables.py": {
-            "index": [
-                "4ac39a3..4c805d6",
-                "100644"
-            ],
-            "fileA": "swap_variables.py",
-            "fileB": "swap_variables.py",
-            "status": "MODIFIED",
-            "numLineDeletions": 1,
-            "numLineAdditions": 1,
-            "hunkContainers": [
-                "JTdCJTIyaHVuayUyMiUzQSU3QiUyMmhlYWRlciUyMiUzQSUyMiU0MCU0MCUyMC04JTJDNCUyMCUyQjglMkM0JTIwJTQwJTQwJTIwZGVmJTIwc3dhcF92YXJpYWJsZXMoeCUyQyUyMHkpJTNBJTIyJTJDJTIyY2hhbmdlcyUyMiUzQSU1QiU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMCUyMCU1QyUyMiU1QyUyMiU1QyUyMiUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTglMkMlMjJiJTIyJTNBOCU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMCUyMHklMkMlMjB4JTIwJTNEJTIweCUyQyUyMHklMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0E5JTJDJTIyYiUyMiUzQTklN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjAlMjAlMjMlMjBEb24ndCUyMGNoYW5nZSUyMHRoZSUyMGxpbmUlMjBiZWxvdyUyMC0lMjBqdXN0JTIwYWRkJTIwb25lJTIwbGluZSUyMG9mJTIwY29kZSUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTEwJTJDJTIyYiUyMiUzQTEwJTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmRlbCUyMiUyQyUyMm1hcmslMjIlM0ElMjItJTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMHByaW50KGYnJTdCeCU3RCUzQSUyMCU3QnklN0QnKSUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTExJTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmFkZCUyMiUyQyUyMm1hcmslMjIlM0ElMjIlMkIlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwcGFzcyUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYiUyMiUzQTExJTdEJTdEJTVEJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBJTdCJTIyc3RhcnRMaW5lJTIyJTNBOCUyQyUyMmxpbmVzQ291bnQlMjIlM0E0JTdEJTJDJTIyYiUyMiUzQSU3QiUyMnN0YXJ0TGluZSUyMiUzQTglMkMlMjJsaW5lc0NvdW50JTIyJTNBNCU3RCU3RCU3RCU3RA=="
+            "diffType": "MODIFIED",
+            "fileDiffHeader": "diff --git a/swap_variables.py b/swap_variables.py\nindex 4ac39a3..ec6cc46 100644\n--- a/swap_variables.py\n+++ b/swap_variables.py",
+            "hunks": [
+                {
+                    "swimmHunkMetadata": {
+                        "hunkComments": []
+                    },
+                    "hunkDiffLines": [
+                        "@@ -6,6 +6,5 @@",
+                        "     >>> swap_variables('hello', 'world')",
+                        "     world: hello",
+                        "     \"\"\"",
+                        "-    y, x = x, y",
+                        "     # Don't change the line below - just add one line of code",
+                        "     print(f'{x}: {y}')"
+                    ]
+                }
             ]
         }
     },
-    "app_version": "0.1.80",
-    "file_version": "1.0.2"
+    "app_version": "0.2.2",
+    "file_version": "1.0.3"
 }
