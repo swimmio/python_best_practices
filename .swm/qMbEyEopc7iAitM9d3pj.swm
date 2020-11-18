@@ -5,6 +5,7 @@
         "mypy --strict ret_str.py"
     ],
     "hints": [],
+    "play_mode": "handson",
     "files": {
         "ret_str.py": {
             "index": [

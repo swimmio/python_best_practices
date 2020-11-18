@@ -5,6 +5,7 @@
         "mypy --strict typing_class_basics.py"
     ],
     "hints": [],
+    "play_mode": "handson",
     "files": {
         "typing_class_basics.py": {
             "index": [

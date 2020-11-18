@@ -8,6 +8,7 @@
     "tests": [
         "python3 -m doctest is_only_upper_strings.py"
     ],
+    "play_mode": "handson",
     "hints": [
         "`dir(str)`",
         "`all` is a useful builtin function"

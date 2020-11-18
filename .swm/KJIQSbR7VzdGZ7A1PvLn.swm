@@ -5,6 +5,7 @@
         "mypy --strict typed_dict.py"
     ],
     "hints": [],
+    "play_mode": "handson",
     "files": {
         "typed_dict.py": {
             "index": [

@@ -8,6 +8,7 @@
     "tests": [
         "python3 -m doctest squared_set.py"
     ],
+    "play_mode": "handson",
     "hints": [
         "https://python-reference.readthedocs.io/en/latest/docs/comprehensions/set_comprehension.html"
     ],

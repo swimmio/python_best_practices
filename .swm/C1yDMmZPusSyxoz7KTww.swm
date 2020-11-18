@@ -5,6 +5,7 @@
         "python3 -m doctest async_io/hello_swimm.py"
     ],
     "hints": [],
+    "play_mode": "handson",
     "files": {
         "async_io/hello_swimm.py": {
             "index": [

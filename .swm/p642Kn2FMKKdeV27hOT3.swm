@@ -5,6 +5,7 @@
         "mypy --strict my_range.py"
     ],
     "hints": [],
+    "play_mode": "handson",
     "files": {
         "my_range.py": {
             "index": [

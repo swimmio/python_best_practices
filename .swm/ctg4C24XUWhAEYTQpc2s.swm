@@ -5,6 +5,7 @@
         "mypy --strict variable_size_str_tuple.py"
     ],
     "hints": [],
+    "play_mode": "handson",
     "files": {
         "variable_size_str_tuple.py": {
             "index": [

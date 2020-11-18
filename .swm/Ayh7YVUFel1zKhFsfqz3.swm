@@ -4,6 +4,7 @@
     "tests": [
         "mypy --strict get_set_int.py"
     ],
+    "play_mode": "handson",
     "hints": [],
     "files": {
         "get_set_int.py": {

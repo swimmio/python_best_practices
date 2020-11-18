@@ -5,6 +5,7 @@
         "mypy --strict typing_class_constructor.py"
     ],
     "hints": [],
+    "play_mode": "handson",
     "files": {
         "typing_class_constructor.py": {
             "index": [

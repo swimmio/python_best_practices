@@ -5,6 +5,7 @@
         "python3 -m doctest default_value.py"
     ],
     "hints": [],
+    "play_mode": "handson",
     "files": {
         "default_value.py": {
             "index": [

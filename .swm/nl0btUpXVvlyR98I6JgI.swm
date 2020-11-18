@@ -5,6 +5,7 @@
         "mypy --strict sum_members.py"
     ],
     "hints": [],
+    "play_mode": "handson",
     "files": {
         "sum_members.py": {
             "index": [

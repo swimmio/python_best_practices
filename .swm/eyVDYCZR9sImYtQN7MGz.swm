@@ -5,6 +5,7 @@
         "mypy --strict read_only_dictionary.py"
     ],
     "hints": [],
+    "play_mode": "handson",
     "files": {
         "read_only_dictionary.py": {
             "index": [

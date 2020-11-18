@@ -7,6 +7,7 @@
     "hints": [
         "https://www.python.org/dev/peps/pep-0289/"
     ],
+    "play_mode": "handson",
     "files": {
         "squared_generator.py": {
             "index": [

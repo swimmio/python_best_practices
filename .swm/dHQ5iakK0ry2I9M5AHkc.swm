@@ -5,6 +5,7 @@
         "mypy --strict multiply_str.py"
     ],
     "hints": [],
+    "play_mode": "handson",
     "files": {
         "multiply_str.py": {
             "index": [

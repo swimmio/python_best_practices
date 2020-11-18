@@ -7,6 +7,7 @@
     "hints": [
         "https://www.geeksforgeeks.org/python-merging-two-dictionaries/"
     ],
+    "play_mode": "handson",
     "files": {
         "merged_dicts.py": {
             "index": [

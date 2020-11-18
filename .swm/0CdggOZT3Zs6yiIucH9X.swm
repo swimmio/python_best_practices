@@ -4,6 +4,7 @@
     "tests": [
         "python3 -m doctest counting_occurrences.py"
     ],
+    "play_mode": "handson",
     "hints": [
         "`import collections`"
     ],

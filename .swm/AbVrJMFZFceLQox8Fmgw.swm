@@ -4,6 +4,7 @@
     "tests": [
         " mypy --strict ret_nothing.py"
     ],
+    "play_mode": "handson",
     "hints": [],
     "files": {
         "ret_nothing.py": {

@@ -11,6 +11,7 @@
     "hints": [
         "https://stackoverflow.com/questions/4260280/if-else-in-a-list-comprehension"
     ],
+    "play_mode": "handson",
     "files": {
         "squared_for_even_numbers.py": {
             "index": [

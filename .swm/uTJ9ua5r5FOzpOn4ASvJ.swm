@@ -7,6 +7,7 @@
     "hints": [
         "defaultdict"
     ],
+    "play_mode": "handson",
     "cr": [{"action": "includes",
             "value": "if ",
             "message": "There is no need for conditions to check if the key exists in the dictionary. Use `defaultdict` instead."

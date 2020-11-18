@@ -11,6 +11,7 @@
     "hints": [
         "Search for `enumerate`"
     ],
+    "play_mode": "handson",
     "files": {
         "print_with_indexes.py": {
             "index": [

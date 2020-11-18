@@ -12,6 +12,7 @@
         "Using slicing may be helpful",
         "https://www.w3schools.com/python/python_howto_reverse_string.asp"
     ],
+    "play_mode": "handson",
     "files": {
         "reverse.py": {
             "index": [

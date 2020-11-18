@@ -8,6 +8,7 @@
         "python3 -m doctest swap_variables.py"
     ],
     "hints": [],
+    "play_mode": "handson",
     "swimmPatch": {
         "swap_variables.py": {
             "diffType": "MODIFIED",

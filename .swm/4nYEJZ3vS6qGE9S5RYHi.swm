@@ -5,6 +5,7 @@
         "mypy --strict get_dict.py"
     ],
     "hints": [],
+    "play_mode": "handson",
     "files": {
         "get_dict.py": {
             "index": [

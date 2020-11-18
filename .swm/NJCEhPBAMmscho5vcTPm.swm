@@ -8,6 +8,7 @@
         "mypy --strict maybe_return.py"
     ],
     "hints": [],
+    "play_mode": "handson",
     "swimmPatch": {
         "maybe_return.py": {
             "diffType": "MODIFIED",

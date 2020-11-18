@@ -7,6 +7,7 @@
     "hints": [
         "https://www.geeksforgeeks.org/unpacking-a-tuple-in-python/"
     ],
+    "play_mode": "handson",
     "files": {
         "first_middle_last.py": {
             "index": [

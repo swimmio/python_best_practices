@@ -5,6 +5,7 @@
         "python3 -m doctest is_greater_than_2.py"
     ],
     "hints": [],
+    "play_mode": "handson",
     "cr": [{"action": "includes",
             "value": "if ",
             "message": "There is no need for conditions here - the solution consists of one short line."

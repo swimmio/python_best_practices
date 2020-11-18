@@ -9,6 +9,7 @@
         "python3 -m doctest add_points.py"
     ],
     "hints": [],
+    "play_mode": "handson",
     "files": {
         "add_points.py": {
             "index": [

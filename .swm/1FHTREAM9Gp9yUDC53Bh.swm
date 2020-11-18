@@ -7,6 +7,7 @@
     "hints": [
         "`startswith`"
     ],
+    "play_mode": "handson",
     "files": {
         "filter_strings_starting_with_a.py": {
             "index": [

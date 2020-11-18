@@ -4,6 +4,7 @@
     "tests": [
         "python3 -m doctest pretty_print_number.py"
     ],
+    "play_mode": "handson",
     "hints": [],
     "files": {
         "pretty_print_number.py": {

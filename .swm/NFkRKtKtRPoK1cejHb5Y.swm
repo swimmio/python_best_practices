@@ -7,6 +7,7 @@
     "hints": [
         "https://realpython.com/python-dicts/"
     ],
+    "play_mode": "handson",
     "cr": [{"action": "includes",
             "value": "if ",
             "message": "There is no need to use conditions here. The solution can contain a single line only."

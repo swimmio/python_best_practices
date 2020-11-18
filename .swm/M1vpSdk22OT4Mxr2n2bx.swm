@@ -8,6 +8,7 @@
     "tests": [
         "python3 -m doctest squared_list.py"
     ],
+    "play_mode": "handson",
     "hints": [
         "https://python-3-patterns-idioms-test.readthedocs.io/en/latest/Comprehensions.html"
     ],

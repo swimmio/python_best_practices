@@ -4,6 +4,7 @@
     "tests": [
         "mypy --strict variable_input_args.py"
     ],
+    "play_mode": "handson",
     "hints": [],
     "files": {
         "variable_input_args.py": {

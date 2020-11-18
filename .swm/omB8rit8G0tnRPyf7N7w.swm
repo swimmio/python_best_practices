@@ -7,6 +7,7 @@
     "hints": [
         "https://python-reference.readthedocs.io/en/latest/docs/comprehensions/dict_comprehension.html"
     ],
+    "play_mode": "handson",
     "files": {
         "reverse_dictionary.py": {
             "index": [

@@ -5,6 +5,7 @@
         "mypy --strict my_map.py"
     ],
     "hints": [],
+    "play_mode": "handson",
     "files": {
         "my_map.py": {
             "index": [

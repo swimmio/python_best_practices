@@ -7,6 +7,7 @@
     "hints": [
         "mutlprocessing.Pool object has a `map` method"
     ],
+    "play_mode": "handson",
     "files": {
         "multiple_factorial.py": {
             "index": [

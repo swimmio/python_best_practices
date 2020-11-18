@@ -5,6 +5,7 @@
         "python3 -m doctest general.py"
     ],
     "hints": [],
+    "play_mode": "handson",
     "files": {
         "general.py": {
             "index": [

@@ -7,6 +7,7 @@
     "hints": [
         "`help(print)`"
     ],
+    "play_mode": "handson",
     "files": {
         "print_with_underscores.py": {
             "index": [

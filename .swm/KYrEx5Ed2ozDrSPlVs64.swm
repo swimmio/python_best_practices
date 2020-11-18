@@ -8,6 +8,7 @@
         "`print_hello_world` and `print_hello_world_three_times` should be async functions",
         "the equivalent of `time.sleep` is `await asyncio.sleep`"
     ],
+    "play_mode": "handson",
     "files": {
         "async_io/hello_world.py": {
             "index": [

@@ -5,6 +5,7 @@
         "mypy --strict handle_variable_type_input.py"
     ],
     "hints": [],
+    "play_mode": "handson",
     "files": {
         "handle_variable_type_input.py": {
             "index": [

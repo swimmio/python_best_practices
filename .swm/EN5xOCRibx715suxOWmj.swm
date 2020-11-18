@@ -4,6 +4,7 @@
     "tests": [
         "python3 -m doctest last_element.py"
     ],
+    "play_mode": "handson",
     "cr": [{"action": "includes",
             "value": "len(",
             "message": "there is no need to use `len` here. Read about list slicing."

@@ -5,6 +5,7 @@
         "mypy --strict squared_list_type.py"
     ],
     "hints": [],
+    "play_mode": "handson",
     "files": {
         "squared_list_type.py": {
             "index": [

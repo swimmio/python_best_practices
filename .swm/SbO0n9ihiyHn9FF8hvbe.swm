@@ -5,6 +5,7 @@
         "python3 -m doctest is_ascending.py"
     ],
     "hints": [],
+    "play_mode": "handson",
     "files": {
         "is_ascending.py": {
             "index": [

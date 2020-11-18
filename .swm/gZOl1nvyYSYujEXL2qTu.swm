@@ -8,6 +8,7 @@
         "Perhaps `sorted` can help",
         "`sorted` has a second argument"
     ],
+    "play_mode": "handson",
     "files": {
         "sort_by_third_element.py": {
             "index": [

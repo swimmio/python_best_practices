@@ -12,6 +12,7 @@
         "*args",
         "`join` is a useful method"
     ],
+    "play_mode": "handson",
     "files": {
         "path_join.py": {
             "index": [

@@ -5,6 +5,7 @@
         "mypy --strict multiple_ret.py"
     ],
     "hints": [],
+    "play_mode": "handson",
     "files": {
         "multiple_ret.py": {
             "index": [

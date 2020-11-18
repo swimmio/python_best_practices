@@ -4,6 +4,7 @@
     "tests": [
         "mypy --strict add_int_str.py"
     ],
+    "play_mode": "handson",
     "hints": ["https://docs.python.org/3/library/typing.html#typing.TypeVar"],
     "files": {
         "add_int_str.py": {

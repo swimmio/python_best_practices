@@ -4,6 +4,7 @@
     "tests": [
         "mypy --strict type_alias.py"
     ],
+    "play_mode": "handson",
     "hints": [],
     "files": {
         "type_alias.py": {

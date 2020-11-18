@@ -4,6 +4,7 @@
     "tests": [
         "mypy --strict get_element_1.py"
     ],
+    "play_mode": "handson",
     "hints": [],
     "files": {
         "get_element_1.py": {

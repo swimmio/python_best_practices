@@ -7,6 +7,7 @@
     "hints": [
         "`int` is also a function"
     ],
+    "play_mode": "handson",
     "files": {
         "convert_to_decimal.py": {
             "index": [
