@@ -1,34 +1,89 @@
 {
     "id": "AgQACjspqJNISZ2fv5DF",
     "name": "Numbers Dict",
+    "dod": "Implement `numbers_dict` according to its documentation",
+    "description": "It's hard for the human eye to read a number such as `1000000` and immediately recognize it has exactly 6 `0`s. We are used to using commas (`,`) to make numbers more clear - e.g., writing 1000000 as `1,000,000`.\n\nIn Python, you can’t use commas to group digits in integer literals. Yet, there is a cool trick to make numbers more readable in Python, by using an underscore (`_`). For example, writing the above number as `1_000_000`.\nActually, when defining a number.",
+    "summary": "Using numeric literals (with `_`) improve readability",
+    "hunksOrder": [
+        "numbers_dict.py_0",
+        "numbers_dict.py_1",
+        "numbers_dict.py_2",
+        "numbers_dict.py_3"
+    ],
     "tests": [
         "python3 -m doctest numbers_dict.py"
     ],
     "hints": [],
     "play_mode": "handson",
-    "files": {
+    "swimmPatch": {
         "numbers_dict.py": {
-            "index": [
-                "12df4a4..9735835",
-                "100644"
-            ],
-            "fileA": "numbers_dict.py",
-            "fileB": "numbers_dict.py",
-            "status": "MODIFIED",
-            "numLineDeletions": 1,
-            "numLineAdditions": 1,
-            "hunkContainers": [
-                "JTdCJTIyaHVuayUyMiUzQSU3QiUyMmhlYWRlciUyMiUzQSUyMiU0MCU0MCUyMC0zJTJDNCUyMCUyQjMlMkM0JTIwJTQwJTQwJTIwZGVmJTIwbnVtYmVyc19kaWN0KCklM0ElMjIlMkMlMjJjaGFuZ2VzJTIyJTNBJTVCJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwJTIwJTNFJTNFJTNFJTIwbnVtYmVyc19kaWN0KCklMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0EzJTJDJTIyYiUyMiUzQTMlN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjAlMjAlN0Inb25lJyUzQSUyMDElMkMlMjAndGhvdXNhbmQnJTNBJTIwMTAwMCUyQyUyMCdtaWxsaW9uJyUzQSUyMDEwMDAwMDAlN0QlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0E0JTJDJTIyYiUyMiUzQTQlN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjAlMjAlNUMlMjIlNUMlMjIlNUMlMjIlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0E1JTJDJTIyYiUyMiUzQTUlN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyZGVsJTIyJTJDJTIybWFyayUyMiUzQSUyMi0lMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwcmV0dXJuJTIwJTdCJ29uZSclM0ElMjAxJTJDJTIwJ3Rob3VzYW5kJyUzQSUyMDFfMDAwJTJDJTIwJ21pbGxpb24nJTNBJTIwMV8wMDBfMDAwJTdEJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBNiU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJhZGQlMjIlMkMlMjJtYXJrJTIyJTNBJTIyJTJCJTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMHBhc3MlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmIlMjIlM0E2JTdEJTdEJTVEJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBJTdCJTIyc3RhcnRMaW5lJTIyJTNBMyUyQyUyMmxpbmVzQ291bnQlMjIlM0E0JTdEJTJDJTIyYiUyMiUzQSU3QiUyMnN0YXJ0TGluZSUyMiUzQTMlMkMlMjJsaW5lc0NvdW50JTIyJTNBNCU3RCU3RCU3RCU3RA=="
+            "diffType": "MODIFIED",
+            "fileDiffHeader": "diff --git a/numbers_dict.py b/numbers_dict.py\nindex 12df4a4..9735835 100644\n--- a/numbers_dict.py\n+++ b/numbers_dict.py",
+            "hunks": [
+                {
+                    "swimmHunkMetadata": {
+                        "hunkComments": [
+                            "Consider this simple function with the code snippet below:"
+                        ]
+                    },
+                    "hunkDiffLines": [
+                        "@@ -1,13 +1,0 @@",
+                        "-def numbers_dict():\r",
+                        "-    \"\"\"\r",
+                        "-    >>> numbers = numbers_dict()\r",
+                        "-    >>> numbers['one']\r",
+                        "-    1\r",
+                        "-    >>> numbers['thousand']\r",
+                        "-    1000\r",
+                        "-    >>> numbers['million']\r",
+                        "-    1000000\r",
+                        "-    >>> 1_000 == 1_0_0_0 == 1000 == 100_0\r",
+                        "-    True\r",
+                        "-    \"\"\"\r",
+                        "-    return {'one': 1, 'thousand': 1_000, 'million': 1_000_000}"
+                    ]
+                },
+                {
+                    "swimmHunkMetadata": {
+                        "hunkComments": [
+                            "We assign `numbers` with the dictionary created by `numbers_dict()`:"
+                        ]
+                    },
+                    "hunkDiffLines": [
+                        "@@ -3,1 +3,0 @@",
+                        "-    >>> numbers = numbers_dict()\r"
+                    ]
+                },
+                {
+                    "swimmHunkMetadata": {
+                        "hunkComments": [
+                            "When declaring the dictionary, we set `'thousand' : 1_000`, yet Python shows us the value to be `1000`.",
+                            "That is because an underscore in integer literals is only for readability, and is actually ignored."
+                        ]
+                    },
+                    "hunkDiffLines": [
+                        "@@ -6,2 +6,0 @@",
+                        "-    >>> numbers['thousand']\r",
+                        "-    1000\r"
+                    ]
+                },
+                {
+                    "swimmHunkMetadata": {
+                        "hunkComments": [
+                            "As you can see below, it doesn't matter if we put one `_`, no `_` at all or multiple `_`, or where we put the `_` - the number is still the same:"
+                        ]
+                    },
+                    "hunkDiffLines": [
+                        "@@ -10,2 +10,0 @@",
+                        "-    >>> 1_000 == 1_0_0_0 == 1000 == 100_0\r",
+                        "-    True\r"
+                    ]
+                }
             ]
         }
     },
-    "diff": "ZGlmZiUyMC0tZ2l0JTIwYSUyRm51bWJlcnNfZGljdC5weSUyMGIlMkZudW1iZXJzX2RpY3QucHklMEFpbmRleCUyMDEyZGY0YTQuLjk3MzU4MzUlMjAxMDA2NDQlMEEtLS0lMjBhJTJGbnVtYmVyc19kaWN0LnB5JTBBJTJCJTJCJTJCJTIwYiUyRm51bWJlcnNfZGljdC5weSUwQSU0MCU0MCUyMC0zJTJDNCUyMCUyQjMlMkM0JTIwJTQwJTQwJTIwZGVmJTIwbnVtYmVyc19kaWN0KCklM0ElMEElMjAlMjAlMjAlMjAlMjAlM0UlM0UlM0UlMjBudW1iZXJzX2RpY3QoKSUwQSUyMCUyMCUyMCUyMCUyMCU3QidvbmUnJTNBJTIwMSUyQyUyMCd0aG91c2FuZCclM0ElMjAxMDAwJTJDJTIwJ21pbGxpb24nJTNBJTIwMTAwMDAwMCU3RCUwQSUyMCUyMCUyMCUyMCUyMCUyMiUyMiUyMiUwQS0lMjAlMjAlMjAlMjByZXR1cm4lMjAlN0Inb25lJyUzQSUyMDElMkMlMjAndGhvdXNhbmQnJTNBJTIwMV8wMDAlMkMlMjAnbWlsbGlvbiclM0ElMjAxXzAwMF8wMDAlN0QlMEElMkIlMjAlMjAlMjAlMjBwYXNzJTBB",
-    "solution_files": [
-        "numbers_dict.py"
-    ],
-    "description": "Q2FuJTIweW91JTIwbWFrZSUyMHRoZSUyMG51bWJlcnMlMjBpbiUyMHlvdXIlMjBjb2RlJTIwKipyZWFkYWJsZSoqJTNG",
-    "app_version": "0.1.50",
-    "file_version": "1.0.2",
-    "dod": "SW1wbGVtZW50JTIwJTYwbnVtYmVyc19kaWN0JTYwJTIwYWNjb3JkaW5nJTIwdG8lMjBpdHMlMjBkb2N1bWVudGF0aW9u",
-    "summary": "VXNpbmclMjBudW1lcmljJTIwbGl0ZXJhbHMlMjAod2l0aCUyMCU2MF8lNjApJTIwaW1wcm92ZSUyMHJlYWRhYmlsaXR5"
+    "app_version": "0.3.4-0",
+    "file_version": "1.0.4",
+    "diff": "diff --git a/numbers_dict.py b/numbers_dict.py\nindex 12df4a4..9735835 100644\n--- a/numbers_dict.py\n+++ b/numbers_dict.py\n@@ -1,13 +0,0 @@\n-def numbers_dict():\r\n-    \"\"\"\r\n-    >>> numbers = numbers_dict()\r\n-    >>> numbers['one']\r\n-    1\r\n-    >>> numbers['thousand']\r\n-    1000\r\n-    >>> numbers['million']\r\n-    1000000\r\n-    >>> 1_000 == 1_0_0_0 == 1000 == 100_0\r\n-    True\r\n-    \"\"\"\r\n-    return {'one': 1, 'thousand': 1_000, 'million': 1_000_000}\n",
+    "last_commit_sha_for_swimm_patch": "46810fee9316e83414c3c8dc1b71425b19b48181"
 }
