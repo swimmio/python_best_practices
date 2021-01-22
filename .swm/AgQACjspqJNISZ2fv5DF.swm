@@ -14,7 +14,7 @@
         "python3 -m doctest numbers_dict.py"
     ],
     "hints": [],
-    "play_mode": "handson",
+    "play_mode": "walkthrough",
     "swimmPatch": {
         "numbers_dict.py": {
             "diffType": "MODIFIED",
