@@ -7,7 +7,7 @@ Enjoy 😎
 
 # Prerequisites
 * Basic Python knowledge.
-* Have `python3` in your path launch Python 3. That is, you should be able to launch `python3` from the terminal.
+* Have `python3` in your path launch Python with a version `>=3.8`. That is, you should be able to launch `python3` from the terminal.
 
 # Playlists Overview
 The Playlists in this repo are supposed to present bite-sized exercises (or as we in Swimm call them, _Units_).
