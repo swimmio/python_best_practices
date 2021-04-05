@@ -1,41 +1,50 @@
 {
     "id": "NFkRKtKtRPoK1cejHb5Y",
     "name": "Dictionary's default values",
-    "tests": [
-        "python3 -m doctest key_and_value_or_swimm.py"
-    ],
-    "hints": [
-        "https://realpython.com/python-dicts/"
-    ],
-    "play_mode": "handson",
-    "cr": [{"action": "includes",
-            "value": "if ",
-            "message": "There is no need to use conditions here. The solution can contain a single line only."
-            }
-            ],
-    "files": {
-        "key_and_value_or_swimm.py": {
-            "index": [
-                "10bdfb4..a24858a",
-                "100644"
-            ],
-            "fileA": "key_and_value_or_swimm.py",
-            "fileB": "key_and_value_or_swimm.py",
-            "status": "MODIFIED",
-            "numLineDeletions": 1,
-            "numLineAdditions": 1,
-            "hunkContainers": [
-                "JTdCJTIyaHVuayUyMiUzQSU3QiUyMmhlYWRlciUyMiUzQSUyMiU0MCU0MCUyMC0xMSUyQzQlMjAlMkIxMSUyQzQlMjAlNDAlNDAlMjBkZWYlMjBrZXlfYW5kX3ZhbHVlX29yX3N3aW1tKGRpY3Rpb25hcnklMkMlMjBrZXkpJTNBJTIyJTJDJTIyY2hhbmdlcyUyMiUzQSU1QiU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMCUyMCUzRSUzRSUzRSUyMGtleV9hbmRfdmFsdWVfb3Jfc3dpbW0oZCUyQyUyMCU1QyUyMm5vbl9leGlzdGluZyU1QyUyMiklMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0ExMSUyQyUyMmIlMjIlM0ExMSU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMCUyMCdzd2ltbSclMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0ExMiUyQyUyMmIlMjIlM0ExMiU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMCUyMCU1QyUyMiU1QyUyMiU1QyUyMiUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTEzJTJDJTIyYiUyMiUzQTEzJTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmRlbCUyMiUyQyUyMm1hcmslMjIlM0ElMjItJTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMHJldHVybiUyMGRpY3Rpb25hcnkuZ2V0KGtleSUyQyUyMCU1QyUyMnN3aW1tJTVDJTIyKSUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTE0JTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmFkZCUyMiUyQyUyMm1hcmslMjIlM0ElMjIlMkIlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwcGFzcyUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYiUyMiUzQTE0JTdEJTdEJTVEJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBJTdCJTIyc3RhcnRMaW5lJTIyJTNBMTElMkMlMjJsaW5lc0NvdW50JTIyJTNBNCU3RCUyQyUyMmIlMjIlM0ElN0IlMjJzdGFydExpbmUlMjIlM0ExMSUyQyUyMmxpbmVzQ291bnQlMjIlM0E0JTdEJTdEJTdEJTdE"
-            ]
+    "file_version": "2.0.1",
+    "meta": {
+        "app_version": "0.4.1-0",
+        "file_blobs": {
+            "key_and_value_or_swimm.py": "10bdfb425ce322c0944dbd69d26f955631be90bc"
         }
     },
-    "diff": "ZGlmZiUyMC0tZ2l0JTIwYSUyRmtleV9hbmRfdmFsdWVfb3Jfc3dpbW0ucHklMjBiJTJGa2V5X2FuZF92YWx1ZV9vcl9zd2ltbS5weSUwQWluZGV4JTIwMTBiZGZiNC4uYTI0ODU4YSUyMDEwMDY0NCUwQS0tLSUyMGElMkZrZXlfYW5kX3ZhbHVlX29yX3N3aW1tLnB5JTBBJTJCJTJCJTJCJTIwYiUyRmtleV9hbmRfdmFsdWVfb3Jfc3dpbW0ucHklMEElNDAlNDAlMjAtMTElMkM0JTIwJTJCMTElMkM0JTIwJTQwJTQwJTIwZGVmJTIwa2V5X2FuZF92YWx1ZV9vcl9zd2ltbShkaWN0aW9uYXJ5JTJDJTIwa2V5KSUzQSUwQSUyMCUyMCUyMCUyMCUyMCUzRSUzRSUzRSUyMGtleV9hbmRfdmFsdWVfb3Jfc3dpbW0oZCUyQyUyMCUyMm5vbl9leGlzdGluZyUyMiklMEElMjAlMjAlMjAlMjAlMjAnc3dpbW0nJTBBJTIwJTIwJTIwJTIwJTIwJTIyJTIyJTIyJTBBLSUyMCUyMCUyMCUyMHJldHVybiUyMGRpY3Rpb25hcnkuZ2V0KGtleSUyQyUyMCUyMnN3aW1tJTIyKSUwQSUyQiUyMCUyMCUyMCUyMHBhc3MlMEE=",
-    "solution_files": [
-        "key_and_value_or_swimm"
+    "content": [
+        {
+            "type": "text",
+            "text": ""
+        },
+        {
+            "firstLineNumber": 11,
+            "path": "key_and_value_or_swimm.py",
+            "type": "snippet",
+            "lines": [
+                "     >>> key_and_value_or_swimm(d, \"non_existing\")",
+                "     'swimm'",
+                "     \"\"\"",
+                "*    return dictionary.get(key, \"swimm\")",
+                "+    pass"
+            ],
+            "comments": []
+        },
+        {
+            "type": "text",
+            "text": "`get` has a second argument of a default value. This is a very elegant solution."
+        }
     ],
-    "description": "",
-    "app_version": "0.1.50",
-    "file_version": "1.0.2",
-    "dod": "SW1wbGVtZW50JTIwdGhlJTIwZnVuY3Rpb24lMjAlNjBrZXlfYW5kX3ZhbHVlX29yX3N3aW1tJTYwJTIwYWNjb3JkaW5nJTIwdG8lMjBpdHMlMjBkb2N1bWVudGF0aW9uLg==",
-    "summary": "JTYwZ2V0JTYwJTIwaGFzJTIwYSUyMHNlY29uZCUyMGFyZ3VtZW50JTIwb2YlMjBhJTIwZGVmYXVsdCUyMHZhbHVlLiUyMFRoaXMlMjBpcyUyMGElMjB2ZXJ5JTIwZWxlZ2FudCUyMHNvbHV0aW9uLg=="
+    "task": {
+        "dod": "Implement the function `key_and_value_or_swimm` according to its documentation.",
+        "hints": [
+            "https://realpython.com/python-dicts/"
+        ],
+        "tests": [
+            "python3 -m doctest key_and_value_or_swimm.py"
+        ],
+        "crActions": [
+            {
+                "action": "includes",
+                "value": "if ",
+                "message": "There is no need to use conditions here. The solution can contain a single line only."
+            }
+        ]
+    }
 }

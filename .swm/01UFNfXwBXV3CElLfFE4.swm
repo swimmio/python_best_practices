@@ -1,36 +1,43 @@
 {
     "id": "01UFNfXwBXV3CElLfFE4",
     "name": "Merging Dicts",
-    "tests": [
-        "python3 -m doctest merged_dicts.py"
-    ],
-    "hints": [
-        "https://www.geeksforgeeks.org/python-merging-two-dictionaries/"
-    ],
-    "play_mode": "handson",
-    "files": {
-        "merged_dicts.py": {
-            "index": [
-                "68f6d7f..a9f293d",
-                "100644"
-            ],
-            "fileA": "merged_dicts.py",
-            "fileB": "merged_dicts.py",
-            "status": "MODIFIED",
-            "numLineDeletions": 1,
-            "numLineAdditions": 1,
-            "hunkContainers": [
-                "JTdCJTIyaHVuayUyMiUzQSU3QiUyMmhlYWRlciUyMiUzQSUyMiU0MCU0MCUyMC01JTJDNCUyMCUyQjUlMkM0JTIwJTQwJTQwJTIwZGVmJTIwbWVyZ2VfZGljdHMoZGljdF8xJTJDJTIwZGljdF8yJTJDJTIwZGljdF8zKSUzQSUyMiUyQyUyMmNoYW5nZXMlMjIlM0ElNUIlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjAlMjAlM0UlM0UlM0UlMjBtZXJnZV9kaWN0cyglN0InYSclM0ElMjAxJTJDJTIwJ2InJTNBJTIwMSU3RCUyQyUyMCU3QidiJyUzQSUyMDIlMkMlMjAnYyclM0ElMjAyJTdEJTJDJTIwJTdCJ2UnJTNBJTIwMyUyQyUyMCdiJyUzQSUyMDMlN0QpJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBNSUyQyUyMmIlMjIlM0E1JTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwJTIwJTdCJ2EnJTNBJTIwMSUyQyUyMCdiJyUzQSUyMDMlMkMlMjAnYyclM0ElMjAyJTJDJTIwJ2UnJTNBJTIwMyU3RCUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTYlMkMlMjJiJTIyJTNBNiU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMCUyMCU1QyUyMiU1QyUyMiU1QyUyMiUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTclMkMlMjJiJTIyJTNBNyU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJkZWwlMjIlMkMlMjJtYXJrJTIyJTNBJTIyLSUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjByZXR1cm4lMjAlN0IqKmRpY3RfMSUyQyUyMCoqZGljdF8yJTJDJTIwKipkaWN0XzMlN0QlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0E4JTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmFkZCUyMiUyQyUyMm1hcmslMjIlM0ElMjIlMkIlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwcGFzcyUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYiUyMiUzQTglN0QlN0QlNUQlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0ElN0IlMjJzdGFydExpbmUlMjIlM0E1JTJDJTIybGluZXNDb3VudCUyMiUzQTQlN0QlMkMlMjJiJTIyJTNBJTdCJTIyc3RhcnRMaW5lJTIyJTNBNSUyQyUyMmxpbmVzQ291bnQlMjIlM0E0JTdEJTdEJTdEJTdE"
-            ]
+    "file_version": "2.0.1",
+    "meta": {
+        "app_version": "0.4.1-0",
+        "file_blobs": {
+            "merged_dicts.py": "83ec8ec0dd121d00ec009dbbd257cebf033a51c8"
         }
     },
-    "diff": "ZGlmZiUyMC0tZ2l0JTIwYSUyRm1lcmdlZF9kaWN0cy5weSUyMGIlMkZtZXJnZWRfZGljdHMucHklMEFpbmRleCUyMDY4ZjZkN2YuLmE5ZjI5M2QlMjAxMDA2NDQlMEEtLS0lMjBhJTJGbWVyZ2VkX2RpY3RzLnB5JTBBJTJCJTJCJTJCJTIwYiUyRm1lcmdlZF9kaWN0cy5weSUwQSU0MCU0MCUyMC01JTJDNCUyMCUyQjUlMkM0JTIwJTQwJTQwJTIwZGVmJTIwbWVyZ2VfZGljdHMoZGljdF8xJTJDJTIwZGljdF8yJTJDJTIwZGljdF8zKSUzQSUwQSUyMCUyMCUyMCUyMCUyMCUzRSUzRSUzRSUyMG1lcmdlX2RpY3RzKCU3QidhJyUzQSUyMDElMkMlMjAnYiclM0ElMjAxJTdEJTJDJTIwJTdCJ2InJTNBJTIwMiUyQyUyMCdjJyUzQSUyMDIlN0QlMkMlMjAlN0InZSclM0ElMjAzJTJDJTIwJ2InJTNBJTIwMyU3RCklMEElMjAlMjAlMjAlMjAlMjAlN0InYSclM0ElMjAxJTJDJTIwJ2InJTNBJTIwMyUyQyUyMCdjJyUzQSUyMDIlMkMlMjAnZSclM0ElMjAzJTdEJTBBJTIwJTIwJTIwJTIwJTIwJTIyJTIyJTIyJTBBLSUyMCUyMCUyMCUyMHJldHVybiUyMCU3QioqZGljdF8xJTJDJTIwKipkaWN0XzIlMkMlMjAqKmRpY3RfMyU3RCUwQSUyQiUyMCUyMCUyMCUyMHBhc3MlMEE=",
-    "solution_files": [
-        "merged_dicts.py"
+    "content": [
+        {
+            "type": "text",
+            "text": ""
+        },
+        {
+            "firstLineNumber": 8,
+            "path": "merged_dicts.py",
+            "type": "snippet",
+            "lines": [
+                "     >>> sorted(merged_dict.items())",
+                "     [('a', 1), ('b', 3), ('c', 2), ('e', 3)]",
+                "     \"\"\"",
+                "*    return {**dict_1, **dict_2, **dict_3}",
+                "+    pass"
+            ],
+            "comments": []
+        },
+        {
+            "type": "text",
+            "text": ""
+        }
     ],
-    "description": "",
-    "app_version": "0.1.50",
-    "file_version": "1.0.2",
-    "dod": "SW1wbGVtZW50JTIwJTYwbWVyZ2VfZGljdHMlNjAlMjBhY2NvcmRpbmclMjB0byUyMGl0cyUyMGRvY3VtZW50YXRpb24=",
-    "summary": ""
+    "task": {
+        "dod": "Implement `merge_dicts` according to its documentation",
+        "hints": [
+            "https://www.geeksforgeeks.org/python-merging-two-dictionaries/"
+        ],
+        "tests": [
+            "python3 -m doctest merged_dicts.py"
+        ]
+    }
 }

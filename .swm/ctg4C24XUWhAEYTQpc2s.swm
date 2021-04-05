@@ -1,32 +1,44 @@
 {
     "id": "ctg4C24XUWhAEYTQpc2s",
     "name": "Variable Size Str Tuple",
-    "tests": [
-        "mypy --strict variable_size_str_tuple.py"
-    ],
-    "hints": [],
-    "play_mode": "handson",
-    "files": {
-        "variable_size_str_tuple.py": {
-            "index": [
-                "53954c5..2bc423c",
-                "100644"
-            ],
-            "fileA": "variable_size_str_tuple.py",
-            "fileB": "variable_size_str_tuple.py",
-            "status": "MODIFIED",
-            "numLineDeletions": 4,
-            "numLineAdditions": 1,
-            "hunkContainers": [
-                "JTdCJTIyaHVuayUyMiUzQSU3QiUyMmhlYWRlciUyMiUzQSUyMiU0MCU0MCUyMC0xJTJDNyUyMCUyQjElMkM0JTIwJTQwJTQwJTIyJTJDJTIyY2hhbmdlcyUyMiUzQSU1QiU3QiUyMnR5cGUlMjIlM0ElMjJkZWwlMjIlMkMlMjJtYXJrJTIyJTNBJTIyLSUyMiUyQyUyMmRhdGElMjIlM0ElMjJmcm9tJTIwdHlwaW5nJTIwaW1wb3J0JTIwVHVwbGUlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0ExJTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmRlbCUyMiUyQyUyMm1hcmslMjIlM0ElMjItJTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTIlN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyZGVsJTIyJTJDJTIybWFyayUyMiUzQSUyMi0lMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBMyU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJkZWwlMjIlMkMlMjJtYXJrJTIyJTNBJTIyLSUyMiUyQyUyMmRhdGElMjIlM0ElMjJkZWYlMjB2YXJpYWJsZV9zaXplX3N0cl90dXBsZSh0dXAlM0ElMjBUdXBsZSU1QnN0ciUyQyUyMC4uLiU1RCklMjAtJTNFJTIwc3RyJTNBJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBNCU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJhZGQlMjIlMkMlMjJtYXJrJTIyJTNBJTIyJTJCJTIyJTJDJTIyZGF0YSUyMiUzQSUyMmRlZiUyMHZhcmlhYmxlX3NpemVfc3RyX3R1cGxlKHR1cCklM0ElMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmIlMjIlM0ExJTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwJTIwcmV0dXJuJTIwJTVDJTIyJTJDJTVDJTIyLmpvaW4odHVwKSUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTUlMkMlMjJiJTIyJTNBMiU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTYlMkMlMjJiJTIyJTNBMyU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTclMkMlMjJiJTIyJTNBNCU3RCU3RCU1RCUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQSU3QiUyMnN0YXJ0TGluZSUyMiUzQTElMkMlMjJsaW5lc0NvdW50JTIyJTNBNyU3RCUyQyUyMmIlMjIlM0ElN0IlMjJzdGFydExpbmUlMjIlM0ExJTJDJTIybGluZXNDb3VudCUyMiUzQTQlN0QlN0QlN0QlN0Q="
-            ]
+    "file_version": "2.0.1",
+    "meta": {
+        "app_version": "0.4.1-0",
+        "file_blobs": {
+            "variable_size_str_tuple.py": "53954c57ff1965aeeb1649df0c7b94521ebc105e"
         }
     },
-    "diff": "ZGlmZiUyMC0tZ2l0JTIwYSUyRnZhcmlhYmxlX3NpemVfc3RyX3R1cGxlLnB5JTIwYiUyRnZhcmlhYmxlX3NpemVfc3RyX3R1cGxlLnB5JTBBaW5kZXglMjA1Mzk1NGM1Li4yYmM0MjNjJTIwMTAwNjQ0JTBBLS0tJTIwYSUyRnZhcmlhYmxlX3NpemVfc3RyX3R1cGxlLnB5JTBBJTJCJTJCJTJCJTIwYiUyRnZhcmlhYmxlX3NpemVfc3RyX3R1cGxlLnB5JTBBJTQwJTQwJTIwLTElMkM3JTIwJTJCMSUyQzQlMjAlNDAlNDAlMEEtZnJvbSUyMHR5cGluZyUyMGltcG9ydCUyMFR1cGxlJTBBLSUwQS0lMEEtZGVmJTIwdmFyaWFibGVfc2l6ZV9zdHJfdHVwbGUodHVwJTNBJTIwVHVwbGUlNUJzdHIlMkMlMjAuLi4lNUQpJTIwLSUzRSUyMHN0ciUzQSUwQSUyQmRlZiUyMHZhcmlhYmxlX3NpemVfc3RyX3R1cGxlKHR1cCklM0ElMEElMjAlMjAlMjAlMjAlMjByZXR1cm4lMjAlMjIlMkMlMjIuam9pbih0dXApJTBBJTIwJTBBJTIwJTBB",
-    "solution_files": [
-        "variable_size_str_tuple.py"
+    "content": [
+        {
+            "type": "text",
+            "text": "`variable_size_str_tuple` is missing type annotation - so [mypy](https://mypy.readthedocs.io/en/stable/introduction.html) is not happy.\n\nAdd the right annotation.\n\nIt would be useful to understand [kinds of types](https://mypy.readthedocs.io/en/stable/kinds_of_types.html) for that.\n\n# References\n* https://mypy.readthedocs.io/en/stable/builtin_types.html\n* https://mypy.readthedocs.io/en/stable/type_inference_and_annotations.html\n* https://mypy.readthedocs.io/en/stable/kinds_of_types.html"
+        },
+        {
+            "firstLineNumber": 1,
+            "path": "variable_size_str_tuple.py",
+            "type": "snippet",
+            "lines": [
+                "*from typing import Tuple",
+                "+def variable_size_str_tuple(tup):",
+                "*",
+                "*",
+                "*def variable_size_str_tuple(tup: Tuple[str, ...]) -> str:",
+                "     return \",\".join(tup)",
+                " ",
+                " "
+            ],
+            "comments": []
+        },
+        {
+            "type": "text",
+            "text": ""
+        }
     ],
-    "description": "JTYwdmFyaWFibGVfc2l6ZV9zdHJfdHVwbGUlNjAlMjBpcyUyMG1pc3NpbmclMjB0eXBlJTIwYW5ub3RhdGlvbiUyMC0lMjBzbyUyMCU1Qm15cHklNUQoaHR0cHMlM0ElMkYlMkZteXB5LnJlYWR0aGVkb2NzLmlvJTJGZW4lMkZzdGFibGUlMkZpbnRyb2R1Y3Rpb24uaHRtbCklMjBpcyUyMG5vdCUyMGhhcHB5LiUwQSUwQUFkZCUyMHRoZSUyMHJpZ2h0JTIwYW5ub3RhdGlvbi4lMEElMEFJdCUyMHdvdWxkJTIwYmUlMjB1c2VmdWwlMjB0byUyMHVuZGVyc3RhbmQlMjAlNUJraW5kcyUyMG9mJTIwdHlwZXMlNUQoaHR0cHMlM0ElMkYlMkZteXB5LnJlYWR0aGVkb2NzLmlvJTJGZW4lMkZzdGFibGUlMkZraW5kc19vZl90eXBlcy5odG1sKSUyMGZvciUyMHRoYXQuJTBBJTBBJTIzJTIwUmVmZXJlbmNlcyUwQSolMjBodHRwcyUzQSUyRiUyRm15cHkucmVhZHRoZWRvY3MuaW8lMkZlbiUyRnN0YWJsZSUyRmJ1aWx0aW5fdHlwZXMuaHRtbCUwQSolMjBodHRwcyUzQSUyRiUyRm15cHkucmVhZHRoZWRvY3MuaW8lMkZlbiUyRnN0YWJsZSUyRnR5cGVfaW5mZXJlbmNlX2FuZF9hbm5vdGF0aW9ucy5odG1sJTBBKiUyMGh0dHBzJTNBJTJGJTJGbXlweS5yZWFkdGhlZG9jcy5pbyUyRmVuJTJGc3RhYmxlJTJGa2luZHNfb2ZfdHlwZXMuaHRtbA==",
-    "app_version": "0.1.2",
-    "file_version": "1.0.1"
+    "task": {
+        "dod": "Make the test pass",
+        "hints": [],
+        "tests": [
+            "mypy --strict variable_size_str_tuple.py"
+        ]
+    }
 }

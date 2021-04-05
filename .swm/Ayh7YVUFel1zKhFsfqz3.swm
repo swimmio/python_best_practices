@@ -1,35 +1,44 @@
 {
     "id": "Ayh7YVUFel1zKhFsfqz3",
     "name": "Get Set Int",
-    "tests": [
-        "mypy --strict get_set_int.py"
-    ],
-    "play_mode": "handson",
-    "hints": [],
-    "files": {
-        "get_set_int.py": {
-            "index": [
-                "10be96f..ce70868",
-                "100644"
-            ],
-            "fileA": "get_set_int.py",
-            "fileB": "get_set_int.py",
-            "status": "MODIFIED",
-            "numLineDeletions": 4,
-            "numLineAdditions": 1,
-            "hunkContainers": [
-                "JTdCJTIyaHVuayUyMiUzQSU3QiUyMmhlYWRlciUyMiUzQSUyMiU0MCU0MCUyMC0xJTJDNyUyMCUyQjElMkM0JTIwJTQwJTQwJTIyJTJDJTIyY2hhbmdlcyUyMiUzQSU1QiU3QiUyMnR5cGUlMjIlM0ElMjJkZWwlMjIlMkMlMjJtYXJrJTIyJTNBJTIyLSUyMiUyQyUyMmRhdGElMjIlM0ElMjJmcm9tJTIwdHlwaW5nJTIwaW1wb3J0JTIwU2V0JTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBMSU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJkZWwlMjIlMkMlMjJtYXJrJTIyJTNBJTIyLSUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0EyJTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmRlbCUyMiUyQyUyMm1hcmslMjIlM0ElMjItJTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTMlN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyZGVsJTIyJTJDJTIybWFyayUyMiUzQSUyMi0lMjIlMkMlMjJkYXRhJTIyJTNBJTIyZGVmJTIwZ2V0X3NldF9pbnQocyUzQSUyMFNldCU1QmludCU1RCklMjAtJTNFJTIwTm9uZSUzQSUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTQlN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyYWRkJTIyJTJDJTIybWFyayUyMiUzQSUyMiUyQiUyMiUyQyUyMmRhdGElMjIlM0ElMjJkZWYlMjBnZXRfc2V0X2ludChzKSUzQSUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYiUyMiUzQTElN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjAlMjBwYXNzJTIwJTIwJTIzJTIwVGhlJTIwaW1wbGVtZW50YXRpb24lMjBkb2Vzbid0JTIwbWF0dGVyJTIwaGVyZSUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTUlMkMlMjJiJTIyJTNBMiU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTYlMkMlMjJiJTIyJTNBMyU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTclMkMlMjJiJTIyJTNBNCU3RCU3RCU1RCUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQSU3QiUyMnN0YXJ0TGluZSUyMiUzQTElMkMlMjJsaW5lc0NvdW50JTIyJTNBNyU3RCUyQyUyMmIlMjIlM0ElN0IlMjJzdGFydExpbmUlMjIlM0ExJTJDJTIybGluZXNDb3VudCUyMiUzQTQlN0QlN0QlN0QlN0Q="
-            ]
+    "file_version": "2.0.1",
+    "meta": {
+        "app_version": "0.4.1-0",
+        "file_blobs": {
+            "get_set_int.py": "10be96fe587001f8539db6984123566f421a0278"
         }
     },
-    "diff": "ZGlmZiUyMC0tZ2l0JTIwYSUyRmdldF9zZXRfaW50LnB5JTIwYiUyRmdldF9zZXRfaW50LnB5JTBBaW5kZXglMjAxMGJlOTZmLi5jZTcwODY4JTIwMTAwNjQ0JTBBLS0tJTIwYSUyRmdldF9zZXRfaW50LnB5JTBBJTJCJTJCJTJCJTIwYiUyRmdldF9zZXRfaW50LnB5JTBBJTQwJTQwJTIwLTElMkM3JTIwJTJCMSUyQzQlMjAlNDAlNDAlMEEtZnJvbSUyMHR5cGluZyUyMGltcG9ydCUyMFNldCUwQS0lMEEtJTBBLWRlZiUyMGdldF9zZXRfaW50KHMlM0ElMjBTZXQlNUJpbnQlNUQpJTIwLSUzRSUyME5vbmUlM0ElMEElMkJkZWYlMjBnZXRfc2V0X2ludChzKSUzQSUwQSUyMCUyMCUyMCUyMCUyMHBhc3MlMjAlMjAlMjMlMjBUaGUlMjBpbXBsZW1lbnRhdGlvbiUyMGRvZXNuJ3QlMjBtYXR0ZXIlMjBoZXJlJTBBJTIwJTBBJTIwJTBB",
-    "solution_files": [
-        "get_set_int.py"
+    "content": [
+        {
+            "type": "text",
+            "text": "`get_set_int` is missing type annotation - so [mypy](https://mypy.readthedocs.io/en/stable/introduction.html) is not happy.\n\nAdd the right annotation.\n\n# References\n* https://mypy.readthedocs.io/en/stable/cheat_sheet_py3.html\n* https://mypy.readthedocs.io/en/stable/builtin_types.html\n* https://mypy.readthedocs.io/en/stable/type_inference_and_annotations.html"
+        },
+        {
+            "firstLineNumber": 1,
+            "path": "get_set_int.py",
+            "type": "snippet",
+            "lines": [
+                "*from typing import Set",
+                "+def get_set_int(s):",
+                "*",
+                "*",
+                "*def get_set_int(s: Set[int]) -> None:",
+                "     pass  # The implementation doesn't matter here",
+                " ",
+                " "
+            ],
+            "comments": []
+        },
+        {
+            "type": "text",
+            "text": ""
+        }
     ],
-    "description": "JTYwZ2V0X3NldF9pbnQlNjAlMjBpcyUyMG1pc3NpbmclMjB0eXBlJTIwYW5ub3RhdGlvbiUyMC0lMjBzbyUyMCU1Qm15cHklNUQoaHR0cHMlM0ElMkYlMkZteXB5LnJlYWR0aGVkb2NzLmlvJTJGZW4lMkZzdGFibGUlMkZpbnRyb2R1Y3Rpb24uaHRtbCklMjBpcyUyMG5vdCUyMGhhcHB5LiUwQSUwQUFkZCUyMHRoZSUyMHJpZ2h0JTIwYW5ub3RhdGlvbi4lMEElMEElMjMlMjBSZWZlcmVuY2VzJTBBKiUyMGh0dHBzJTNBJTJGJTJGbXlweS5yZWFkdGhlZG9jcy5pbyUyRmVuJTJGc3RhYmxlJTJGY2hlYXRfc2hlZXRfcHkzLmh0bWwlMEEqJTIwaHR0cHMlM0ElMkYlMkZteXB5LnJlYWR0aGVkb2NzLmlvJTJGZW4lMkZzdGFibGUlMkZidWlsdGluX3R5cGVzLmh0bWwlMEEqJTIwaHR0cHMlM0ElMkYlMkZteXB5LnJlYWR0aGVkb2NzLmlvJTJGZW4lMkZzdGFibGUlMkZ0eXBlX2luZmVyZW5jZV9hbmRfYW5ub3RhdGlvbnMuaHRtbA==",
-    "app_version": "0.1.70",
-    "file_version": "1.0.2",
-    "dod": "TWFrZSUyMHRoZSUyMHRlc3RzJTIwcGFzcyUyMA==",
-    "summary": "",
-    "isUnitApplicableLocally": "applicable"
+    "task": {
+        "dod": "Make the tests pass ",
+        "hints": [],
+        "tests": [
+            "mypy --strict get_set_int.py"
+        ]
+    }
 }

@@ -1,32 +1,41 @@
 {
     "id": "ZRyLXSmur8DFv780crrc",
     "name": "Variable Input Args",
-    "tests": [
-        "mypy --strict variable_input_args.py"
-    ],
-    "play_mode": "handson",
-    "hints": [],
-    "files": {
-        "variable_input_args.py": {
-            "index": [
-                "953dba4..3d5a748",
-                "100644"
-            ],
-            "fileA": "variable_input_args.py",
-            "fileB": "variable_input_args.py",
-            "status": "MODIFIED",
-            "numLineDeletions": 1,
-            "numLineAdditions": 1,
-            "hunkContainers": [
-                "JTdCJTIyaHVuayUyMiUzQSU3QiUyMmhlYWRlciUyMiUzQSUyMiU0MCU0MCUyMC0xJTJDNCUyMCUyQjElMkM0JTIwJTQwJTQwJTIyJTJDJTIyY2hhbmdlcyUyMiUzQSU1QiU3QiUyMnR5cGUlMjIlM0ElMjJkZWwlMjIlMkMlMjJtYXJrJTIyJTNBJTIyLSUyMiUyQyUyMmRhdGElMjIlM0ElMjJkZWYlMjB2YXJpYWJsZV9pbnB1dF9hcmdzKCphcmdzJTNBJTIwc3RyKSUyMC0lM0UlMjBzdHIlM0ElMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0ExJTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmFkZCUyMiUyQyUyMm1hcmslMjIlM0ElMjIlMkIlMjIlMkMlMjJkYXRhJTIyJTNBJTIyZGVmJTIwdmFyaWFibGVfaW5wdXRfYXJncygqYXJncyklM0ElMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmIlMjIlM0ExJTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwJTIwcmV0dXJuJTIwJTVDJTIyJTJDJTVDJTIyLmpvaW4oYXJncyklMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0EyJTJDJTIyYiUyMiUzQTIlN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0EzJTJDJTIyYiUyMiUzQTMlN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0E0JTJDJTIyYiUyMiUzQTQlN0QlN0QlNUQlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0ElN0IlMjJzdGFydExpbmUlMjIlM0ExJTJDJTIybGluZXNDb3VudCUyMiUzQTQlN0QlMkMlMjJiJTIyJTNBJTdCJTIyc3RhcnRMaW5lJTIyJTNBMSUyQyUyMmxpbmVzQ291bnQlMjIlM0E0JTdEJTdEJTdEJTdE"
-            ]
+    "file_version": "2.0.1",
+    "meta": {
+        "app_version": "0.4.1-0",
+        "file_blobs": {
+            "variable_input_args.py": "953dba467068add0fa3f376333c8389d2d9ee393"
         }
     },
-    "diff": "ZGlmZiUyMC0tZ2l0JTIwYSUyRnZhcmlhYmxlX2lucHV0X2FyZ3MucHklMjBiJTJGdmFyaWFibGVfaW5wdXRfYXJncy5weSUwQWluZGV4JTIwOTUzZGJhNC4uM2Q1YTc0OCUyMDEwMDY0NCUwQS0tLSUyMGElMkZ2YXJpYWJsZV9pbnB1dF9hcmdzLnB5JTBBJTJCJTJCJTJCJTIwYiUyRnZhcmlhYmxlX2lucHV0X2FyZ3MucHklMEElNDAlNDAlMjAtMSUyQzQlMjAlMkIxJTJDNCUyMCU0MCU0MCUwQS1kZWYlMjB2YXJpYWJsZV9pbnB1dF9hcmdzKCphcmdzJTNBJTIwc3RyKSUyMC0lM0UlMjBzdHIlM0ElMEElMkJkZWYlMjB2YXJpYWJsZV9pbnB1dF9hcmdzKCphcmdzKSUzQSUwQSUyMCUyMCUyMCUyMCUyMHJldHVybiUyMCUyMiUyQyUyMi5qb2luKGFyZ3MpJTBBJTIwJTBBJTIwJTBB",
-    "solution_files": [
-        "variable_input_args.py"
+    "content": [
+        {
+            "type": "text",
+            "text": "`variable_input_args` is missing type annotation - so [mypy](https://mypy.readthedocs.io/en/stable/introduction.html) is not happy.\n\nAdd the right annotation.\n\n# References\n* https://mypy.readthedocs.io/en/stable/builtin_types.html\n* https://mypy.readthedocs.io/en/stable/type_inference_and_annotations.html\n* https://mypy.readthedocs.io/en/stable/kinds_of_types.html"
+        },
+        {
+            "firstLineNumber": 1,
+            "path": "variable_input_args.py",
+            "type": "snippet",
+            "lines": [
+                "*def variable_input_args(*args: str) -> str:",
+                "+def variable_input_args(*args):",
+                "     return \",\".join(args)",
+                " ",
+                " "
+            ],
+            "comments": []
+        },
+        {
+            "type": "text",
+            "text": ""
+        }
     ],
-    "description": "JTYwdmFyaWFibGVfaW5wdXRfYXJncyU2MCUyMGlzJTIwbWlzc2luZyUyMHR5cGUlMjBhbm5vdGF0aW9uJTIwLSUyMHNvJTIwJTVCbXlweSU1RChodHRwcyUzQSUyRiUyRm15cHkucmVhZHRoZWRvY3MuaW8lMkZlbiUyRnN0YWJsZSUyRmludHJvZHVjdGlvbi5odG1sKSUyMGlzJTIwbm90JTIwaGFwcHkuJTBBJTBBQWRkJTIwdGhlJTIwcmlnaHQlMjBhbm5vdGF0aW9uLiUwQSUwQSUyMyUyMFJlZmVyZW5jZXMlMEEqJTIwaHR0cHMlM0ElMkYlMkZteXB5LnJlYWR0aGVkb2NzLmlvJTJGZW4lMkZzdGFibGUlMkZidWlsdGluX3R5cGVzLmh0bWwlMEEqJTIwaHR0cHMlM0ElMkYlMkZteXB5LnJlYWR0aGVkb2NzLmlvJTJGZW4lMkZzdGFibGUlMkZ0eXBlX2luZmVyZW5jZV9hbmRfYW5ub3RhdGlvbnMuaHRtbCUwQSolMjBodHRwcyUzQSUyRiUyRm15cHkucmVhZHRoZWRvY3MuaW8lMkZlbiUyRnN0YWJsZSUyRmtpbmRzX29mX3R5cGVzLmh0bWw=",
-    "app_version": "0.1.2",
-    "file_version": "1.0.1"
+    "task": {
+        "dod": "Make the test pass",
+        "hints": [],
+        "tests": [
+            "mypy --strict variable_input_args.py"
+        ]
+    }
 }

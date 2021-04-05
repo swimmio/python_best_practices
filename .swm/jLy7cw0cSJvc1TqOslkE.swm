@@ -1,36 +1,43 @@
 {
     "id": "jLy7cw0cSJvc1TqOslkE",
     "name": "Filter `None` and friends",
-    "tests": [
-        "python3 -m doctest filter_none_and_friends.py"
-    ],
-    "hints": [
-        "`filter`"
-    ],
-    "play_mode": "handson",
-    "files": {
-        "filter_none_and_friends.py": {
-            "index": [
-                "e3c2ae8..03ac7f5",
-                "100644"
-            ],
-            "fileA": "filter_none_and_friends.py",
-            "fileB": "filter_none_and_friends.py",
-            "status": "MODIFIED",
-            "numLineDeletions": 1,
-            "numLineAdditions": 1,
-            "hunkContainers": [
-                "JTdCJTIyaHVuayUyMiUzQSU3QiUyMmhlYWRlciUyMiUzQSUyMiU0MCU0MCUyMC00JTJDNCUyMCUyQjQlMkM0JTIwJTQwJTQwJTIwZGVmJTIwZmlsdGVyX25vbmVfYW5kX2ZyaWVuZHMobXlfbGlzdCklM0ElMjIlMkMlMjJjaGFuZ2VzJTIyJTNBJTVCJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwJTIwJTNFJTNFJTNFJTIwZmlsdGVyX25vbmVfYW5kX2ZyaWVuZHMoJTVCJTVDJTIyaGVsbG8lNUMlMjIlMkMlMjAnJyUyQyUyMCU3QiU3RCUyQyUyMCU3QidhJyUzQTElN0QlMkMlMjAlNUIlNUQlMkMlMjAlNUIxJTVEJTJDJTIwMCUyQyUyMDElMkMlMjBOb25lJTJDJTIwRmFsc2UlMkMlMjBUcnVlJTVEKSUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTQlMkMlMjJiJTIyJTNBNCU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMCUyMCU1QidoZWxsbyclMkMlMjAlN0InYSclM0ElMjAxJTdEJTJDJTIwJTVCMSU1RCUyQyUyMDElMkMlMjBUcnVlJTVEJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBNSUyQyUyMmIlMjIlM0E1JTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwJTIwJTVDJTIyJTVDJTIyJTVDJTIyJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBNiUyQyUyMmIlMjIlM0E2JTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmRlbCUyMiUyQyUyMm1hcmslMjIlM0ElMjItJTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMHJldHVybiUyMGxpc3QoZmlsdGVyKE5vbmUlMkMlMjBteV9saXN0KSklMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0E3JTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmFkZCUyMiUyQyUyMm1hcmslMjIlM0ElMjIlMkIlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwcGFzcyUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYiUyMiUzQTclN0QlN0QlNUQlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0ElN0IlMjJzdGFydExpbmUlMjIlM0E0JTJDJTIybGluZXNDb3VudCUyMiUzQTQlN0QlMkMlMjJiJTIyJTNBJTdCJTIyc3RhcnRMaW5lJTIyJTNBNCUyQyUyMmxpbmVzQ291bnQlMjIlM0E0JTdEJTdEJTdEJTdE"
-            ]
+    "file_version": "2.0.1",
+    "meta": {
+        "app_version": "0.4.1-0",
+        "file_blobs": {
+            "filter_none_and_friends.py": "e3c2ae8bc5ad0d454559623a1108c9b880c79282"
         }
     },
-    "diff": "ZGlmZiUyMC0tZ2l0JTIwYSUyRmZpbHRlcl9ub25lX2FuZF9mcmllbmRzLnB5JTIwYiUyRmZpbHRlcl9ub25lX2FuZF9mcmllbmRzLnB5JTBBaW5kZXglMjBlM2MyYWU4Li4wM2FjN2Y1JTIwMTAwNjQ0JTBBLS0tJTIwYSUyRmZpbHRlcl9ub25lX2FuZF9mcmllbmRzLnB5JTBBJTJCJTJCJTJCJTIwYiUyRmZpbHRlcl9ub25lX2FuZF9mcmllbmRzLnB5JTBBJTQwJTQwJTIwLTQlMkM0JTIwJTJCNCUyQzQlMjAlNDAlNDAlMjBkZWYlMjBmaWx0ZXJfbm9uZV9hbmRfZnJpZW5kcyhteV9saXN0KSUzQSUwQSUyMCUyMCUyMCUyMCUyMCUzRSUzRSUzRSUyMGZpbHRlcl9ub25lX2FuZF9mcmllbmRzKCU1QiUyMmhlbGxvJTIyJTJDJTIwJyclMkMlMjAlN0IlN0QlMkMlMjAlN0InYSclM0ExJTdEJTJDJTIwJTVCJTVEJTJDJTIwJTVCMSU1RCUyQyUyMDAlMkMlMjAxJTJDJTIwTm9uZSUyQyUyMEZhbHNlJTJDJTIwVHJ1ZSU1RCklMEElMjAlMjAlMjAlMjAlMjAlNUInaGVsbG8nJTJDJTIwJTdCJ2EnJTNBJTIwMSU3RCUyQyUyMCU1QjElNUQlMkMlMjAxJTJDJTIwVHJ1ZSU1RCUwQSUyMCUyMCUyMCUyMCUyMCUyMiUyMiUyMiUwQS0lMjAlMjAlMjAlMjByZXR1cm4lMjBsaXN0KGZpbHRlcihOb25lJTJDJTIwbXlfbGlzdCkpJTBBJTJCJTIwJTIwJTIwJTIwcGFzcyUwQQ==",
-    "solution_files": [
-        "filter_none_and_friends"
+    "content": [
+        {
+            "type": "text",
+            "text": ""
+        },
+        {
+            "firstLineNumber": 4,
+            "path": "filter_none_and_friends.py",
+            "type": "snippet",
+            "lines": [
+                "     >>> filter_none_and_friends([\"hello\", '', {}, {'a':1}, [], [1], 0, 1, None, False, True])",
+                "     ['hello', {'a': 1}, [1], 1, True]",
+                "     \"\"\"",
+                "*    return list(filter(None, my_list))",
+                "+    pass"
+            ],
+            "comments": []
+        },
+        {
+            "type": "text",
+            "text": ""
+        }
     ],
-    "description": "",
-    "app_version": "0.1.50",
-    "file_version": "1.0.2",
-    "dod": "SW1wbGVtZW50JTIwJTYwZmlsdGVyX25vbmVfYW5kX2ZyaWVuZHMlNjAlMjBhY2NvcmRpbmclMjB0byUyMGl0cyUyMGRvY3VtZW50YXRpb24=",
-    "summary": ""
+    "task": {
+        "dod": "Implement `filter_none_and_friends` according to its documentation",
+        "hints": [
+            "`filter`"
+        ],
+        "tests": [
+            "python3 -m doctest filter_none_and_friends.py"
+        ]
+    }
 }

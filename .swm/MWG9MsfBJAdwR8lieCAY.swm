@@ -1,32 +1,42 @@
 {
     "id": "MWG9MsfBJAdwR8lieCAY",
     "name": "Class Constructor",
-    "tests": [
-        "mypy --strict typing_class_constructor.py"
-    ],
-    "hints": [],
-    "play_mode": "handson",
-    "files": {
-        "typing_class_constructor.py": {
-            "index": [
-                "c8acf7d..3edb6d6",
-                "100644"
-            ],
-            "fileA": "typing_class_constructor.py",
-            "fileB": "typing_class_constructor.py",
-            "status": "MODIFIED",
-            "numLineDeletions": 1,
-            "numLineAdditions": 1,
-            "hunkContainers": [
-                "JTdCJTIyaHVuayUyMiUzQSU3QiUyMmhlYWRlciUyMiUzQSUyMiU0MCU0MCUyMC0xJTJDNSUyMCUyQjElMkM1JTIwJTQwJTQwJTIyJTJDJTIyY2hhbmdlcyUyMiUzQSU1QiU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMGNsYXNzJTIwRCUzQSUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTElMkMlMjJiJTIyJTNBMSU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJkZWwlMjIlMkMlMjJtYXJrJTIyJTNBJTIyLSUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjBkZWYlMjBfX2luaXRfXyhzZWxmJTJDJTIwYyUzQSUyMCU1QyUyMkMlNUMlMjIpJTIwLSUzRSUyME5vbmUlM0ElMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0EyJTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmFkZCUyMiUyQyUyMm1hcmslMjIlM0ElMjIlMkIlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwZGVmJTIwX19pbml0X18oc2VsZiUyQyUyMGMpJTNBJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJiJTIyJTNBMiU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMHBhc3MlMjAlMjAlMjMlMjBUaGUlMjBpbXBsZW1lbnRhdGlvbiUyMGRvZXNuJ3QlMjBtYXR0ZXIlMjBoZXJlJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBMyUyQyUyMmIlMjIlM0EzJTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBNCUyQyUyMmIlMjIlM0E0JTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBNSUyQyUyMmIlMjIlM0E1JTdEJTdEJTVEJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBJTdCJTIyc3RhcnRMaW5lJTIyJTNBMSUyQyUyMmxpbmVzQ291bnQlMjIlM0E1JTdEJTJDJTIyYiUyMiUzQSU3QiUyMnN0YXJ0TGluZSUyMiUzQTElMkMlMjJsaW5lc0NvdW50JTIyJTNBNSU3RCU3RCU3RCU3RA=="
-            ]
+    "file_version": "2.0.1",
+    "meta": {
+        "app_version": "0.4.1-0",
+        "file_blobs": {
+            "typing_class_constructor.py": "c8acf7d2fcbd7dfbc31ea3486998370b34ca7855"
         }
     },
-    "diff": "ZGlmZiUyMC0tZ2l0JTIwYSUyRnR5cGluZ19jbGFzc19jb25zdHJ1Y3Rvci5weSUyMGIlMkZ0eXBpbmdfY2xhc3NfY29uc3RydWN0b3IucHklMEFpbmRleCUyMGM4YWNmN2QuLjNlZGI2ZDYlMjAxMDA2NDQlMEEtLS0lMjBhJTJGdHlwaW5nX2NsYXNzX2NvbnN0cnVjdG9yLnB5JTBBJTJCJTJCJTJCJTIwYiUyRnR5cGluZ19jbGFzc19jb25zdHJ1Y3Rvci5weSUwQSU0MCU0MCUyMC0xJTJDNSUyMCUyQjElMkM1JTIwJTQwJTQwJTBBJTIwY2xhc3MlMjBEJTNBJTBBLSUyMCUyMCUyMCUyMGRlZiUyMF9faW5pdF9fKHNlbGYlMkMlMjBjJTNBJTIwJTIyQyUyMiklMjAtJTNFJTIwTm9uZSUzQSUwQSUyQiUyMCUyMCUyMCUyMGRlZiUyMF9faW5pdF9fKHNlbGYlMkMlMjBjKSUzQSUwQSUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMHBhc3MlMjAlMjAlMjMlMjBUaGUlMjBpbXBsZW1lbnRhdGlvbiUyMGRvZXNuJ3QlMjBtYXR0ZXIlMjBoZXJlJTBBJTIwJTBBJTIwJTBB",
-    "solution_files": [
-        "typing_class_constructor.py"
+    "content": [
+        {
+            "type": "text",
+            "text": "The constructor of class `D` is missing type annotation - so [mypy](https://mypy.readthedocs.io/en/stable/introduction.html) is not happy.\n\nAdd the right annotation.\n\nIt would be useful to understand [MyPy's class basics](https://mypy.readthedocs.io/en/stable/class_basics.html) for that.\n\n# References\n* https://mypy.readthedocs.io/en/stable/builtin_types.html\n* https://mypy.readthedocs.io/en/stable/type_inference_and_annotations.html\n* https://mypy.readthedocs.io/en/stable/kinds_of_types.html\n* https://mypy.readthedocs.io/en/stable/class_basics.html"
+        },
+        {
+            "firstLineNumber": 1,
+            "path": "typing_class_constructor.py",
+            "type": "snippet",
+            "lines": [
+                " class D:",
+                "*    def __init__(self, c: \"C\") -> None:",
+                "+    def __init__(self, c):",
+                "         pass  # The implementation doesn't matter here",
+                " ",
+                " "
+            ],
+            "comments": []
+        },
+        {
+            "type": "text",
+            "text": ""
+        }
     ],
-    "description": "VGhlJTIwY29uc3RydWN0b3IlMjBvZiUyMGNsYXNzJTIwJTYwRCU2MCUyMGlzJTIwbWlzc2luZyUyMHR5cGUlMjBhbm5vdGF0aW9uJTIwLSUyMHNvJTIwJTVCbXlweSU1RChodHRwcyUzQSUyRiUyRm15cHkucmVhZHRoZWRvY3MuaW8lMkZlbiUyRnN0YWJsZSUyRmludHJvZHVjdGlvbi5odG1sKSUyMGlzJTIwbm90JTIwaGFwcHkuJTBBJTBBQWRkJTIwdGhlJTIwcmlnaHQlMjBhbm5vdGF0aW9uLiUwQSUwQUl0JTIwd291bGQlMjBiZSUyMHVzZWZ1bCUyMHRvJTIwdW5kZXJzdGFuZCUyMCU1Qk15UHkncyUyMGNsYXNzJTIwYmFzaWNzJTVEKGh0dHBzJTNBJTJGJTJGbXlweS5yZWFkdGhlZG9jcy5pbyUyRmVuJTJGc3RhYmxlJTJGY2xhc3NfYmFzaWNzLmh0bWwpJTIwZm9yJTIwdGhhdC4lMEElMEElMjMlMjBSZWZlcmVuY2VzJTBBKiUyMGh0dHBzJTNBJTJGJTJGbXlweS5yZWFkdGhlZG9jcy5pbyUyRmVuJTJGc3RhYmxlJTJGYnVpbHRpbl90eXBlcy5odG1sJTBBKiUyMGh0dHBzJTNBJTJGJTJGbXlweS5yZWFkdGhlZG9jcy5pbyUyRmVuJTJGc3RhYmxlJTJGdHlwZV9pbmZlcmVuY2VfYW5kX2Fubm90YXRpb25zLmh0bWwlMEEqJTIwaHR0cHMlM0ElMkYlMkZteXB5LnJlYWR0aGVkb2NzLmlvJTJGZW4lMkZzdGFibGUlMkZraW5kc19vZl90eXBlcy5odG1sJTBBKiUyMGh0dHBzJTNBJTJGJTJGbXlweS5yZWFkdGhlZG9jcy5pbyUyRmVuJTJGc3RhYmxlJTJGY2xhc3NfYmFzaWNzLmh0bWw=",
-    "app_version": "0.1.2",
-    "file_version": "1.0.1"
+    "task": {
+        "dod": "Make the test pass",
+        "hints": [],
+        "tests": [
+            "mypy --strict typing_class_constructor.py"
+        ]
+    }
 }

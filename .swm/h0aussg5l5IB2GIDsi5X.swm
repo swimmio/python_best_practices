@@ -1,36 +1,43 @@
 {
     "id": "h0aussg5l5IB2GIDsi5X",
     "name": "Convert to Decimal",
-    "tests": [
-        "python3 -m doctest convert_to_decimal.py"
-    ],
-    "hints": [
-        "`int` is also a function"
-    ],
-    "play_mode": "handson",
-    "files": {
-        "convert_to_decimal.py": {
-            "index": [
-                "9e65963..f0a4c3b",
-                "100644"
-            ],
-            "fileA": "convert_to_decimal.py",
-            "fileB": "convert_to_decimal.py",
-            "status": "MODIFIED",
-            "numLineDeletions": 1,
-            "numLineAdditions": 1,
-            "hunkContainers": [
-                "JTdCJTIyaHVuayUyMiUzQSU3QiUyMmhlYWRlciUyMiUzQSUyMiU0MCU0MCUyMC04JTJDNCUyMCUyQjglMkM0JTIwJTQwJTQwJTIwZGVmJTIwY29udmVydF90b19kZWNpbWFsKGlucHV0X251bWJlciUyQyUyMGJhc2UpJTNBJTIyJTJDJTIyY2hhbmdlcyUyMiUzQSU1QiU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMCUyMCUzRSUzRSUzRSUyMGNvbnZlcnRfdG9fZGVjaW1hbCgxMDElMkMlMjAxNiklMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0E4JTJDJTIyYiUyMiUzQTglN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjAlMjAyNTclMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0E5JTJDJTIyYiUyMiUzQTklN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjAlMjAlNUMlMjIlNUMlMjIlNUMlMjIlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0ExMCUyQyUyMmIlMjIlM0ExMCU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJkZWwlMjIlMkMlMjJtYXJrJTIyJTNBJTIyLSUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjByZXR1cm4lMjBpbnQoc3RyKGlucHV0X251bWJlciklMkMlMjBiYXNlKSUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTExJTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmFkZCUyMiUyQyUyMm1hcmslMjIlM0ElMjIlMkIlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwcGFzcyUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYiUyMiUzQTExJTdEJTdEJTVEJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBJTdCJTIyc3RhcnRMaW5lJTIyJTNBOCUyQyUyMmxpbmVzQ291bnQlMjIlM0E0JTdEJTJDJTIyYiUyMiUzQSU3QiUyMnN0YXJ0TGluZSUyMiUzQTglMkMlMjJsaW5lc0NvdW50JTIyJTNBNCU3RCU3RCU3RCU3RA=="
-            ]
+    "file_version": "2.0.1",
+    "meta": {
+        "app_version": "0.4.1-0",
+        "file_blobs": {
+            "convert_to_decimal.py": "9e659633e24d19a32185fe5b09c0d4f70cc83719"
         }
     },
-    "diff": "ZGlmZiUyMC0tZ2l0JTIwYSUyRmNvbnZlcnRfdG9fZGVjaW1hbC5weSUyMGIlMkZjb252ZXJ0X3RvX2RlY2ltYWwucHklMEFpbmRleCUyMDllNjU5NjMuLmYwYTRjM2IlMjAxMDA2NDQlMEEtLS0lMjBhJTJGY29udmVydF90b19kZWNpbWFsLnB5JTBBJTJCJTJCJTJCJTIwYiUyRmNvbnZlcnRfdG9fZGVjaW1hbC5weSUwQSU0MCU0MCUyMC04JTJDNCUyMCUyQjglMkM0JTIwJTQwJTQwJTIwZGVmJTIwY29udmVydF90b19kZWNpbWFsKGlucHV0X251bWJlciUyQyUyMGJhc2UpJTNBJTBBJTIwJTIwJTIwJTIwJTIwJTNFJTNFJTNFJTIwY29udmVydF90b19kZWNpbWFsKDEwMSUyQyUyMDE2KSUwQSUyMCUyMCUyMCUyMCUyMDI1NyUwQSUyMCUyMCUyMCUyMCUyMCUyMiUyMiUyMiUwQS0lMjAlMjAlMjAlMjByZXR1cm4lMjBpbnQoc3RyKGlucHV0X251bWJlciklMkMlMjBiYXNlKSUwQSUyQiUyMCUyMCUyMCUyMHBhc3MlMEE=",
-    "solution_files": [
-        "convert_to_decimal.py"
+    "content": [
+        {
+            "type": "text",
+            "text": ""
+        },
+        {
+            "firstLineNumber": 8,
+            "path": "convert_to_decimal.py",
+            "type": "snippet",
+            "lines": [
+                "     >>> convert_to_decimal(101, 16)",
+                "     257",
+                "     \"\"\"",
+                "*    return int(str(input_number), base)",
+                "+    pass"
+            ],
+            "comments": []
+        },
+        {
+            "type": "text",
+            "text": ""
+        }
     ],
-    "description": "",
-    "app_version": "0.1.50",
-    "file_version": "1.0.2",
-    "dod": "SW1wbGVtZW50JTIwJTYwY29udmVydF90b19kZWNpbWFsJTYwJTIwYWNjb3JkaW5nJTIwdG8lMjBpdHMlMjBkb2N1bWVudGF0aW9u",
-    "summary": ""
+    "task": {
+        "dod": "Implement `convert_to_decimal` according to its documentation",
+        "hints": [
+            "`int` is also a function"
+        ],
+        "tests": [
+            "python3 -m doctest convert_to_decimal.py"
+        ]
+    }
 }

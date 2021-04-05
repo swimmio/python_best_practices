@@ -1,39 +1,48 @@
 {
     "id": "SbO0n9ihiyHn9FF8hvbe",
     "name": "Is Ascending",
-    "tests": [
-        "python3 -m doctest is_ascending.py"
-    ],
-    "hints": [],
-    "play_mode": "handson",
-    "files": {
-        "is_ascending.py": {
-            "index": [
-                "091c55a..43de836",
-                "100644"
-            ],
-            "fileA": "is_ascending.py",
-            "fileB": "is_ascending.py",
-            "status": "MODIFIED",
-            "numLineDeletions": 1,
-            "numLineAdditions": 1,
-            "hunkContainers": [
-                "JTdCJTIyaHVuayUyMiUzQSU3QiUyMmhlYWRlciUyMiUzQSUyMiU0MCU0MCUyMC0xMyUyQzQlMjAlMkIxMyUyQzQlMjAlNDAlNDAlMjBkZWYlMjBpc19hc2NlbmRpbmcoYSUyQyUyMGIlMkMlMjBjKSUzQSUyMiUyQyUyMmNoYW5nZXMlMjIlM0ElNUIlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjAlMjAlM0UlM0UlM0UlMjBpc19hc2NlbmRpbmcoLTElMkM1JTJDMjApJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBMTMlMkMlMjJiJTIyJTNBMTMlN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjAlMjBUcnVlJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBMTQlMkMlMjJiJTIyJTNBMTQlN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjAlMjAlNUMlMjIlNUMlMjIlNUMlMjIlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0ExNSUyQyUyMmIlMjIlM0ExNSU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJkZWwlMjIlMkMlMjJtYXJrJTIyJTNBJTIyLSUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjByZXR1cm4lMjBhJTIwJTNDJTIwYiUyMCUzQyUyMGMlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0ExNiU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJhZGQlMjIlMkMlMjJtYXJrJTIyJTNBJTIyJTJCJTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMHBhc3MlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmIlMjIlM0ExNiU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJlb2ZfYWRkJTIyJTJDJTIybWFyayUyMiUzQSUyMiU1QyU1QyUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjBObyUyMG5ld2xpbmUlMjBhdCUyMGVuZCUyMG9mJTIwZmlsZSUyMiU3RCU1RCUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQSU3QiUyMnN0YXJ0TGluZSUyMiUzQTEzJTJDJTIybGluZXNDb3VudCUyMiUzQTQlN0QlMkMlMjJiJTIyJTNBJTdCJTIyc3RhcnRMaW5lJTIyJTNBMTMlMkMlMjJsaW5lc0NvdW50JTIyJTNBNCU3RCU3RCU3RCU3RA=="
-            ]
+    "file_version": "2.0.1",
+    "meta": {
+        "app_version": "0.4.1-0",
+        "file_blobs": {
+            "is_ascending.py": "091c55a82f1c4f735b1a7c6cab805af36d2253c6"
         }
     },
-    "diff": "ZGlmZiUyMC0tZ2l0JTIwYSUyRmlzX2FzY2VuZGluZy5weSUyMGIlMkZpc19hc2NlbmRpbmcucHklMEFpbmRleCUyMDA5MWM1NWEuLjQzZGU4MzYlMjAxMDA2NDQlMEEtLS0lMjBhJTJGaXNfYXNjZW5kaW5nLnB5JTBBJTJCJTJCJTJCJTIwYiUyRmlzX2FzY2VuZGluZy5weSUwQSU0MCU0MCUyMC0xMyUyQzQlMjAlMkIxMyUyQzQlMjAlNDAlNDAlMjBkZWYlMjBpc19hc2NlbmRpbmcoYSUyQyUyMGIlMkMlMjBjKSUzQSUwQSUyMCUyMCUyMCUyMCUyMCUzRSUzRSUzRSUyMGlzX2FzY2VuZGluZygtMSUyQzUlMkMyMCklMEElMjAlMjAlMjAlMjAlMjBUcnVlJTBBJTIwJTIwJTIwJTIwJTIwJTIyJTIyJTIyJTBBLSUyMCUyMCUyMCUyMHJldHVybiUyMGElMjAlM0MlMjBiJTIwJTNDJTIwYyUwQSUyQiUyMCUyMCUyMCUyMHBhc3MlMEElNUMlMjBObyUyMG5ld2xpbmUlMjBhdCUyMGVuZCUyMG9mJTIwZmlsZSUwQQ==",
-    "solution_files": [
-        "is_ascending.py"
-    ],
-    "cr": [{"action": "includes",
-            "value": "and  ",
-            "message": "There is no need to use `and` here."
-            }
+    "content": [
+        {
+            "type": "text",
+            "text": ""
+        },
+        {
+            "firstLineNumber": 13,
+            "path": "is_ascending.py",
+            "type": "snippet",
+            "lines": [
+                "     >>> is_ascending(-1,5,20)",
+                "     True",
+                "     \"\"\"",
+                "*    return a < b < c",
+                "+    pass"
             ],
-    "description": "",
-    "app_version": "0.1.50",
-    "file_version": "1.0.2",
-    "dod": "SW1wbGVtZW50JTIwJTYwaXNfYXNjZW5kaW5nJTYwJTIwYWNjb3JkaW5nJTIwdG8lMjBpdHMlMjBkb2N1bWVudGF0aW9u",
-    "summary": "UHl0aG9uJTIwc3VwcG9ydHMlMjBtdWx0aXBsZSUyMGNvbXBhcmlzb25zJTIwaW4lMjBvbmUlMjBzdGF0ZW1lbnQlMjAtJTIwc28lMjB0aGVyZSdzJTIwbm8lMjBuZWVkJTIwdG8lMjB1c2UlMjAlNjBhbmQlNjAlMjBpbiUyMHRoaXMlMjBjYXNl"
+            "comments": []
+        },
+        {
+            "type": "text",
+            "text": "Python supports multiple comparisons in one statement - so there's no need to use `and` in this case"
+        }
+    ],
+    "task": {
+        "dod": "Implement `is_ascending` according to its documentation",
+        "hints": [],
+        "tests": [
+            "python3 -m doctest is_ascending.py"
+        ],
+        "crActions": [
+            {
+                "action": "includes",
+                "value": "and  ",
+                "message": "There is no need to use `and` here."
+            }
+        ]
+    }
 }

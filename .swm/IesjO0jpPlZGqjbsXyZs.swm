@@ -1,39 +1,48 @@
 {
     "id": "IesjO0jpPlZGqjbsXyZs",
     "name": "Is greater than 2?",
-    "tests": [
-        "python3 -m doctest is_greater_than_2.py"
-    ],
-    "hints": [],
-    "play_mode": "handson",
-    "cr": [{"action": "includes",
-            "value": "if ",
-            "message": "There is no need for conditions here - the solution consists of one short line."
-            }
-            ],
-    "files": {
-        "is_greater_than_2.py": {
-            "index": [
-                "234e4f4..ec61546",
-                "100644"
-            ],
-            "fileA": "is_greater_than_2.py",
-            "fileB": "is_greater_than_2.py",
-            "status": "MODIFIED",
-            "numLineDeletions": 1,
-            "numLineAdditions": 1,
-            "hunkContainers": [
-                "JTdCJTIyaHVuayUyMiUzQSU3QiUyMmhlYWRlciUyMiUzQSUyMiU0MCU0MCUyMC0xMCUyQzQlMjAlMkIxMCUyQzQlMjAlNDAlNDAlMjBkZWYlMjBpc19ncmVhdGVyX3RoYW5fMihudW1iZXIpJTNBJTIyJTJDJTIyY2hhbmdlcyUyMiUzQSU1QiU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMCUyMCUzRSUzRSUzRSUyMGlzX2dyZWF0ZXJfdGhhbl8yKDEwMCklMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0ExMCUyQyUyMmIlMjIlM0ExMCU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMCUyMFRydWUlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0ExMSUyQyUyMmIlMjIlM0ExMSU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMCUyMCU1QyUyMiU1QyUyMiU1QyUyMiUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTEyJTJDJTIyYiUyMiUzQTEyJTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmRlbCUyMiUyQyUyMm1hcmslMjIlM0ElMjItJTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMHJldHVybiUyMG51bWJlciUyMCUzRSUyMDIlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0ExMyU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJhZGQlMjIlMkMlMjJtYXJrJTIyJTNBJTIyJTJCJTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMHBhc3MlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmIlMjIlM0ExMyU3RCU3RCU1RCUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQSU3QiUyMnN0YXJ0TGluZSUyMiUzQTEwJTJDJTIybGluZXNDb3VudCUyMiUzQTQlN0QlMkMlMjJiJTIyJTNBJTdCJTIyc3RhcnRMaW5lJTIyJTNBMTAlMkMlMjJsaW5lc0NvdW50JTIyJTNBNCU3RCU3RCU3RCU3RA=="
-            ]
+    "file_version": "2.0.1",
+    "meta": {
+        "app_version": "0.4.1-0",
+        "file_blobs": {
+            "is_greater_than_2.py": "234e4f4684b2b4502d4473184430e7229ee0d674"
         }
     },
-    "diff": "ZGlmZiUyMC0tZ2l0JTIwYSUyRmlzX2dyZWF0ZXJfdGhhbl8yLnB5JTIwYiUyRmlzX2dyZWF0ZXJfdGhhbl8yLnB5JTBBaW5kZXglMjAyMzRlNGY0Li5lYzYxNTQ2JTIwMTAwNjQ0JTBBLS0tJTIwYSUyRmlzX2dyZWF0ZXJfdGhhbl8yLnB5JTBBJTJCJTJCJTJCJTIwYiUyRmlzX2dyZWF0ZXJfdGhhbl8yLnB5JTBBJTQwJTQwJTIwLTEwJTJDNCUyMCUyQjEwJTJDNCUyMCU0MCU0MCUyMGRlZiUyMGlzX2dyZWF0ZXJfdGhhbl8yKG51bWJlciklM0ElMEElMjAlMjAlMjAlMjAlMjAlM0UlM0UlM0UlMjBpc19ncmVhdGVyX3RoYW5fMigxMDApJTBBJTIwJTIwJTIwJTIwJTIwVHJ1ZSUwQSUyMCUyMCUyMCUyMCUyMCUyMiUyMiUyMiUwQS0lMjAlMjAlMjAlMjByZXR1cm4lMjBudW1iZXIlMjAlM0UlMjAyJTBBJTJCJTIwJTIwJTIwJTIwcGFzcyUwQQ==",
-    "solution_files": [
-        "is_greater_than_2.py"
+    "content": [
+        {
+            "type": "text",
+            "text": ""
+        },
+        {
+            "firstLineNumber": 10,
+            "path": "is_greater_than_2.py",
+            "type": "snippet",
+            "lines": [
+                "     >>> is_greater_than_2(100)",
+                "     True",
+                "     \"\"\"",
+                "*    return number > 2",
+                "+    pass"
+            ],
+            "comments": []
+        },
+        {
+            "type": "text",
+            "text": "We don't need `if` or `else` here"
+        }
     ],
-    "description": "",
-    "app_version": "0.1.50",
-    "file_version": "1.0.2",
-    "dod": "SW1wbGVtZW50JTIwJTYwaXNfZ3JlYXRlcl90aGFuXzIlNjAlMjBhY2NvcmRpbmclMjB0byUyMGl0cyUyMGRvY3VtZW50YXRpb24=",
-    "summary": "V2UlMjBkb24ndCUyMG5lZWQlMjAlNjBpZiU2MCUyMG9yJTIwJTYwZWxzZSU2MCUyMGhlcmU="
+    "task": {
+        "dod": "Implement `is_greater_than_2` according to its documentation",
+        "hints": [],
+        "tests": [
+            "python3 -m doctest is_greater_than_2.py"
+        ],
+        "crActions": [
+            {
+                "action": "includes",
+                "value": "if ",
+                "message": "There is no need for conditions here - the solution consists of one short line."
+            }
+        ]
+    }
 }

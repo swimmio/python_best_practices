@@ -1,39 +1,48 @@
 {
     "id": "EN5xOCRibx715suxOWmj",
     "name": "The last element",
-    "tests": [
-        "python3 -m doctest last_element.py"
-    ],
-    "play_mode": "handson",
-    "cr": [{"action": "includes",
-            "value": "len(",
-            "message": "there is no need to use `len` here. Read about list slicing."
-            }
-            ],
-    "hints": [],
-    "files": {
-        "last_element.py": {
-            "index": [
-                "215178a..97bcfb5",
-                "100644"
-            ],
-            "fileA": "last_element.py",
-            "fileB": "last_element.py",
-            "status": "MODIFIED",
-            "numLineDeletions": 1,
-            "numLineAdditions": 1,
-            "hunkContainers": [
-                "JTdCJTIyaHVuayUyMiUzQSU3QiUyMmhlYWRlciUyMiUzQSUyMiU0MCU0MCUyMC04JTJDNCUyMCUyQjglMkM0JTIwJTQwJTQwJTIwZGVmJTIwbGFzdF9lbGVtZW50KG15X2xpc3Rfb3Jfc3RyaW5nKSUzQSUyMiUyQyUyMmNoYW5nZXMlMjIlM0ElNUIlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjAlMjAlM0UlM0UlM0UlMjBsYXN0X2VsZW1lbnQoJTVDJTIyc3dpbW0lNUMlMjIpJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBOCUyQyUyMmIlMjIlM0E4JTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwJTIwJ20nJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBOSUyQyUyMmIlMjIlM0E5JTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwJTIwJTVDJTIyJTVDJTIyJTVDJTIyJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBMTAlMkMlMjJiJTIyJTNBMTAlN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyZGVsJTIyJTJDJTIybWFyayUyMiUzQSUyMi0lMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwcmV0dXJuJTIwbXlfbGlzdF9vcl9zdHJpbmclNUItMSU1RCUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTExJTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmFkZCUyMiUyQyUyMm1hcmslMjIlM0ElMjIlMkIlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwcGFzcyUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYiUyMiUzQTExJTdEJTdEJTVEJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBJTdCJTIyc3RhcnRMaW5lJTIyJTNBOCUyQyUyMmxpbmVzQ291bnQlMjIlM0E0JTdEJTJDJTIyYiUyMiUzQSU3QiUyMnN0YXJ0TGluZSUyMiUzQTglMkMlMjJsaW5lc0NvdW50JTIyJTNBNCU3RCU3RCU3RCU3RA=="
-            ]
+    "file_version": "2.0.1",
+    "meta": {
+        "app_version": "0.4.1-0",
+        "file_blobs": {
+            "last_element.py": "215178a0c9d50dc45052f71495722042baba9264"
         }
     },
-    "diff": "ZGlmZiUyMC0tZ2l0JTIwYSUyRmxhc3RfZWxlbWVudC5weSUyMGIlMkZsYXN0X2VsZW1lbnQucHklMEFpbmRleCUyMDIxNTE3OGEuLjk3YmNmYjUlMjAxMDA2NDQlMEEtLS0lMjBhJTJGbGFzdF9lbGVtZW50LnB5JTBBJTJCJTJCJTJCJTIwYiUyRmxhc3RfZWxlbWVudC5weSUwQSU0MCU0MCUyMC04JTJDNCUyMCUyQjglMkM0JTIwJTQwJTQwJTIwZGVmJTIwbGFzdF9lbGVtZW50KG15X2xpc3Rfb3Jfc3RyaW5nKSUzQSUwQSUyMCUyMCUyMCUyMCUyMCUzRSUzRSUzRSUyMGxhc3RfZWxlbWVudCglMjJzd2ltbSUyMiklMEElMjAlMjAlMjAlMjAlMjAnbSclMEElMjAlMjAlMjAlMjAlMjAlMjIlMjIlMjIlMEEtJTIwJTIwJTIwJTIwcmV0dXJuJTIwbXlfbGlzdF9vcl9zdHJpbmclNUItMSU1RCUwQSUyQiUyMCUyMCUyMCUyMHBhc3MlMEE=",
-    "solution_files": [
-        "last_element.py"
+    "content": [
+        {
+            "type": "text",
+            "text": ""
+        },
+        {
+            "firstLineNumber": 8,
+            "path": "last_element.py",
+            "type": "snippet",
+            "lines": [
+                "     >>> last_element(\"swimm\")",
+                "     'm'",
+                "     \"\"\"",
+                "*    return my_list_or_string[-1]",
+                "+    pass"
+            ],
+            "comments": []
+        },
+        {
+            "type": "text",
+            "text": "Using `my_list[-1]` is very convenient in Python - there's no reason to use `len(my_list)` in this case."
+        }
     ],
-    "description": "",
-    "app_version": "0.1.31",
-    "file_version": "1.0.2",
-    "dod": "SW1wbGVtZW50JTIwdGhlJTIwZnVuY3Rpb24lMjAlNjBsYXN0X2VsZW1lbnQlNjAlMjBhY2NvcmRpbmclMjB0byUyMGl0cyUyMGRvY3VtZW50YXRpb24u",
-    "summary": "VXNpbmclMjAlNjBteV9saXN0JTVCLTElNUQlNjAlMjBpcyUyMHZlcnklMjBjb252ZW5pZW50JTIwaW4lMjBQeXRob24lMjAtJTIwdGhlcmUncyUyMG5vJTIwcmVhc29uJTIwdG8lMjB1c2UlMjAlNjBsZW4obXlfbGlzdCklNjAlMjBpbiUyMHRoaXMlMjBjYXNlLg=="
+    "task": {
+        "dod": "Implement the function `last_element` according to its documentation.",
+        "hints": [],
+        "tests": [
+            "python3 -m doctest last_element.py"
+        ],
+        "crActions": [
+            {
+                "action": "includes",
+                "value": "len(",
+                "message": "there is no need to use `len` here. Read about list slicing."
+            }
+        ]
+    }
 }

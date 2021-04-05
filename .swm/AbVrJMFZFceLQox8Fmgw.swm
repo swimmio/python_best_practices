@@ -1,32 +1,39 @@
 {
     "id": "AbVrJMFZFceLQox8Fmgw",
     "name": "Return Nothing",
-    "tests": [
-        " mypy --strict ret_nothing.py"
-    ],
-    "play_mode": "handson",
-    "hints": [],
-    "files": {
-        "ret_nothing.py": {
-            "index": [
-                "9fa51b5..4f84472",
-                "100644"
-            ],
-            "fileA": "ret_nothing.py",
-            "fileB": "ret_nothing.py",
-            "status": "MODIFIED",
-            "numLineDeletions": 1,
-            "numLineAdditions": 1,
-            "hunkContainers": [
-                "JTdCJTIyaHVuayUyMiUzQSU3QiUyMmhlYWRlciUyMiUzQSUyMiU0MCU0MCUyMC0xJTJDMiUyMCUyQjElMkMyJTIwJTQwJTQwJTIyJTJDJTIyY2hhbmdlcyUyMiUzQSU1QiU3QiUyMnR5cGUlMjIlM0ElMjJkZWwlMjIlMkMlMjJtYXJrJTIyJTNBJTIyLSUyMiUyQyUyMmRhdGElMjIlM0ElMjJkZWYlMjByZXRfbm90aGluZygpJTIwLSUzRSUyME5vbmUlM0ElMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0ExJTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmFkZCUyMiUyQyUyMm1hcmslMjIlM0ElMjIlMkIlMjIlMkMlMjJkYXRhJTIyJTNBJTIyZGVmJTIwcmV0X25vdGhpbmcoKSUzQSUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYiUyMiUzQTElN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjAlMjBwYXNzJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBMiUyQyUyMmIlMjIlM0EyJTdEJTdEJTVEJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBJTdCJTIyc3RhcnRMaW5lJTIyJTNBMSUyQyUyMmxpbmVzQ291bnQlMjIlM0EyJTdEJTJDJTIyYiUyMiUzQSU3QiUyMnN0YXJ0TGluZSUyMiUzQTElMkMlMjJsaW5lc0NvdW50JTIyJTNBMiU3RCU3RCU3RCU3RA=="
-            ]
+    "file_version": "2.0.1",
+    "meta": {
+        "app_version": "0.4.1-0",
+        "file_blobs": {
+            "ret_nothing.py": "9fa51b52a75aa5e73462ae5a25e497f178db1597"
         }
     },
-    "diff": "ZGlmZiUyMC0tZ2l0JTIwYSUyRnJldF9ub3RoaW5nLnB5JTIwYiUyRnJldF9ub3RoaW5nLnB5JTBBaW5kZXglMjA5ZmE1MWI1Li40Zjg0NDcyJTIwMTAwNjQ0JTBBLS0tJTIwYSUyRnJldF9ub3RoaW5nLnB5JTBBJTJCJTJCJTJCJTIwYiUyRnJldF9ub3RoaW5nLnB5JTBBJTQwJTQwJTIwLTElMkMyJTIwJTJCMSUyQzIlMjAlNDAlNDAlMEEtZGVmJTIwcmV0X25vdGhpbmcoKSUyMC0lM0UlMjBOb25lJTNBJTBBJTJCZGVmJTIwcmV0X25vdGhpbmcoKSUzQSUwQSUyMCUyMCUyMCUyMCUyMHBhc3MlMEE=",
-    "solution_files": [
-        "ret_nothing.py"
+    "content": [
+        {
+            "type": "text",
+            "text": "`ret_nothing` is missing type annotation - so [mypy](https://mypy.readthedocs.io/en/stable/introduction.html) is not happy.\n\nAdd the right annotation.\n\n# References\n* https://mypy.readthedocs.io/en/stable/builtin_types.html"
+        },
+        {
+            "firstLineNumber": 1,
+            "path": "ret_nothing.py",
+            "type": "snippet",
+            "lines": [
+                "*def ret_nothing() -> None:",
+                "+def ret_nothing():",
+                "     pass"
+            ],
+            "comments": []
+        },
+        {
+            "type": "text",
+            "text": ""
+        }
     ],
-    "description": "JTYwcmV0X25vdGhpbmclNjAlMjBpcyUyMG1pc3NpbmclMjB0eXBlJTIwYW5ub3RhdGlvbiUyMC0lMjBzbyUyMCU1Qm15cHklNUQoaHR0cHMlM0ElMkYlMkZteXB5LnJlYWR0aGVkb2NzLmlvJTJGZW4lMkZzdGFibGUlMkZpbnRyb2R1Y3Rpb24uaHRtbCklMjBpcyUyMG5vdCUyMGhhcHB5LiUwQSUwQUFkZCUyMHRoZSUyMHJpZ2h0JTIwYW5ub3RhdGlvbi4lMEElMEElMjMlMjBSZWZlcmVuY2VzJTBBKiUyMGh0dHBzJTNBJTJGJTJGbXlweS5yZWFkdGhlZG9jcy5pbyUyRmVuJTJGc3RhYmxlJTJGYnVpbHRpbl90eXBlcy5odG1s",
-    "app_version": "0.1.2",
-    "file_version": "1.0.1"
+    "task": {
+        "dod": "Make the test pass",
+        "hints": [],
+        "tests": [
+            " mypy --strict ret_nothing.py"
+        ]
+    }
 }

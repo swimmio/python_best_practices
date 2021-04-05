@@ -1,33 +1,44 @@
 {
     "id": "zi0tsIDk3RL1cLLzAIz5",
     "name": "Printing with Indexes",
-    "dod": "SW1wbGVtZW50JTIwdGhlJTIwZnVuY3Rpb24lMjAlNjBwcmludF93aXRoX2luZGV4ZXMlNjAlMjBhY2NvcmRpbmclMjB0byUyMGl0cyUyMGRvY3VtZW50YXRpb24u",
-    "description": "",
-    "summary": "VXNpbmclMjAlNjBlbnVtZXJhdGUlNjAlMjBpcyUyMHZlcnklMjBlbGVnYW50JTIwaW4lMjB0aGlzJTIwY2FzZSE=",
-    "diff": "ZGlmZiUyMC0tZ2l0JTIwYSUyRnByaW50X3dpdGhfaW5kZXhlcy5weSUyMGIlMkZwcmludF93aXRoX2luZGV4ZXMucHklMEFpbmRleCUyMGMyNTJhM2EuLjA3NGU0ZmIlMjAxMDA2NDQlMEEtLS0lMjBhJTJGcHJpbnRfd2l0aF9pbmRleGVzLnB5JTBBJTJCJTJCJTJCJTIwYiUyRnByaW50X3dpdGhfaW5kZXhlcy5weSUwQSU0MCU0MCUyMC03JTJDNSUyMCUyQjclMkM0JTIwJTQwJTQwJTIwZGVmJTIwcHJpbnRfd2l0aF9pbmRleGVzKG15X2xpc3QpJTNBJTBBJTIwJTIwJTIwJTIwJTIwMSUzQSUyMGIlMEElMjAlMjAlMjAlMjAlMjAyJTNBJTIwYyUwQSUyMCUyMCUyMCUyMCUyMCUyMiUyMiUyMiUwQS0lMjAlMjAlMjAlMjBmb3IlMjAoaSUyQyUyMHZhbHVlKSUyMGluJTIwZW51bWVyYXRlKG15X2xpc3QpJTNBJTBBLSUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMHByaW50KGYnJTdCaSU3RCUzQSUyMCU3QnZhbHVlJTdEJyklMEElMkIlMjAlMjAlMjAlMjBwYXNzJTBB",
-    "tests": [
-        "python3 -m doctest print_with_indexes.py"
-    ],
-    "hints": [
-        "Search for `enumerate`"
-    ],
-    "play_mode": "handson",
-    "files": {
-        "print_with_indexes.py": {
-            "index": [
-                "c252a3a..074e4fb",
-                "100644"
-            ],
-            "fileA": "print_with_indexes.py",
-            "fileB": "print_with_indexes.py",
-            "status": "MODIFIED",
-            "numLineDeletions": 2,
-            "numLineAdditions": 1,
-            "hunkContainers": [
-                "JTdCJTIyaHVuayUyMiUzQSU3QiUyMmhlYWRlciUyMiUzQSUyMiU0MCU0MCUyMC03JTJDNSUyMCUyQjclMkM0JTIwJTQwJTQwJTIwZGVmJTIwcHJpbnRfd2l0aF9pbmRleGVzKG15X2xpc3QpJTNBJTIyJTJDJTIyY2hhbmdlcyUyMiUzQSU1QiU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMCUyMDElM0ElMjBiJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBNyUyQyUyMmIlMjIlM0E3JTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwJTIwMiUzQSUyMGMlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0E4JTJDJTIyYiUyMiUzQTglN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjAlMjAlNUMlMjIlNUMlMjIlNUMlMjIlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0E5JTJDJTIyYiUyMiUzQTklN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyZGVsJTIyJTJDJTIybWFyayUyMiUzQSUyMi0lMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwZm9yJTIwKGklMkMlMjB2YWx1ZSklMjBpbiUyMGVudW1lcmF0ZShteV9saXN0KSUzQSUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTEwJTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmRlbCUyMiUyQyUyMm1hcmslMjIlM0ElMjItJTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMHByaW50KGYnJTdCaSU3RCUzQSUyMCU3QnZhbHVlJTdEJyklMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0ExMSU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJhZGQlMjIlMkMlMjJtYXJrJTIyJTNBJTIyJTJCJTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMHBhc3MlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmIlMjIlM0ExMCU3RCU3RCU1RCUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQSU3QiUyMnN0YXJ0TGluZSUyMiUzQTclMkMlMjJsaW5lc0NvdW50JTIyJTNBNSU3RCUyQyUyMmIlMjIlM0ElN0IlMjJzdGFydExpbmUlMjIlM0E3JTJDJTIybGluZXNDb3VudCUyMiUzQTQlN0QlN0QlN0QlN0Q="
-            ]
+    "file_version": "2.0.1",
+    "meta": {
+        "app_version": "0.4.1-0",
+        "file_blobs": {
+            "print_with_indexes.py": "c252a3a62dea4148ed3267d2b3d7b9900dd2b462"
         }
     },
-    "app_version": "0.1.80",
-    "file_version": "1.0.2"
+    "content": [
+        {
+            "type": "text",
+            "text": ""
+        },
+        {
+            "firstLineNumber": 7,
+            "path": "print_with_indexes.py",
+            "type": "snippet",
+            "lines": [
+                "     1: b",
+                "     2: c",
+                "     \"\"\"",
+                "*    for (i, value) in enumerate(my_list):",
+                "+    pass",
+                "*        print(f'{i}: {value}')"
+            ],
+            "comments": []
+        },
+        {
+            "type": "text",
+            "text": "Using `enumerate` is very elegant in this case!"
+        }
+    ],
+    "task": {
+        "dod": "Implement the function `print_with_indexes` according to its documentation.",
+        "hints": [
+            "Search for `enumerate`"
+        ],
+        "tests": [
+            "python3 -m doctest print_with_indexes.py"
+        ]
+    }
 }

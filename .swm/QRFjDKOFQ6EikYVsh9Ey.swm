@@ -1,32 +1,45 @@
 {
     "id": "QRFjDKOFQ6EikYVsh9Ey",
     "name": "Return either String or Int",
-    "tests": [
-        "mypy --strict ret_either_str_int.py"
-    ],
-    "hints": [],
-    "play_mode": "handson",
-    "files": {
-        "ret_either_str_int.py": {
-            "index": [
-                "ddbfa40..5b76ec0",
-                "100644"
-            ],
-            "fileA": "ret_either_str_int.py",
-            "fileB": "ret_either_str_int.py",
-            "status": "MODIFIED",
-            "numLineDeletions": 2,
-            "numLineAdditions": 1,
-            "hunkContainers": [
-                "JTdCJTIyaHVuayUyMiUzQSU3QiUyMmhlYWRlciUyMiUzQSUyMiU0MCU0MCUyMC0xJTJDOCUyMCUyQjElMkM3JTIwJTQwJTQwJTIyJTJDJTIyY2hhbmdlcyUyMiUzQSU1QiU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMGltcG9ydCUyMHJhbmRvbSUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTElMkMlMjJiJTIyJTNBMSU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJkZWwlMjIlMkMlMjJtYXJrJTIyJTNBJTIyLSUyMiUyQyUyMmRhdGElMjIlM0ElMjJmcm9tJTIwdHlwaW5nJTIwaW1wb3J0JTIwVW5pb24lMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0EyJTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBMyUyQyUyMmIlMjIlM0EyJTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBNCUyQyUyMmIlMjIlM0EzJTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmRlbCUyMiUyQyUyMm1hcmslMjIlM0ElMjItJTIyJTJDJTIyZGF0YSUyMiUzQSUyMmRlZiUyMHJldF9laXRoZXJfc3RyX2ludCgpJTIwLSUzRSUyMFVuaW9uJTVCc3RyJTJDJTIwaW50JTVEJTNBJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBNSU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJhZGQlMjIlMkMlMjJtYXJrJTIyJTNBJTIyJTJCJTIyJTJDJTIyZGF0YSUyMiUzQSUyMmRlZiUyMHJldF9laXRoZXJfc3RyX2ludCgpJTIwLSUzRSUyMHN0ciUzQSUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYiUyMiUzQTQlN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjAlMjBpZiUyMHJhbmRvbS5yYW5kb20oKSUyMCUzRSUyMDAuNSUzQSUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTYlMkMlMjJiJTIyJTNBNSU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMHJldHVybiUyMCU1QyUyMlN3aW1tJTVDJTIyJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBNyUyQyUyMmIlMjIlM0E2JTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwJTIwcmV0dXJuJTIwNDIlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0E4JTJDJTIyYiUyMiUzQTclN0QlN0QlNUQlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0ElN0IlMjJzdGFydExpbmUlMjIlM0ExJTJDJTIybGluZXNDb3VudCUyMiUzQTglN0QlMkMlMjJiJTIyJTNBJTdCJTIyc3RhcnRMaW5lJTIyJTNBMSUyQyUyMmxpbmVzQ291bnQlMjIlM0E3JTdEJTdEJTdEJTdE"
-            ]
+    "file_version": "2.0.1",
+    "meta": {
+        "app_version": "0.4.1-0",
+        "file_blobs": {
+            "ret_either_str_int.py": "ddbfa401fb32e08757383b7d582c5b7944d7ebe7"
         }
     },
-    "diff": "ZGlmZiUyMC0tZ2l0JTIwYSUyRnJldF9laXRoZXJfc3RyX2ludC5weSUyMGIlMkZyZXRfZWl0aGVyX3N0cl9pbnQucHklMEFpbmRleCUyMGRkYmZhNDAuLjViNzZlYzAlMjAxMDA2NDQlMEEtLS0lMjBhJTJGcmV0X2VpdGhlcl9zdHJfaW50LnB5JTBBJTJCJTJCJTJCJTIwYiUyRnJldF9laXRoZXJfc3RyX2ludC5weSUwQSU0MCU0MCUyMC0xJTJDOCUyMCUyQjElMkM3JTIwJTQwJTQwJTBBJTIwaW1wb3J0JTIwcmFuZG9tJTBBLWZyb20lMjB0eXBpbmclMjBpbXBvcnQlMjBVbmlvbiUwQSUyMCUwQSUyMCUwQS1kZWYlMjByZXRfZWl0aGVyX3N0cl9pbnQoKSUyMC0lM0UlMjBVbmlvbiU1QnN0ciUyQyUyMGludCU1RCUzQSUwQSUyQmRlZiUyMHJldF9laXRoZXJfc3RyX2ludCgpJTIwLSUzRSUyMHN0ciUzQSUwQSUyMCUyMCUyMCUyMCUyMGlmJTIwcmFuZG9tLnJhbmRvbSgpJTIwJTNFJTIwMC41JTNBJTBBJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwcmV0dXJuJTIwJTIyU3dpbW0lMjIlMEElMjAlMjAlMjAlMjAlMjByZXR1cm4lMjA0MiUwQQ==",
-    "solution_files": [
-        "ret_either_str_int.py"
+    "content": [
+        {
+            "type": "text",
+            "text": "`ret_either_str_int` seems to have a wrong type annotation - so [mypy](https://mypy.readthedocs.io/en/stable/introduction.html) is not happy.\n\nFix the annotation.\n\nIt would be useful to understand [type inference and annotations](https://mypy.readthedocs.io/en/stable/type_inference_and_annotations.html) for that.\n\n# References\n* https://mypy.readthedocs.io/en/stable/builtin_types.html\n* https://mypy.readthedocs.io/en/stable/type_inference_and_annotations.html"
+        },
+        {
+            "firstLineNumber": 1,
+            "path": "ret_either_str_int.py",
+            "type": "snippet",
+            "lines": [
+                " import random",
+                "*from typing import Union",
+                " ",
+                " ",
+                "*def ret_either_str_int() -> Union[str, int]:",
+                "+def ret_either_str_int() -> str:",
+                "     if random.random() > 0.5:",
+                "         return \"Swimm\"",
+                "     return 42"
+            ],
+            "comments": []
+        },
+        {
+            "type": "text",
+            "text": ""
+        }
     ],
-    "description": "JTYwcmV0X2VpdGhlcl9zdHJfaW50JTYwJTIwc2VlbXMlMjB0byUyMGhhdmUlMjBhJTIwd3JvbmclMjB0eXBlJTIwYW5ub3RhdGlvbiUyMC0lMjBzbyUyMCU1Qm15cHklNUQoaHR0cHMlM0ElMkYlMkZteXB5LnJlYWR0aGVkb2NzLmlvJTJGZW4lMkZzdGFibGUlMkZpbnRyb2R1Y3Rpb24uaHRtbCklMjBpcyUyMG5vdCUyMGhhcHB5LiUwQSUwQUZpeCUyMHRoZSUyMGFubm90YXRpb24uJTBBJTBBSXQlMjB3b3VsZCUyMGJlJTIwdXNlZnVsJTIwdG8lMjB1bmRlcnN0YW5kJTIwJTVCdHlwZSUyMGluZmVyZW5jZSUyMGFuZCUyMGFubm90YXRpb25zJTVEKGh0dHBzJTNBJTJGJTJGbXlweS5yZWFkdGhlZG9jcy5pbyUyRmVuJTJGc3RhYmxlJTJGdHlwZV9pbmZlcmVuY2VfYW5kX2Fubm90YXRpb25zLmh0bWwpJTIwZm9yJTIwdGhhdC4lMEElMEElMjMlMjBSZWZlcmVuY2VzJTBBKiUyMGh0dHBzJTNBJTJGJTJGbXlweS5yZWFkdGhlZG9jcy5pbyUyRmVuJTJGc3RhYmxlJTJGYnVpbHRpbl90eXBlcy5odG1sJTBBKiUyMGh0dHBzJTNBJTJGJTJGbXlweS5yZWFkdGhlZG9jcy5pbyUyRmVuJTJGc3RhYmxlJTJGdHlwZV9pbmZlcmVuY2VfYW5kX2Fubm90YXRpb25zLmh0bWw=",
-    "app_version": "0.1.2",
-    "file_version": "1.0.1"
+    "task": {
+        "dod": "Make the test pass",
+        "hints": [],
+        "tests": [
+            "mypy --strict ret_either_str_int.py"
+        ]
+    }
 }

@@ -1,36 +1,45 @@
 {
     "id": "1FHTREAM9Gp9yUDC53Bh",
     "name": "Filter strings starting with `a`",
-    "tests": [
-        "python3 -m doctest filter_strings_starting_with_a.py"
-    ],
-    "hints": [
-        "`startswith`"
-    ],
-    "play_mode": "handson",
-    "files": {
-        "filter_strings_starting_with_a.py": {
-            "index": [
-                "a5ba3db..a7e8523",
-                "100644"
-            ],
-            "fileA": "filter_strings_starting_with_a.py",
-            "fileB": "filter_strings_starting_with_a.py",
-            "status": "MODIFIED",
-            "numLineDeletions": 3,
-            "numLineAdditions": 1,
-            "hunkContainers": [
-                "JTdCJTIyaHVuayUyMiUzQSU3QiUyMmhlYWRlciUyMiUzQSUyMiU0MCU0MCUyMC00JTJDNiUyMCUyQjQlMkM0JTIwJTQwJTQwJTIwZGVmJTIwZmlsdGVyX3N0cmluZ19zdGFydGluZ193aXRoX2EobGlzdF9vZl9zdHJpbmdzKSUzQSUyMiUyQyUyMmNoYW5nZXMlMjIlM0ElNUIlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjAlMjAlM0UlM0UlM0UlMjBmaWx0ZXJfc3RyaW5nX3N0YXJ0aW5nX3dpdGhfYSglNUIlNUMlMjJoZWxsbyU1QyUyMiUyQyUyMCU1QyUyMmFiYyU1QyUyMiUyQyUyMCU1QyUyMkFicmFoYW0lNUMlMjIlMkMlMjAlNUMlMjJhbGwlMjBteSUyMGxvdmluZyU1QyUyMiU1RCklMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0E0JTJDJTIyYiUyMiUzQTQlN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjAlMjAlNUInYWJjJyUyQyUyMCdhbGwlMjBteSUyMGxvdmluZyclNUQlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0E1JTJDJTIyYiUyMiUzQTUlN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjAlMjAlNUMlMjIlNUMlMjIlNUMlMjIlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0E2JTJDJTIyYiUyMiUzQTYlN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyZGVsJTIyJTJDJTIybWFyayUyMiUzQSUyMi0lMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwcmV0dXJuJTIwbGlzdChmaWx0ZXIobGFtYmRhJTIweCUzQSUyMHguc3RhcnRzd2l0aCgnYScpJTJDJTIwbGlzdF9vZl9zdHJpbmdzKSklMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0E3JTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmRlbCUyMiUyQyUyMm1hcmslMjIlM0ElMjItJTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMCUyMyUyMEFsdGVybmF0aXZlbHklM0ElMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0E4JTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmRlbCUyMiUyQyUyMm1hcmslMjIlM0ElMjItJTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMCUyMyUyMHJldHVybiUyMCU1QnMlMjBmb3IlMjBzJTIwaW4lMjBsaXN0X29mX3N0cmluZ3MlMjBpZiUyMHMuc3RhcnRzd2l0aCgnYScpJTVEJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBOSU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJhZGQlMjIlMkMlMjJtYXJrJTIyJTNBJTIyJTJCJTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMHBhc3MlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmIlMjIlM0E3JTdEJTdEJTVEJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBJTdCJTIyc3RhcnRMaW5lJTIyJTNBNCUyQyUyMmxpbmVzQ291bnQlMjIlM0E2JTdEJTJDJTIyYiUyMiUzQSU3QiUyMnN0YXJ0TGluZSUyMiUzQTQlMkMlMjJsaW5lc0NvdW50JTIyJTNBNCU3RCU3RCU3RCU3RA=="
-            ]
+    "file_version": "2.0.1",
+    "meta": {
+        "app_version": "0.4.1-0",
+        "file_blobs": {
+            "filter_strings_starting_with_a.py": "a5ba3db1428567b46e05df70672002f233497b10"
         }
     },
-    "diff": "ZGlmZiUyMC0tZ2l0JTIwYSUyRmZpbHRlcl9zdHJpbmdzX3N0YXJ0aW5nX3dpdGhfYS5weSUyMGIlMkZmaWx0ZXJfc3RyaW5nc19zdGFydGluZ193aXRoX2EucHklMEFpbmRleCUyMGE1YmEzZGIuLmE3ZTg1MjMlMjAxMDA2NDQlMEEtLS0lMjBhJTJGZmlsdGVyX3N0cmluZ3Nfc3RhcnRpbmdfd2l0aF9hLnB5JTBBJTJCJTJCJTJCJTIwYiUyRmZpbHRlcl9zdHJpbmdzX3N0YXJ0aW5nX3dpdGhfYS5weSUwQSU0MCU0MCUyMC00JTJDNiUyMCUyQjQlMkM0JTIwJTQwJTQwJTIwZGVmJTIwZmlsdGVyX3N0cmluZ19zdGFydGluZ193aXRoX2EobGlzdF9vZl9zdHJpbmdzKSUzQSUwQSUyMCUyMCUyMCUyMCUyMCUzRSUzRSUzRSUyMGZpbHRlcl9zdHJpbmdfc3RhcnRpbmdfd2l0aF9hKCU1QiUyMmhlbGxvJTIyJTJDJTIwJTIyYWJjJTIyJTJDJTIwJTIyQWJyYWhhbSUyMiUyQyUyMCUyMmFsbCUyMG15JTIwbG92aW5nJTIyJTVEKSUwQSUyMCUyMCUyMCUyMCUyMCU1QidhYmMnJTJDJTIwJ2FsbCUyMG15JTIwbG92aW5nJyU1RCUwQSUyMCUyMCUyMCUyMCUyMCUyMiUyMiUyMiUwQS0lMjAlMjAlMjAlMjByZXR1cm4lMjBsaXN0KGZpbHRlcihsYW1iZGElMjB4JTNBJTIweC5zdGFydHN3aXRoKCdhJyklMkMlMjBsaXN0X29mX3N0cmluZ3MpKSUwQS0lMjAlMjAlMjAlMjAlMjMlMjBBbHRlcm5hdGl2ZWx5JTNBJTBBLSUyMCUyMCUyMCUyMCUyMyUyMHJldHVybiUyMCU1QnMlMjBmb3IlMjBzJTIwaW4lMjBsaXN0X29mX3N0cmluZ3MlMjBpZiUyMHMuc3RhcnRzd2l0aCgnYScpJTVEJTBBJTJCJTIwJTIwJTIwJTIwcGFzcyUwQQ==",
-    "solution_files": [
-        "filter_strings_starting_with_a.py"
+    "content": [
+        {
+            "type": "text",
+            "text": ""
+        },
+        {
+            "firstLineNumber": 4,
+            "path": "filter_strings_starting_with_a.py",
+            "type": "snippet",
+            "lines": [
+                "     >>> filter_string_starting_with_a([\"hello\", \"abc\", \"Abraham\", \"all my loving\"])",
+                "     ['abc', 'all my loving']",
+                "     \"\"\"",
+                "*    return list(filter(lambda x: x.startswith('a'), list_of_strings))",
+                "+    pass",
+                "*    # Alternatively:",
+                "*    # return [s for s in list_of_strings if s.startswith('a')]"
+            ],
+            "comments": []
+        },
+        {
+            "type": "text",
+            "text": ""
+        }
     ],
-    "description": "",
-    "app_version": "0.1.50",
-    "file_version": "1.0.2",
-    "dod": "SW1wbGVtZW50JTIwJTYwZmlsdGVyX3N0cmluZ19zdGFydGluZ193aXRoX2ElNjAlMjBhY2NvcmRpbmclMjB0byUyMGl0cyUyMGRvY3VtZW50YXRpb24=",
-    "summary": ""
+    "task": {
+        "dod": "Implement `filter_string_starting_with_a` according to its documentation",
+        "hints": [
+            "`startswith`"
+        ],
+        "tests": [
+            "python3 -m doctest filter_strings_starting_with_a.py"
+        ]
+    }
 }

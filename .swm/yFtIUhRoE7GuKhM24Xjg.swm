@@ -1,36 +1,42 @@
 {
     "id": "yFtIUhRoE7GuKhM24Xjg",
     "name": "Swap Variables",
-    "dod": "Implement `swap_variables` according to its documentation.",
-    "description": "Note - don't remove or change the given code line - just add another line.",
-    "summary": "",
-    "tests": [
-        "python3 -m doctest swap_variables.py"
-    ],
-    "hints": [],
-    "play_mode": "handson",
-    "swimmPatch": {
-        "swap_variables.py": {
-            "diffType": "MODIFIED",
-            "fileDiffHeader": "diff --git a/swap_variables.py b/swap_variables.py\nindex 4ac39a3..ec6cc46 100644\n--- a/swap_variables.py\n+++ b/swap_variables.py",
-            "hunks": [
-                {
-                    "swimmHunkMetadata": {
-                        "hunkComments": []
-                    },
-                    "hunkDiffLines": [
-                        "@@ -6,6 +6,5 @@",
-                        "     >>> swap_variables('hello', 'world')",
-                        "     world: hello",
-                        "     \"\"\"",
-                        "-    y, x = x, y",
-                        "     # Don't change the line below - just add one line of code",
-                        "     print(f'{x}: {y}')"
-                    ]
-                }
-            ]
+    "file_version": "2.0.1",
+    "meta": {
+        "app_version": "0.4.1-0",
+        "file_blobs": {
+            "swap_variables.py": "4ac39a3d37e7774adc76d68bdcc956ac76e464bf"
         }
     },
-    "app_version": "0.2.2",
-    "file_version": "1.0.3"
+    "content": [
+        {
+            "type": "text",
+            "text": "Note - don't remove or change the given code line - just add another line."
+        },
+        {
+            "type": "snippet",
+            "path": "swap_variables.py",
+            "comments": [],
+            "firstLineNumber": 6,
+            "lines": [
+                "     >>> swap_variables('hello', 'world')",
+                "     world: hello",
+                "     \"\"\"",
+                "*    y, x = x, y",
+                "     # Don't change the line below - just add one line of code",
+                "     print(f'{x}: {y}')"
+            ]
+        },
+        {
+            "type": "text",
+            "text": ""
+        }
+    ],
+    "task": {
+        "dod": "Implement `swap_variables` according to its documentation.",
+        "hints": [],
+        "tests": [
+            "python3 -m doctest swap_variables.py"
+        ]
+    }
 }

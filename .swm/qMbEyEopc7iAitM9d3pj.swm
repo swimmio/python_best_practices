@@ -1,32 +1,39 @@
 {
     "id": "qMbEyEopc7iAitM9d3pj",
     "name": "Return str",
-    "tests": [
-        "mypy --strict ret_str.py"
-    ],
-    "hints": [],
-    "play_mode": "handson",
-    "files": {
-        "ret_str.py": {
-            "index": [
-                "0c4724b..8998985",
-                "100644"
-            ],
-            "fileA": "ret_str.py",
-            "fileB": "ret_str.py",
-            "status": "MODIFIED",
-            "numLineDeletions": 1,
-            "numLineAdditions": 1,
-            "hunkContainers": [
-                "JTdCJTIyaHVuayUyMiUzQSU3QiUyMmhlYWRlciUyMiUzQSUyMiU0MCU0MCUyMC0xJTJDMiUyMCUyQjElMkMyJTIwJTQwJTQwJTIyJTJDJTIyY2hhbmdlcyUyMiUzQSU1QiU3QiUyMnR5cGUlMjIlM0ElMjJkZWwlMjIlMkMlMjJtYXJrJTIyJTNBJTIyLSUyMiUyQyUyMmRhdGElMjIlM0ElMjJkZWYlMjByZXRfc3RyKCklMjAtJTNFJTIwc3RyJTNBJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBMSU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJhZGQlMjIlMkMlMjJtYXJrJTIyJTNBJTIyJTJCJTIyJTJDJTIyZGF0YSUyMiUzQSUyMmRlZiUyMHJldF9zdHIoKSUzQSUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYiUyMiUzQTElN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjAlMjByZXR1cm4lMjAlNUMlMjJTd2ltbSU1QyUyMiUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTIlMkMlMjJiJTIyJTNBMiU3RCU3RCU1RCUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQSU3QiUyMnN0YXJ0TGluZSUyMiUzQTElMkMlMjJsaW5lc0NvdW50JTIyJTNBMiU3RCUyQyUyMmIlMjIlM0ElN0IlMjJzdGFydExpbmUlMjIlM0ExJTJDJTIybGluZXNDb3VudCUyMiUzQTIlN0QlN0QlN0QlN0Q="
-            ]
+    "file_version": "2.0.1",
+    "meta": {
+        "app_version": "0.4.1-0",
+        "file_blobs": {
+            "ret_str.py": "0c4724be6448146388e3e3fda4ec4e7ce2cf62bc"
         }
     },
-    "diff": "ZGlmZiUyMC0tZ2l0JTIwYSUyRnJldF9zdHIucHklMjBiJTJGcmV0X3N0ci5weSUwQWluZGV4JTIwMGM0NzI0Yi4uODk5ODk4NSUyMDEwMDY0NCUwQS0tLSUyMGElMkZyZXRfc3RyLnB5JTBBJTJCJTJCJTJCJTIwYiUyRnJldF9zdHIucHklMEElNDAlNDAlMjAtMSUyQzIlMjAlMkIxJTJDMiUyMCU0MCU0MCUwQS1kZWYlMjByZXRfc3RyKCklMjAtJTNFJTIwc3RyJTNBJTBBJTJCZGVmJTIwcmV0X3N0cigpJTNBJTBBJTIwJTIwJTIwJTIwJTIwcmV0dXJuJTIwJTIyU3dpbW0lMjIlMEE=",
-    "solution_files": [
-        "ret_str.py"
+    "content": [
+        {
+            "type": "text",
+            "text": "`ret_str` is missing type annotation - so [mypy](https://mypy.readthedocs.io/en/stable/introduction.html) is not happy.\n\nAdd the right annotation.\n\n# References\n* https://mypy.readthedocs.io/en/stable/builtin_types.html"
+        },
+        {
+            "firstLineNumber": 1,
+            "path": "ret_str.py",
+            "type": "snippet",
+            "lines": [
+                "*def ret_str() -> str:",
+                "+def ret_str():",
+                "     return \"Swimm\""
+            ],
+            "comments": []
+        },
+        {
+            "type": "text",
+            "text": ""
+        }
     ],
-    "description": "JTYwcmV0X3N0ciU2MCUyMGlzJTIwbWlzc2luZyUyMHR5cGUlMjBhbm5vdGF0aW9uJTIwLSUyMHNvJTIwJTVCbXlweSU1RChodHRwcyUzQSUyRiUyRm15cHkucmVhZHRoZWRvY3MuaW8lMkZlbiUyRnN0YWJsZSUyRmludHJvZHVjdGlvbi5odG1sKSUyMGlzJTIwbm90JTIwaGFwcHkuJTBBJTBBQWRkJTIwdGhlJTIwcmlnaHQlMjBhbm5vdGF0aW9uLiUwQSUwQSUyMyUyMFJlZmVyZW5jZXMlMEEqJTIwaHR0cHMlM0ElMkYlMkZteXB5LnJlYWR0aGVkb2NzLmlvJTJGZW4lMkZzdGFibGUlMkZidWlsdGluX3R5cGVzLmh0bWw=",
-    "app_version": "0.1.2",
-    "file_version": "1.0.1"
+    "task": {
+        "dod": "Make the test pass",
+        "hints": [],
+        "tests": [
+            "mypy --strict ret_str.py"
+        ]
+    }
 }

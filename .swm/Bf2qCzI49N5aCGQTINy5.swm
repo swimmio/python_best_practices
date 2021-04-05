@@ -1,36 +1,43 @@
 {
     "id": "Bf2qCzI49N5aCGQTINy5",
     "name": "Print with underscores",
-    "tests": [
-        "python3 -m doctest print_with_underscores.py"
-    ],
-    "hints": [
-        "`help(print)`"
-    ],
-    "play_mode": "handson",
-    "files": {
-        "print_with_underscores.py": {
-            "index": [
-                "0e6d3b4..551fe56",
-                "100644"
-            ],
-            "fileA": "print_with_underscores.py",
-            "fileB": "print_with_underscores.py",
-            "status": "MODIFIED",
-            "numLineDeletions": 1,
-            "numLineAdditions": 1,
-            "hunkContainers": [
-                "JTdCJTIyaHVuayUyMiUzQSU3QiUyMmhlYWRlciUyMiUzQSUyMiU0MCU0MCUyMC00JTJDNCUyMCUyQjQlMkM0JTIwJTQwJTQwJTIwZGVmJTIwcHJpbnRfd2l0aF91bmRlcnNjb3JlcyhteV9saXN0KSUzQSUyMiUyQyUyMmNoYW5nZXMlMjIlM0ElNUIlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjAlMjAlM0UlM0UlM0UlMjBwcmludF93aXRoX3VuZGVyc2NvcmVzKCU1QiU1QyUyMmhlbGxvJTVDJTIyJTJDJTIwJTVDJTIyd29ybGQlNUMlMjIlMkMlMjAlNUMlMjJmcm9tJTVDJTIyJTJDJTIwJTVDJTIyc3dpbW0lNUMlMjIlNUQpJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBNCUyQyUyMmIlMjIlM0E0JTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwJTIwaGVsbG9fX3dvcmxkX19mcm9tX19zd2ltbSUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTUlMkMlMjJiJTIyJTNBNSU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMCUyMCU1QyUyMiU1QyUyMiU1QyUyMiUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTYlMkMlMjJiJTIyJTNBNiU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJkZWwlMjIlMkMlMjJtYXJrJTIyJTNBJTIyLSUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjBwcmludCgqbXlfbGlzdCUyQyUyMHNlcCUzRCdfXycpJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBNyU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJhZGQlMjIlMkMlMjJtYXJrJTIyJTNBJTIyJTJCJTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMHBhc3MlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmIlMjIlM0E3JTdEJTdEJTVEJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBJTdCJTIyc3RhcnRMaW5lJTIyJTNBNCUyQyUyMmxpbmVzQ291bnQlMjIlM0E0JTdEJTJDJTIyYiUyMiUzQSU3QiUyMnN0YXJ0TGluZSUyMiUzQTQlMkMlMjJsaW5lc0NvdW50JTIyJTNBNCU3RCU3RCU3RCU3RA=="
-            ]
+    "file_version": "2.0.1",
+    "meta": {
+        "app_version": "0.4.1-0",
+        "file_blobs": {
+            "print_with_underscores.py": "0e6d3b47d408c7cbfc3651965ff8d6bb1364cd5c"
         }
     },
-    "diff": "ZGlmZiUyMC0tZ2l0JTIwYSUyRnByaW50X3dpdGhfdW5kZXJzY29yZXMucHklMjBiJTJGcHJpbnRfd2l0aF91bmRlcnNjb3Jlcy5weSUwQWluZGV4JTIwMGU2ZDNiNC4uNTUxZmU1NiUyMDEwMDY0NCUwQS0tLSUyMGElMkZwcmludF93aXRoX3VuZGVyc2NvcmVzLnB5JTBBJTJCJTJCJTJCJTIwYiUyRnByaW50X3dpdGhfdW5kZXJzY29yZXMucHklMEElNDAlNDAlMjAtNCUyQzQlMjAlMkI0JTJDNCUyMCU0MCU0MCUyMGRlZiUyMHByaW50X3dpdGhfdW5kZXJzY29yZXMobXlfbGlzdCklM0ElMEElMjAlMjAlMjAlMjAlMjAlM0UlM0UlM0UlMjBwcmludF93aXRoX3VuZGVyc2NvcmVzKCU1QiUyMmhlbGxvJTIyJTJDJTIwJTIyd29ybGQlMjIlMkMlMjAlMjJmcm9tJTIyJTJDJTIwJTIyc3dpbW0lMjIlNUQpJTBBJTIwJTIwJTIwJTIwJTIwaGVsbG9fX3dvcmxkX19mcm9tX19zd2ltbSUwQSUyMCUyMCUyMCUyMCUyMCUyMiUyMiUyMiUwQS0lMjAlMjAlMjAlMjBwcmludCgqbXlfbGlzdCUyQyUyMHNlcCUzRCdfXycpJTBBJTJCJTIwJTIwJTIwJTIwcGFzcyUwQQ==",
-    "solution_files": [
-        "print_with_underscores.py"
+    "content": [
+        {
+            "type": "text",
+            "text": ""
+        },
+        {
+            "firstLineNumber": 4,
+            "path": "print_with_underscores.py",
+            "type": "snippet",
+            "lines": [
+                "     >>> print_with_underscores([\"hello\", \"world\", \"from\", \"swimm\"])",
+                "     hello__world__from__swimm",
+                "     \"\"\"",
+                "*    print(*my_list, sep='__')",
+                "+    pass"
+            ],
+            "comments": []
+        },
+        {
+            "type": "text",
+            "text": ""
+        }
     ],
-    "description": "",
-    "app_version": "0.1.50",
-    "file_version": "1.0.2",
-    "dod": "SW1wbGVtZW50JTIwJTYwcHJpbnRfd2l0aF91bmRlcnNjb3JlcyU2MCUyMGFjY29yZGluZyUyMHRvJTIwaXRzJTIwZG9jdW1lbnRhdGlvbg==",
-    "summary": ""
+    "task": {
+        "dod": "Implement `print_with_underscores` according to its documentation",
+        "hints": [
+            "`help(print)`"
+        ],
+        "tests": [
+            "python3 -m doctest print_with_underscores.py"
+        ]
+    }
 }

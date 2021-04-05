@@ -1,42 +1,68 @@
 {
     "id": "uTJ9ua5r5FOzpOn4ASvJ",
     "name": "Sum of Keys",
-    "tests": [
-        "python3 -m doctest sum_of_keys.py"
-    ],
-    "hints": [
-        "defaultdict"
-    ],
-    "play_mode": "handson",
-    "cr": [{"action": "includes",
-            "value": "if ",
-            "message": "There is no need for conditions to check if the key exists in the dictionary. Use `defaultdict` instead."
-            }
-            ],
-    "files": {
-        "sum_of_keys.py": {
-            "index": [
-                "22d0da1..8b5e468",
-                "100644"
-            ],
-            "fileA": "sum_of_keys.py",
-            "fileB": "sum_of_keys.py",
-            "status": "MODIFIED",
-            "numLineDeletions": 8,
-            "numLineAdditions": 1,
-            "hunkContainers": [
-                "JTdCJTIyaHVuayUyMiUzQSU3QiUyMmhlYWRlciUyMiUzQSUyMiU0MCU0MCUyMC0xJTJDNiUyMCUyQjElMkMzJTIwJTQwJTQwJTIyJTJDJTIyY2hhbmdlcyUyMiUzQSU1QiU3QiUyMnR5cGUlMjIlM0ElMjJkZWwlMjIlMkMlMjJtYXJrJTIyJTNBJTIyLSUyMiUyQyUyMmRhdGElMjIlM0ElMjJpbXBvcnQlMjBjb2xsZWN0aW9ucyUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTElN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyZGVsJTIyJTJDJTIybWFyayUyMiUzQSUyMi0lMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBMiU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJkZWwlMjIlMkMlMjJtYXJrJTIyJTNBJTIyLSUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0EzJTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwZGVmJTIwc3VtX29mX2tleXMoaW5wdXRfZGljdCklM0ElMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0E0JTJDJTIyYiUyMiUzQTElN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjAlMjAlNUMlMjIlNUMlMjIlNUMlMjIlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0E1JTJDJTIyYiUyMiUzQTIlN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjAlMjBSZWNlaXZlcyUyMCU2MGlucHV0X2RpY3QlNjAlMkMlMjBhbmQlMjByZXR1cm5zJTIwYSUyMGRpY3Rpb25hcnklMjB3aGVyZSUyMGV2ZXJ5JTIwa2V5JTIwaXMlMjB0aGUlMjBhJTIwdmFsdWUlMjBpbiUyMCU2MGlucHV0X2RpY3QlNjAlMkMlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0E2JTJDJTIyYiUyMiUzQTMlN0QlN0QlNUQlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0ElN0IlMjJzdGFydExpbmUlMjIlM0ExJTJDJTIybGluZXNDb3VudCUyMiUzQTYlN0QlMkMlMjJiJTIyJTNBJTdCJTIyc3RhcnRMaW5lJTIyJTNBMSUyQyUyMmxpbmVzQ291bnQlMjIlM0EzJTdEJTdEJTdEJTdE",
-                "JTdCJTIyaHVuayUyMiUzQSU3QiUyMmhlYWRlciUyMiUzQSUyMiU0MCU0MCUyMC0xMyUyQzglMjAlMkIxMCUyQzQlMjAlNDAlNDAlMjBkZWYlMjBzdW1fb2Zfa2V5cyhpbnB1dF9kaWN0KSUzQSUyMiUyQyUyMmNoYW5nZXMlMjIlM0ElNUIlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjAlMjAlM0UlM0UlM0UlMjBvdXRwdXQlNUInaW8nJTVEJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBMTMlMkMlMjJiJTIyJTNBMTAlN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjAlMjA1JTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBMTQlMkMlMjJiJTIyJTNBMTElN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjAlMjAlNUMlMjIlNUMlMjIlNUMlMjIlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0ExNSUyQyUyMmIlMjIlM0ExMiU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJkZWwlMjIlMkMlMjJtYXJrJTIyJTNBJTIyLSUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjByZXR1cm5fZGljdCUyMCUzRCUyMGNvbGxlY3Rpb25zLmRlZmF1bHRkaWN0KGludCklMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0ExNiU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJkZWwlMjIlMkMlMjJtYXJrJTIyJTNBJTIyLSUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjBmb3IlMjBrZXklMkMlMjB2YWx1ZSUyMGluJTIwaW5wdXRfZGljdC5pdGVtcygpJTNBJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBMTclN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyZGVsJTIyJTJDJTIybWFyayUyMiUzQSUyMi0lMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwcmV0dXJuX2RpY3QlNUJ2YWx1ZSU1RCUyMCUyQiUzRCUyMGtleSUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTE4JTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmRlbCUyMiUyQyUyMm1hcmslMjIlM0ElMjItJTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTE5JTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmRlbCUyMiUyQyUyMm1hcmslMjIlM0ElMjItJTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMHJldHVybiUyMHJldHVybl9kaWN0JTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBMjAlN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyYWRkJTIyJTJDJTIybWFyayUyMiUzQSUyMiUyQiUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjBwYXNzJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJiJTIyJTNBMTMlN0QlN0QlNUQlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0ElN0IlMjJzdGFydExpbmUlMjIlM0ExMyUyQyUyMmxpbmVzQ291bnQlMjIlM0E4JTdEJTJDJTIyYiUyMiUzQSU3QiUyMnN0YXJ0TGluZSUyMiUzQTEwJTJDJTIybGluZXNDb3VudCUyMiUzQTQlN0QlN0QlN0QlN0Q="
-            ]
+    "file_version": "2.0.1",
+    "meta": {
+        "app_version": "0.4.1-0",
+        "file_blobs": {
+            "sum_of_keys.py": "22d0da1bd67a507cb45fb07cfcfe13afccd3005d"
         }
     },
-    "diff": "ZGlmZiUyMC0tZ2l0JTIwYSUyRnN1bV9vZl9rZXlzLnB5JTIwYiUyRnN1bV9vZl9rZXlzLnB5JTBBaW5kZXglMjAyMmQwZGExLi44YjVlNDY4JTIwMTAwNjQ0JTBBLS0tJTIwYSUyRnN1bV9vZl9rZXlzLnB5JTBBJTJCJTJCJTJCJTIwYiUyRnN1bV9vZl9rZXlzLnB5JTBBJTQwJTQwJTIwLTElMkM2JTIwJTJCMSUyQzMlMjAlNDAlNDAlMEEtaW1wb3J0JTIwY29sbGVjdGlvbnMlMEEtJTBBLSUwQSUyMGRlZiUyMHN1bV9vZl9rZXlzKGlucHV0X2RpY3QpJTNBJTBBJTIwJTIwJTIwJTIwJTIwJTIyJTIyJTIyJTBBJTIwJTIwJTIwJTIwJTIwUmVjZWl2ZXMlMjAlNjBpbnB1dF9kaWN0JTYwJTJDJTIwYW5kJTIwcmV0dXJucyUyMGElMjBkaWN0aW9uYXJ5JTIwd2hlcmUlMjBldmVyeSUyMGtleSUyMGlzJTIwdGhlJTIwYSUyMHZhbHVlJTIwaW4lMjAlNjBpbnB1dF9kaWN0JTYwJTJDJTBBJTQwJTQwJTIwLTEzJTJDOCUyMCUyQjEwJTJDNCUyMCU0MCU0MCUyMGRlZiUyMHN1bV9vZl9rZXlzKGlucHV0X2RpY3QpJTNBJTBBJTIwJTIwJTIwJTIwJTIwJTNFJTNFJTNFJTIwb3V0cHV0JTVCJ2lvJyU1RCUwQSUyMCUyMCUyMCUyMCUyMDUlMEElMjAlMjAlMjAlMjAlMjAlMjIlMjIlMjIlMEEtJTIwJTIwJTIwJTIwcmV0dXJuX2RpY3QlMjAlM0QlMjBjb2xsZWN0aW9ucy5kZWZhdWx0ZGljdChpbnQpJTBBLSUyMCUyMCUyMCUyMGZvciUyMGtleSUyQyUyMHZhbHVlJTIwaW4lMjBpbnB1dF9kaWN0Lml0ZW1zKCklM0ElMEEtJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwcmV0dXJuX2RpY3QlNUJ2YWx1ZSU1RCUyMCUyQiUzRCUyMGtleSUwQS0lMEEtJTIwJTIwJTIwJTIwcmV0dXJuJTIwcmV0dXJuX2RpY3QlMEElMkIlMjAlMjAlMjAlMjBwYXNzJTBB",
-    "solution_files": [
-        "sum_of_keys.py"
+    "content": [
+        {
+            "type": "text",
+            "text": ""
+        },
+        {
+            "firstLineNumber": 1,
+            "path": "sum_of_keys.py",
+            "type": "snippet",
+            "lines": [
+                "*import collections",
+                "*",
+                "*",
+                " def sum_of_keys(input_dict):",
+                "     \"\"\"",
+                "     Receives `input_dict`, and returns a dictionary where every key is the a value in `input_dict`,"
+            ],
+            "comments": []
+        },
+        {
+            "firstLineNumber": 13,
+            "path": "sum_of_keys.py",
+            "type": "snippet",
+            "lines": [
+                "     >>> output['io']",
+                "     5",
+                "     \"\"\"",
+                "*    return_dict = collections.defaultdict(int)",
+                "+    pass",
+                "*    for key, value in input_dict.items():",
+                "*        return_dict[value] += key",
+                "*",
+                "*    return return_dict"
+            ],
+            "comments": []
+        },
+        {
+            "type": "text",
+            "text": ""
+        }
     ],
-    "description": "",
-    "app_version": "0.1.50",
-    "file_version": "1.0.2",
-    "dod": "SW1wbGVtZW50JTIwJTYwc3VtX29mX2tleXMlNjAlMjBhY2NvcmRpbmclMjB0byUyMGl0cyUyMGRvY3VtZW50YXRpb24=",
-    "summary": ""
+    "task": {
+        "dod": "Implement `sum_of_keys` according to its documentation",
+        "hints": [
+            "defaultdict"
+        ],
+        "tests": [
+            "python3 -m doctest sum_of_keys.py"
+        ],
+        "crActions": [
+            {
+                "action": "includes",
+                "value": "if ",
+                "message": "There is no need for conditions to check if the key exists in the dictionary. Use `defaultdict` instead."
+            }
+        ]
+    }
 }

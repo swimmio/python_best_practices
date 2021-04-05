@@ -1,34 +1,45 @@
 {
     "id": "vaiZRcd60f8TEqrlnXSL",
     "name": "Reverse",
-    "dod": "SW1wbGVtZW50JTIwdGhlJTIwZnVuY3Rpb24lMjAlNjByZXZlcnNlJTYwJTIwYWNjb3JkaW5nJTIwdG8lMjBpdHMlMjBkb2N1bWVudGF0aW9uLg==",
-    "description": "",
-    "summary": "SGVyZSUyMHdlJTIwdXNlJTIwdGhlJTIwc2xpY2luZyUyMG9wZXJhdG9yJTIwbWVhbmluZyUyMHdlJTIwc3RhcnQlMjBmcm9tJTIwaW5kZXglMjAlNjAwJTYwJTJDJTIwYWxsJTIwdGhlJTIwd2F5JTIwdG8lMjB0aGUlMjBlbmQlMkMlMjB3aXRoJTIwYSUyMCU2MHN0ZXAlNjAlMjBvZiUyMCU2MC0xJTYw",
-    "diff": "ZGlmZiUyMC0tZ2l0JTIwYSUyRnJldmVyc2UucHklMjBiJTJGcmV2ZXJzZS5weSUwQWluZGV4JTIwOGI2YTZjNy4uZTc0MzE1NCUyMDEwMDY0NCUwQS0tLSUyMGElMkZyZXZlcnNlLnB5JTBBJTJCJTJCJTJCJTIwYiUyRnJldmVyc2UucHklMEElNDAlNDAlMjAtNiUyQzUlMjAlMkI2JTJDNSUyMCU0MCU0MCUyMGRlZiUyMHJldmVyc2UobXlfbGlzdF9vcl9zdHJpbmcpJTNBJTBBJTIwJTIwJTIwJTIwJTIwJTNFJTNFJTNFJTIwcmV2ZXJzZSglMjJzd2ltbSUyMiklMEElMjAlMjAlMjAlMjAlMjAnbW1pd3MnJTBBJTIwJTIwJTIwJTIwJTIwJTIyJTIyJTIyJTBBLSUyMCUyMCUyMCUyMHJldHVybiUyMG15X2xpc3Rfb3Jfc3RyaW5nJTVCJTNBJTNBLTElNUQlMEElMkIlMjAlMjAlMjAlMjBwYXNzJTBBJTIwJTBB",
-    "tests": [
-        "python3 -m doctest reverse.py"
-    ],
-    "hints": [
-        "Using slicing may be helpful",
-        "https://www.w3schools.com/python/python_howto_reverse_string.asp"
-    ],
-    "play_mode": "handson",
-    "files": {
-        "reverse.py": {
-            "index": [
-                "8b6a6c7..e743154",
-                "100644"
-            ],
-            "fileA": "reverse.py",
-            "fileB": "reverse.py",
-            "status": "MODIFIED",
-            "numLineDeletions": 1,
-            "numLineAdditions": 1,
-            "hunkContainers": [
-                "JTdCJTIyaHVuayUyMiUzQSU3QiUyMmhlYWRlciUyMiUzQSUyMiU0MCU0MCUyMC02JTJDNSUyMCUyQjYlMkM1JTIwJTQwJTQwJTIwZGVmJTIwcmV2ZXJzZShteV9saXN0X29yX3N0cmluZyklM0ElMjIlMkMlMjJjaGFuZ2VzJTIyJTNBJTVCJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwJTIwJTNFJTNFJTNFJTIwcmV2ZXJzZSglNUMlMjJzd2ltbSU1QyUyMiklMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0E2JTJDJTIyYiUyMiUzQTYlN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjAlMjAnbW1pd3MnJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBNyUyQyUyMmIlMjIlM0E3JTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwJTIwJTVDJTIyJTVDJTIyJTVDJTIyJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBOCUyQyUyMmIlMjIlM0E4JTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmRlbCUyMiUyQyUyMm1hcmslMjIlM0ElMjItJTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMHJldHVybiUyMG15X2xpc3Rfb3Jfc3RyaW5nJTVCJTNBJTNBLTElNUQlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0E5JTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmFkZCUyMiUyQyUyMm1hcmslMjIlM0ElMjIlMkIlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwcGFzcyUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYiUyMiUzQTklN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0ExMCUyQyUyMmIlMjIlM0ExMCU3RCU3RCU1RCUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQSU3QiUyMnN0YXJ0TGluZSUyMiUzQTYlMkMlMjJsaW5lc0NvdW50JTIyJTNBNSU3RCUyQyUyMmIlMjIlM0ElN0IlMjJzdGFydExpbmUlMjIlM0E2JTJDJTIybGluZXNDb3VudCUyMiUzQTUlN0QlN0QlN0QlN0Q="
-            ]
+    "file_version": "2.0.1",
+    "meta": {
+        "app_version": "0.4.1-0",
+        "file_blobs": {
+            "reverse.py": "8b6a6c73a46858d473e02157ba09d011b3f84091"
         }
     },
-    "app_version": "0.1.80",
-    "file_version": "1.0.2"
+    "content": [
+        {
+            "type": "text",
+            "text": ""
+        },
+        {
+            "firstLineNumber": 6,
+            "path": "reverse.py",
+            "type": "snippet",
+            "lines": [
+                "     >>> reverse(\"swimm\")",
+                "     'mmiws'",
+                "     \"\"\"",
+                "*    return my_list_or_string[::-1]",
+                "+    pass",
+                " "
+            ],
+            "comments": []
+        },
+        {
+            "type": "text",
+            "text": "Here we use the slicing operator meaning we start from index `0`, all the way to the end, with a `step` of `-1`"
+        }
+    ],
+    "task": {
+        "dod": "Implement the function `reverse` according to its documentation.",
+        "hints": [
+            "Using slicing may be helpful",
+            "https://www.w3schools.com/python/python_howto_reverse_string.asp"
+        ],
+        "tests": [
+            "python3 -m doctest reverse.py"
+        ]
+    }
 }

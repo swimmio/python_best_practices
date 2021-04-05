@@ -1,32 +1,39 @@
 {
     "id": "OzdlQfMy1rDxABAEbv7A",
     "name": "Return Int",
-    "tests": [
-        " mypy --strict ret_int.py"
-    ],
-    "hints": [],
-    "play_mode": "handson",
-    "files": {
-        "ret_int.py": {
-            "index": [
-                "8ad8c69..e62b58b",
-                "100644"
-            ],
-            "fileA": "ret_int.py",
-            "fileB": "ret_int.py",
-            "status": "MODIFIED",
-            "numLineDeletions": 1,
-            "numLineAdditions": 1,
-            "hunkContainers": [
-                "JTdCJTIyaHVuayUyMiUzQSU3QiUyMmhlYWRlciUyMiUzQSUyMiU0MCU0MCUyMC0xJTJDMiUyMCUyQjElMkMyJTIwJTQwJTQwJTIyJTJDJTIyY2hhbmdlcyUyMiUzQSU1QiU3QiUyMnR5cGUlMjIlM0ElMjJkZWwlMjIlMkMlMjJtYXJrJTIyJTNBJTIyLSUyMiUyQyUyMmRhdGElMjIlM0ElMjJkZWYlMjByZXRfaW50KCklMjAtJTNFJTIwaW50JTNBJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBMSU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJhZGQlMjIlMkMlMjJtYXJrJTIyJTNBJTIyJTJCJTIyJTJDJTIyZGF0YSUyMiUzQSUyMmRlZiUyMHJldF9pbnQoKSUyMC0lM0UlMjBzdHIlM0ElMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmIlMjIlM0ExJTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwJTIwcmV0dXJuJTIwNDIlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0EyJTJDJTIyYiUyMiUzQTIlN0QlN0QlNUQlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0ElN0IlMjJzdGFydExpbmUlMjIlM0ExJTJDJTIybGluZXNDb3VudCUyMiUzQTIlN0QlMkMlMjJiJTIyJTNBJTdCJTIyc3RhcnRMaW5lJTIyJTNBMSUyQyUyMmxpbmVzQ291bnQlMjIlM0EyJTdEJTdEJTdEJTdE"
-            ]
+    "file_version": "2.0.1",
+    "meta": {
+        "app_version": "0.4.1-0",
+        "file_blobs": {
+            "ret_int.py": "8ad8c6978a471550528604b52f70f687085c166c"
         }
     },
-    "diff": "ZGlmZiUyMC0tZ2l0JTIwYSUyRnJldF9pbnQucHklMjBiJTJGcmV0X2ludC5weSUwQWluZGV4JTIwOGFkOGM2OS4uZTYyYjU4YiUyMDEwMDY0NCUwQS0tLSUyMGElMkZyZXRfaW50LnB5JTBBJTJCJTJCJTJCJTIwYiUyRnJldF9pbnQucHklMEElNDAlNDAlMjAtMSUyQzIlMjAlMkIxJTJDMiUyMCU0MCU0MCUwQS1kZWYlMjByZXRfaW50KCklMjAtJTNFJTIwaW50JTNBJTBBJTJCZGVmJTIwcmV0X2ludCgpJTIwLSUzRSUyMHN0ciUzQSUwQSUyMCUyMCUyMCUyMCUyMHJldHVybiUyMDQyJTBB",
-    "solution_files": [
-        "ret_int.py"
+    "content": [
+        {
+            "type": "text",
+            "text": "`ret_int` seems to have a wrong type annotation - so [mypy](https://mypy.readthedocs.io/en/stable/introduction.html) is not happy.\n\nFix the annotation.\n\n# References\n* https://mypy.readthedocs.io/en/stable/builtin_types.html"
+        },
+        {
+            "firstLineNumber": 1,
+            "path": "ret_int.py",
+            "type": "snippet",
+            "lines": [
+                "*def ret_int() -> int:",
+                "+def ret_int() -> str:",
+                "     return 42"
+            ],
+            "comments": []
+        },
+        {
+            "type": "text",
+            "text": ""
+        }
     ],
-    "description": "JTYwcmV0X2ludCU2MCUyMHNlZW1zJTIwdG8lMjBoYXZlJTIwYSUyMHdyb25nJTIwdHlwZSUyMGFubm90YXRpb24lMjAtJTIwc28lMjAlNUJteXB5JTVEKGh0dHBzJTNBJTJGJTJGbXlweS5yZWFkdGhlZG9jcy5pbyUyRmVuJTJGc3RhYmxlJTJGaW50cm9kdWN0aW9uLmh0bWwpJTIwaXMlMjBub3QlMjBoYXBweS4lMEElMEFGaXglMjB0aGUlMjBhbm5vdGF0aW9uLiUwQSUwQSUyMyUyMFJlZmVyZW5jZXMlMEEqJTIwaHR0cHMlM0ElMkYlMkZteXB5LnJlYWR0aGVkb2NzLmlvJTJGZW4lMkZzdGFibGUlMkZidWlsdGluX3R5cGVzLmh0bWw=",
-    "app_version": "0.1.2",
-    "file_version": "1.0.1"
+    "task": {
+        "dod": "Make the test pass",
+        "hints": [],
+        "tests": [
+            " mypy --strict ret_int.py"
+        ]
+    }
 }

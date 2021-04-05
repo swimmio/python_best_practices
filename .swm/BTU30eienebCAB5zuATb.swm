@@ -1,34 +1,41 @@
 {
     "id": "BTU30eienebCAB5zuATb",
     "name": "Pretty Print Number",
-    "tests": [
-        "python3 -m doctest pretty_print_number.py"
-    ],
-    "play_mode": "handson",
-    "hints": [],
-    "files": {
-        "pretty_print_number.py": {
-            "index": [
-                "fc94a92..97c0d06",
-                "100644"
-            ],
-            "fileA": "pretty_print_number.py",
-            "fileB": "pretty_print_number.py",
-            "status": "MODIFIED",
-            "numLineDeletions": 1,
-            "numLineAdditions": 1,
-            "hunkContainers": [
-                "JTdCJTIyaHVuayUyMiUzQSU3QiUyMmhlYWRlciUyMiUzQSUyMiU0MCU0MCUyMC04JTJDNCUyMCUyQjglMkM0JTIwJTQwJTQwJTIwZGVmJTIwcHJldHR5X3ByaW50X251bWJlcihudW1iZXIpJTNBJTIyJTJDJTIyY2hhbmdlcyUyMiUzQSU1QiU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMCUyMCUzRSUzRSUzRSUyMHByZXR0eV9wcmludF9udW1iZXIoMioqMzIpJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBOCUyQyUyMmIlMjIlM0E4JTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwJTIwJzQlMkMyOTQlMkM5NjclMkMyOTYnJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBOSUyQyUyMmIlMjIlM0E5JTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwJTIwJTVDJTIyJTVDJTIyJTVDJTIyJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBMTAlMkMlMjJiJTIyJTNBMTAlN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyZGVsJTIyJTJDJTIybWFyayUyMiUzQSUyMi0lMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwcmV0dXJuJTIwZm9ybWF0KG51bWJlciUyQyUyMCclMkMnKSUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTExJTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmFkZCUyMiUyQyUyMm1hcmslMjIlM0ElMjIlMkIlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwcGFzcyUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYiUyMiUzQTExJTdEJTdEJTVEJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBJTdCJTIyc3RhcnRMaW5lJTIyJTNBOCUyQyUyMmxpbmVzQ291bnQlMjIlM0E0JTdEJTJDJTIyYiUyMiUzQSU3QiUyMnN0YXJ0TGluZSUyMiUzQTglMkMlMjJsaW5lc0NvdW50JTIyJTNBNCU3RCU3RCU3RCU3RA=="
-            ]
+    "file_version": "2.0.1",
+    "meta": {
+        "app_version": "0.4.1-0",
+        "file_blobs": {
+            "pretty_print_number.py": "fc94a92770bf4a29c424eec26fd6f7e7bce91ad9"
         }
     },
-    "diff": "ZGlmZiUyMC0tZ2l0JTIwYSUyRnByZXR0eV9wcmludF9udW1iZXIucHklMjBiJTJGcHJldHR5X3ByaW50X251bWJlci5weSUwQWluZGV4JTIwZmM5NGE5Mi4uOTdjMGQwNiUyMDEwMDY0NCUwQS0tLSUyMGElMkZwcmV0dHlfcHJpbnRfbnVtYmVyLnB5JTBBJTJCJTJCJTJCJTIwYiUyRnByZXR0eV9wcmludF9udW1iZXIucHklMEElNDAlNDAlMjAtOCUyQzQlMjAlMkI4JTJDNCUyMCU0MCU0MCUyMGRlZiUyMHByZXR0eV9wcmludF9udW1iZXIobnVtYmVyKSUzQSUwQSUyMCUyMCUyMCUyMCUyMCUzRSUzRSUzRSUyMHByZXR0eV9wcmludF9udW1iZXIoMioqMzIpJTBBJTIwJTIwJTIwJTIwJTIwJzQlMkMyOTQlMkM5NjclMkMyOTYnJTBBJTIwJTIwJTIwJTIwJTIwJTIyJTIyJTIyJTBBLSUyMCUyMCUyMCUyMHJldHVybiUyMGZvcm1hdChudW1iZXIlMkMlMjAnJTJDJyklMEElMkIlMjAlMjAlMjAlMjBwYXNzJTBB",
-    "solution_files": [
-        "pretty_print_number.py"
+    "content": [
+        {
+            "type": "text",
+            "text": ""
+        },
+        {
+            "firstLineNumber": 8,
+            "path": "pretty_print_number.py",
+            "type": "snippet",
+            "lines": [
+                "     >>> pretty_print_number(2**32)",
+                "     '4,294,967,296'",
+                "     \"\"\"",
+                "*    return format(number, ',')",
+                "+    pass"
+            ],
+            "comments": []
+        },
+        {
+            "type": "text",
+            "text": ""
+        }
     ],
-    "description": "",
-    "app_version": "0.1.50",
-    "file_version": "1.0.2",
-    "dod": "SW1wbGVtZW50JTIwJTYwcHJldHR5X3ByaW50X251bWJlciU2MCUyMGFjY29yZGluZyUyMHRvJTIwaXRzJTIwZG9jdW1lbnRhdGlvbg==",
-    "summary": ""
+    "task": {
+        "dod": "Implement `pretty_print_number` according to its documentation",
+        "hints": [],
+        "tests": [
+            "python3 -m doctest pretty_print_number.py"
+        ]
+    }
 }
