@@ -1,36 +1,43 @@
 {
     "id": "VnYDrfNLMtbbLZGgWFMA",
     "name": "Squared Generator",
-    "tests": [
-        "python3 -m doctest squared_generator.py"
-    ],
-    "hints": [
-        "https://www.python.org/dev/peps/pep-0289/"
-    ],
-    "play_mode": "handson",
-    "files": {
-        "squared_generator.py": {
-            "index": [
-                "f8e862f..6248bd8",
-                "100644"
-            ],
-            "fileA": "squared_generator.py",
-            "fileB": "squared_generator.py",
-            "status": "MODIFIED",
-            "numLineDeletions": 1,
-            "numLineAdditions": 1,
-            "hunkContainers": [
-                "JTdCJTIyaHVuayUyMiUzQSU3QiUyMmhlYWRlciUyMiUzQSUyMiU0MCU0MCUyMC04JTJDNCUyMCUyQjglMkM0JTIwJTQwJTQwJTIwZGVmJTIwc3F1YXJlZF9nZW5lcmF0b3IoaXRlcmFibGUpJTNBJTIyJTJDJTIyY2hhbmdlcyUyMiUzQSU1QiU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMCUyMCUzRSUzRSUzRSUyMGxpc3QoZyklMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0E4JTJDJTIyYiUyMiUzQTglN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjAlMjAlNUIxJTJDJTIwNCUyQyUyMDklNUQlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0E5JTJDJTIyYiUyMiUzQTklN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjAlMjAlNUMlMjIlNUMlMjIlNUMlMjIlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0ExMCUyQyUyMmIlMjIlM0ExMCU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJkZWwlMjIlMkMlMjJtYXJrJTIyJTNBJTIyLSUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjByZXR1cm4lMjAoeCUyMCoqJTIwMiUyMGZvciUyMHglMjBpbiUyMGl0ZXJhYmxlKSUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTExJTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmFkZCUyMiUyQyUyMm1hcmslMjIlM0ElMjIlMkIlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwcGFzcyUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYiUyMiUzQTExJTdEJTdEJTVEJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBJTdCJTIyc3RhcnRMaW5lJTIyJTNBOCUyQyUyMmxpbmVzQ291bnQlMjIlM0E0JTdEJTJDJTIyYiUyMiUzQSU3QiUyMnN0YXJ0TGluZSUyMiUzQTglMkMlMjJsaW5lc0NvdW50JTIyJTNBNCU3RCU3RCU3RCU3RA=="
-            ]
+    "file_version": "2.0.1",
+    "meta": {
+        "app_version": "0.4.1-0",
+        "file_blobs": {
+            "squared_generator.py": "f8e862f7883dc312681ec98309bcc600b9a954a9"
         }
     },
-    "diff": "ZGlmZiUyMC0tZ2l0JTIwYSUyRnNxdWFyZWRfZ2VuZXJhdG9yLnB5JTIwYiUyRnNxdWFyZWRfZ2VuZXJhdG9yLnB5JTBBaW5kZXglMjBmOGU4NjJmLi42MjQ4YmQ4JTIwMTAwNjQ0JTBBLS0tJTIwYSUyRnNxdWFyZWRfZ2VuZXJhdG9yLnB5JTBBJTJCJTJCJTJCJTIwYiUyRnNxdWFyZWRfZ2VuZXJhdG9yLnB5JTBBJTQwJTQwJTIwLTglMkM0JTIwJTJCOCUyQzQlMjAlNDAlNDAlMjBkZWYlMjBzcXVhcmVkX2dlbmVyYXRvcihpdGVyYWJsZSklM0ElMEElMjAlMjAlMjAlMjAlMjAlM0UlM0UlM0UlMjBsaXN0KGcpJTBBJTIwJTIwJTIwJTIwJTIwJTVCMSUyQyUyMDQlMkMlMjA5JTVEJTBBJTIwJTIwJTIwJTIwJTIwJTIyJTIyJTIyJTBBLSUyMCUyMCUyMCUyMHJldHVybiUyMCh4JTIwKiolMjAyJTIwZm9yJTIweCUyMGluJTIwaXRlcmFibGUpJTBBJTJCJTIwJTIwJTIwJTIwcGFzcyUwQQ==",
-    "solution_files": [
-        "squared_generator.py"
+    "content": [
+        {
+            "type": "text",
+            "text": "Note: you should use comprehensions for this Unit\n"
+        },
+        {
+            "firstLineNumber": 8,
+            "path": "squared_generator.py",
+            "type": "snippet",
+            "lines": [
+                "     >>> list(g)",
+                "     [1, 4, 9]",
+                "     \"\"\"",
+                "*    return (x ** 2 for x in iterable)",
+                "+    pass"
+            ],
+            "comments": []
+        },
+        {
+            "type": "text",
+            "text": ""
+        }
     ],
-    "description": "Tm90ZSUzQSUyMHlvdSUyMHNob3VsZCUyMHVzZSUyMGNvbXByZWhlbnNpb25zJTIwZm9yJTIwdGhpcyUyMFVuaXQlMEE=",
-    "app_version": "0.1.50",
-    "file_version": "1.0.2",
-    "dod": "SW1wbGVtZW50JTIwJTYwc3F1YXJlZF9nZW5lcmF0b3IlNjAlMjBhY2NvcmRpbmclMjB0byUyMGl0cyUyMGRvY3VtZW50YXRpb24=",
-    "summary": ""
+    "task": {
+        "dod": "Implement `squared_generator` according to its documentation",
+        "hints": [
+            "https://www.python.org/dev/peps/pep-0289/"
+        ],
+        "tests": [
+            "python3 -m doctest squared_generator.py"
+        ]
+    }
 }

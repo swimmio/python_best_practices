@@ -1,32 +1,44 @@
 {
     "id": "eyVDYCZR9sImYtQN7MGz",
     "name": "Read-only Dictionary",
-    "tests": [
-        "mypy --strict read_only_dictionary.py"
-    ],
-    "hints": [],
-    "play_mode": "handson",
-    "files": {
-        "read_only_dictionary.py": {
-            "index": [
-                "90daeb2..6a4b877",
-                "100644"
-            ],
-            "fileA": "read_only_dictionary.py",
-            "fileB": "read_only_dictionary.py",
-            "status": "MODIFIED",
-            "numLineDeletions": 1,
-            "numLineAdditions": 1,
-            "hunkContainers": [
-                "JTdCJTIyaHVuayUyMiUzQSU3QiUyMmhlYWRlciUyMiUzQSUyMiU0MCU0MCUyMC0xJTJDNyUyMCUyQjElMkM3JTIwJTQwJTQwJTIyJTJDJTIyY2hhbmdlcyUyMiUzQSU1QiU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMGZyb20lMjB0eXBpbmclMjBpbXBvcnQlMjBNYXBwaW5nJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBMSUyQyUyMmIlMjIlM0ExJTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBMiUyQyUyMmIlMjIlM0EyJTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBMyUyQyUyMmIlMjIlM0EzJTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmRlbCUyMiUyQyUyMm1hcmslMjIlM0ElMjItJTIyJTJDJTIyZGF0YSUyMiUzQSUyMmRlZiUyMHJlYWRfb25seV9kaWN0aW9uYXJ5KGQlM0ElMjBNYXBwaW5nJTVCc3RyJTJDJTIwaW50JTVEKSUyMC0lM0UlMjBOb25lJTNBJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBNCU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJhZGQlMjIlMkMlMjJtYXJrJTIyJTNBJTIyJTJCJTIyJTJDJTIyZGF0YSUyMiUzQSUyMmRlZiUyMHJlYWRfb25seV9kaWN0aW9uYXJ5KGQpJTNBJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJiJTIyJTNBNCU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMCUyMHBhc3MlMjAlMjAlMjMlMjBUaGUlMjBpbXBsZW1lbnRhdGlvbiUyMGRvZXNuJ3QlMjBtYXR0ZXIlMjBoZXJlJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBNSUyQyUyMmIlMjIlM0E1JTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBNiUyQyUyMmIlMjIlM0E2JTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBNyUyQyUyMmIlMjIlM0E3JTdEJTdEJTVEJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBJTdCJTIyc3RhcnRMaW5lJTIyJTNBMSUyQyUyMmxpbmVzQ291bnQlMjIlM0E3JTdEJTJDJTIyYiUyMiUzQSU3QiUyMnN0YXJ0TGluZSUyMiUzQTElMkMlMjJsaW5lc0NvdW50JTIyJTNBNyU3RCU3RCU3RCU3RA=="
-            ]
+    "file_version": "2.0.1",
+    "meta": {
+        "app_version": "0.4.1-0",
+        "file_blobs": {
+            "read_only_dictionary.py": "90daeb2efcea90f585d5d13f4f9131a7f9c1a9d0"
         }
     },
-    "diff": "ZGlmZiUyMC0tZ2l0JTIwYSUyRnJlYWRfb25seV9kaWN0aW9uYXJ5LnB5JTIwYiUyRnJlYWRfb25seV9kaWN0aW9uYXJ5LnB5JTBBaW5kZXglMjA5MGRhZWIyLi42YTRiODc3JTIwMTAwNjQ0JTBBLS0tJTIwYSUyRnJlYWRfb25seV9kaWN0aW9uYXJ5LnB5JTBBJTJCJTJCJTJCJTIwYiUyRnJlYWRfb25seV9kaWN0aW9uYXJ5LnB5JTBBJTQwJTQwJTIwLTElMkM3JTIwJTJCMSUyQzclMjAlNDAlNDAlMEElMjBmcm9tJTIwdHlwaW5nJTIwaW1wb3J0JTIwTWFwcGluZyUwQSUyMCUwQSUyMCUwQS1kZWYlMjByZWFkX29ubHlfZGljdGlvbmFyeShkJTNBJTIwTWFwcGluZyU1QnN0ciUyQyUyMGludCU1RCklMjAtJTNFJTIwTm9uZSUzQSUwQSUyQmRlZiUyMHJlYWRfb25seV9kaWN0aW9uYXJ5KGQpJTNBJTBBJTIwJTIwJTIwJTIwJTIwcGFzcyUyMCUyMCUyMyUyMFRoZSUyMGltcGxlbWVudGF0aW9uJTIwZG9lc24ndCUyMG1hdHRlciUyMGhlcmUlMEElMjAlMEElMjAlMEE=",
-    "solution_files": [
-        "read_only_dictionary.py"
+    "content": [
+        {
+            "type": "text",
+            "text": "`read_only_dictionary` is missing type annotation - so [mypy](https://mypy.readthedocs.io/en/stable/introduction.html) is not happy.\n\nAdd the right annotation.\n\nPerhaps reading about [more types in MyPy](https://mypy.readthedocs.io/en/stable/more_types.htmlhttps://mypy.readthedocs.io/en/stable/more_types.html) can help.\n\n# References\n* https://mypy.readthedocs.io/en/stable/builtin_types.html\n* https://mypy.readthedocs.io/en/stable/more_types.html"
+        },
+        {
+            "firstLineNumber": 1,
+            "path": "read_only_dictionary.py",
+            "type": "snippet",
+            "lines": [
+                " from typing import Mapping",
+                " ",
+                " ",
+                "*def read_only_dictionary(d: Mapping[str, int]) -> None:",
+                "+def read_only_dictionary(d):",
+                "     pass  # The implementation doesn't matter here",
+                " ",
+                " "
+            ],
+            "comments": []
+        },
+        {
+            "type": "text",
+            "text": ""
+        }
     ],
-    "description": "JTYwcmVhZF9vbmx5X2RpY3Rpb25hcnklNjAlMjBpcyUyMG1pc3NpbmclMjB0eXBlJTIwYW5ub3RhdGlvbiUyMC0lMjBzbyUyMCU1Qm15cHklNUQoaHR0cHMlM0ElMkYlMkZteXB5LnJlYWR0aGVkb2NzLmlvJTJGZW4lMkZzdGFibGUlMkZpbnRyb2R1Y3Rpb24uaHRtbCklMjBpcyUyMG5vdCUyMGhhcHB5LiUwQSUwQUFkZCUyMHRoZSUyMHJpZ2h0JTIwYW5ub3RhdGlvbi4lMEElMEFQZXJoYXBzJTIwcmVhZGluZyUyMGFib3V0JTIwJTVCbW9yZSUyMHR5cGVzJTIwaW4lMjBNeVB5JTVEKGh0dHBzJTNBJTJGJTJGbXlweS5yZWFkdGhlZG9jcy5pbyUyRmVuJTJGc3RhYmxlJTJGbW9yZV90eXBlcy5odG1saHR0cHMlM0ElMkYlMkZteXB5LnJlYWR0aGVkb2NzLmlvJTJGZW4lMkZzdGFibGUlMkZtb3JlX3R5cGVzLmh0bWwpJTIwY2FuJTIwaGVscC4lMEElMEElMjMlMjBSZWZlcmVuY2VzJTBBKiUyMGh0dHBzJTNBJTJGJTJGbXlweS5yZWFkdGhlZG9jcy5pbyUyRmVuJTJGc3RhYmxlJTJGYnVpbHRpbl90eXBlcy5odG1sJTBBKiUyMGh0dHBzJTNBJTJGJTJGbXlweS5yZWFkdGhlZG9jcy5pbyUyRmVuJTJGc3RhYmxlJTJGbW9yZV90eXBlcy5odG1s",
-    "app_version": "0.1.2",
-    "file_version": "1.0.1"
+    "task": {
+        "dod": "Make the test pass",
+        "hints": [],
+        "tests": [
+            "mypy --strict read_only_dictionary.py"
+        ]
+    }
 }

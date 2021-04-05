@@ -1,32 +1,47 @@
 {
     "id": "C43nGYTC7N9silMuiPsI",
     "name": "Type Alias",
-    "tests": [
-        "mypy --strict type_alias.py"
-    ],
-    "play_mode": "handson",
-    "hints": [],
-    "files": {
-        "type_alias.py": {
-            "index": [
-                "a405713..811eb9f",
-                "100644"
-            ],
-            "fileA": "type_alias.py",
-            "fileB": "type_alias.py",
-            "status": "MODIFIED",
-            "numLineDeletions": 4,
-            "numLineAdditions": 1,
-            "hunkContainers": [
-                "JTdCJTIyaHVuayUyMiUzQSU3QiUyMmhlYWRlciUyMiUzQSUyMiU0MCU0MCUyMC0xJTJDMTAlMjAlMkIxJTJDNyUyMCU0MCU0MCUyMiUyQyUyMmNoYW5nZXMlMjIlM0ElNUIlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjBpbXBvcnQlMjByYW5kb20lMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0ExJTJDJTIyYiUyMiUzQTElN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyZGVsJTIyJTJDJTIybWFyayUyMiUzQSUyMi0lMjIlMkMlMjJkYXRhJTIyJTNBJTIyZnJvbSUyMHR5cGluZyUyMGltcG9ydCUyMFVuaW9uJTJDJTIwRGljdCUyQyUyMExpc3QlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0EyJTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBMyUyQyUyMmIlMjIlM0EyJTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmRlbCUyMiUyQyUyMm1hcmslMjIlM0ElMjItJTIyJTJDJTIyZGF0YSUyMiUzQSUyMlR5cGVBbGlhcyUyMCUzRCUyMFVuaW9uJTVCc3RyJTJDJTIwRGljdCU1QnN0ciUyQyUyMExpc3QlNUJzdHIlNUQlNUQlNUQlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0E0JTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBNSUyQyUyMmIlMjIlM0EzJTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmRlbCUyMiUyQyUyMm1hcmslMjIlM0ElMjItJTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTYlN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyZGVsJTIyJTJDJTIybWFyayUyMiUzQSUyMi0lMjIlMkMlMjJkYXRhJTIyJTNBJTIyZGVmJTIwcmV0X3R5cGVfYWxpYXMoKSUyMC0lM0UlMjBUeXBlQWxpYXMlM0ElMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0E3JTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmFkZCUyMiUyQyUyMm1hcmslMjIlM0ElMjIlMkIlMjIlMkMlMjJkYXRhJTIyJTNBJTIyZGVmJTIwcmV0X3R5cGVfYWxpYXMoKSUzQSUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYiUyMiUzQTQlN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjAlMjAlNUMlMjIlNUMlMjIlNUMlMjIlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0E4JTJDJTIyYiUyMiUzQTUlN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjAlMjByZXR1cm4lMjBhJTIwdHlwZSUyMGFsaWFzJTIwZm9yJTIwdGhlJTIwY29kZSUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTklMkMlMjJiJTIyJTNBNiU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMCUyMCU1QyUyMiU1QyUyMiU1QyUyMiUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTEwJTJDJTIyYiUyMiUzQTclN0QlN0QlNUQlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0ElN0IlMjJzdGFydExpbmUlMjIlM0ExJTJDJTIybGluZXNDb3VudCUyMiUzQTEwJTdEJTJDJTIyYiUyMiUzQSU3QiUyMnN0YXJ0TGluZSUyMiUzQTElMkMlMjJsaW5lc0NvdW50JTIyJTNBNyU3RCU3RCU3RCU3RA=="
-            ]
+    "file_version": "2.0.1",
+    "meta": {
+        "app_version": "0.4.1-0",
+        "file_blobs": {
+            "type_alias.py": "a4057135f2a8116500ad48d3a784e0fd5e60b289"
         }
     },
-    "diff": "ZGlmZiUyMC0tZ2l0JTIwYSUyRnR5cGVfYWxpYXMucHklMjBiJTJGdHlwZV9hbGlhcy5weSUwQWluZGV4JTIwYTQwNTcxMy4uODExZWI5ZiUyMDEwMDY0NCUwQS0tLSUyMGElMkZ0eXBlX2FsaWFzLnB5JTBBJTJCJTJCJTJCJTIwYiUyRnR5cGVfYWxpYXMucHklMEElNDAlNDAlMjAtMSUyQzEwJTIwJTJCMSUyQzclMjAlNDAlNDAlMEElMjBpbXBvcnQlMjByYW5kb20lMEEtZnJvbSUyMHR5cGluZyUyMGltcG9ydCUyMFVuaW9uJTJDJTIwRGljdCUyQyUyMExpc3QlMEElMjAlMEEtVHlwZUFsaWFzJTIwJTNEJTIwVW5pb24lNUJzdHIlMkMlMjBEaWN0JTVCc3RyJTJDJTIwTGlzdCU1QnN0ciU1RCU1RCU1RCUwQSUyMCUwQS0lMEEtZGVmJTIwcmV0X3R5cGVfYWxpYXMoKSUyMC0lM0UlMjBUeXBlQWxpYXMlM0ElMEElMkJkZWYlMjByZXRfdHlwZV9hbGlhcygpJTNBJTBBJTIwJTIwJTIwJTIwJTIwJTIyJTIyJTIyJTBBJTIwJTIwJTIwJTIwJTIwcmV0dXJuJTIwYSUyMHR5cGUlMjBhbGlhcyUyMGZvciUyMHRoZSUyMGNvZGUlMEElMjAlMjAlMjAlMjAlMjAlMjIlMjIlMjIlMEE=",
-    "solution_files": [
-        "type_alias.py"
+    "content": [
+        {
+            "type": "text",
+            "text": "`ret_type_alias` is missing type annotation - so [mypy](https://mypy.readthedocs.io/en/stable/introduction.html) is not happy.\n\nAdd the right annotation.\n\nIt would be useful to understand `Type aliases` within [kinds of types](https://mypy.readthedocs.io/en/stable/kinds_of_types.html) for that.\n\n# References\n* https://mypy.readthedocs.io/en/stable/builtin_types.html\n* https://mypy.readthedocs.io/en/stable/type_inference_and_annotations.html\n* https://mypy.readthedocs.io/en/stable/kinds_of_types.html"
+        },
+        {
+            "firstLineNumber": 1,
+            "path": "type_alias.py",
+            "type": "snippet",
+            "lines": [
+                " import random",
+                "*from typing import Union, Dict, List",
+                " ",
+                "*TypeAlias = Union[str, Dict[str, List[str]]]",
+                " ",
+                "*",
+                "+def ret_type_alias():",
+                "*def ret_type_alias() -> TypeAlias:",
+                "     \"\"\"",
+                "     return a type alias for the code",
+                "     \"\"\""
+            ],
+            "comments": []
+        },
+        {
+            "type": "text",
+            "text": ""
+        }
     ],
-    "description": "JTYwcmV0X3R5cGVfYWxpYXMlNjAlMjBpcyUyMG1pc3NpbmclMjB0eXBlJTIwYW5ub3RhdGlvbiUyMC0lMjBzbyUyMCU1Qm15cHklNUQoaHR0cHMlM0ElMkYlMkZteXB5LnJlYWR0aGVkb2NzLmlvJTJGZW4lMkZzdGFibGUlMkZpbnRyb2R1Y3Rpb24uaHRtbCklMjBpcyUyMG5vdCUyMGhhcHB5LiUwQSUwQUFkZCUyMHRoZSUyMHJpZ2h0JTIwYW5ub3RhdGlvbi4lMEElMEFJdCUyMHdvdWxkJTIwYmUlMjB1c2VmdWwlMjB0byUyMHVuZGVyc3RhbmQlMjAlNjBUeXBlJTIwYWxpYXNlcyU2MCUyMHdpdGhpbiUyMCU1QmtpbmRzJTIwb2YlMjB0eXBlcyU1RChodHRwcyUzQSUyRiUyRm15cHkucmVhZHRoZWRvY3MuaW8lMkZlbiUyRnN0YWJsZSUyRmtpbmRzX29mX3R5cGVzLmh0bWwpJTIwZm9yJTIwdGhhdC4lMEElMEElMjMlMjBSZWZlcmVuY2VzJTBBKiUyMGh0dHBzJTNBJTJGJTJGbXlweS5yZWFkdGhlZG9jcy5pbyUyRmVuJTJGc3RhYmxlJTJGYnVpbHRpbl90eXBlcy5odG1sJTBBKiUyMGh0dHBzJTNBJTJGJTJGbXlweS5yZWFkdGhlZG9jcy5pbyUyRmVuJTJGc3RhYmxlJTJGdHlwZV9pbmZlcmVuY2VfYW5kX2Fubm90YXRpb25zLmh0bWwlMEEqJTIwaHR0cHMlM0ElMkYlMkZteXB5LnJlYWR0aGVkb2NzLmlvJTJGZW4lMkZzdGFibGUlMkZraW5kc19vZl90eXBlcy5odG1s",
-    "app_version": "0.1.2",
-    "file_version": "1.0.1"
+    "task": {
+        "dod": "Make the test pass",
+        "hints": [],
+        "tests": [
+            "mypy --strict type_alias.py"
+        ]
+    }
 }

@@ -1,36 +1,44 @@
 {
     "id": "zBFejq3aazfcscrbb1xp",
     "name": "Flatten 2D list",
-    "tests": [
-        "python3 -m doctest flatten_2d_list.py"
-    ],
-    "hints": [
-        "`zip`"
-    ],
-    "play_mode": "handson",
-    "files": {
-        "flatten_2d_list.py": {
-            "index": [
-                "5183ce7..765e330",
-                "100644"
-            ],
-            "fileA": "flatten_2d_list.py",
-            "fileB": "flatten_2d_list.py",
-            "status": "MODIFIED",
-            "numLineDeletions": 2,
-            "numLineAdditions": 1,
-            "hunkContainers": [
-                "JTdCJTIyaHVuayUyMiUzQSU3QiUyMmhlYWRlciUyMiUzQSUyMiU0MCU0MCUyMC01JTJDNSUyMCUyQjUlMkM0JTIwJTQwJTQwJTIwZGVmJTIwZmxhdHRlbl8yZF9saXN0KG15X2xpc3QpJTNBJTIyJTJDJTIyY2hhbmdlcyUyMiUzQSU1QiU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMCUyMCgnYSclMkMlMjAnYyclMkMlMjAnZScpJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBNSUyQyUyMmIlMjIlM0E1JTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwJTIwKCdiJyUyQyUyMCdkJyUyQyUyMCdmJyklMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0E2JTJDJTIyYiUyMiUzQTYlN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjAlMjAlNUMlMjIlNUMlMjIlNUMlMjIlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0E3JTJDJTIyYiUyMiUzQTclN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyZGVsJTIyJTJDJTIybWFyayUyMiUzQSUyMi0lMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwZm9yJTIwZWxlbWVudCUyMGluJTIwemlwKCpteV9saXN0KSUzQSUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTglN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyZGVsJTIyJTJDJTIybWFyayUyMiUzQSUyMi0lMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwcHJpbnQoZWxlbWVudCklMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0E5JTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmFkZCUyMiUyQyUyMm1hcmslMjIlM0ElMjIlMkIlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwcGFzcyUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYiUyMiUzQTglN0QlN0QlNUQlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0ElN0IlMjJzdGFydExpbmUlMjIlM0E1JTJDJTIybGluZXNDb3VudCUyMiUzQTUlN0QlMkMlMjJiJTIyJTNBJTdCJTIyc3RhcnRMaW5lJTIyJTNBNSUyQyUyMmxpbmVzQ291bnQlMjIlM0E0JTdEJTdEJTdEJTdE"
-            ]
+    "file_version": "2.0.1",
+    "meta": {
+        "app_version": "0.4.1-0",
+        "file_blobs": {
+            "flatten_2d_list.py": "41c69082c088b3abf31c3746aff00b911c4e53ce"
         }
     },
-    "diff": "ZGlmZiUyMC0tZ2l0JTIwYSUyRmZsYXR0ZW5fMmRfbGlzdC5weSUyMGIlMkZmbGF0dGVuXzJkX2xpc3QucHklMEFpbmRleCUyMDUxODNjZTcuLjc2NWUzMzAlMjAxMDA2NDQlMEEtLS0lMjBhJTJGZmxhdHRlbl8yZF9saXN0LnB5JTBBJTJCJTJCJTJCJTIwYiUyRmZsYXR0ZW5fMmRfbGlzdC5weSUwQSU0MCU0MCUyMC01JTJDNSUyMCUyQjUlMkM0JTIwJTQwJTQwJTIwZGVmJTIwZmxhdHRlbl8yZF9saXN0KG15X2xpc3QpJTNBJTBBJTIwJTIwJTIwJTIwJTIwKCdhJyUyQyUyMCdjJyUyQyUyMCdlJyklMEElMjAlMjAlMjAlMjAlMjAoJ2InJTJDJTIwJ2QnJTJDJTIwJ2YnKSUwQSUyMCUyMCUyMCUyMCUyMCUyMiUyMiUyMiUwQS0lMjAlMjAlMjAlMjBmb3IlMjBlbGVtZW50JTIwaW4lMjB6aXAoKm15X2xpc3QpJTNBJTBBLSUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMHByaW50KGVsZW1lbnQpJTBBJTJCJTIwJTIwJTIwJTIwcGFzcyUwQQ==",
-    "solution_files": [
-        "flatten_2d_list.py"
+    "content": [
+        {
+            "type": "text",
+            "text": ""
+        },
+        {
+            "firstLineNumber": 5,
+            "path": "flatten_2d_list.py",
+            "type": "snippet",
+            "lines": [
+                "     ('a', 'c', 'e')",
+                "     ('b', 'd', 'f')",
+                "     \"\"\"",
+                "*    for element in zip(*my_list):",
+                "+    pass",
+                "*        print(element)"
+            ],
+            "comments": []
+        },
+        {
+            "type": "text",
+            "text": "`zip` is a useful function"
+        }
     ],
-    "description": "",
-    "app_version": "0.1.50",
-    "file_version": "1.0.2",
-    "dod": "SW1wbGVtZW50JTIwJTYwZmxhdHRlbl8yZF9saXN0JTYwJTIwYWNjb3JkaW5nJTIwdG8lMjBpdHMlMjBkb2N1bWVudGF0aW9u",
-    "summary": "JTYwemlwJTYwJTIwaXMlMjBhJTIwdXNlZnVsJTIwZnVuY3Rpb24="
+    "task": {
+        "dod": "Implement `flatten_2d_list` according to its documentation",
+        "hints": [
+            "`zip`"
+        ],
+        "tests": [
+            "python3 -m doctest flatten_2d_list.py"
+        ]
+    }
 }

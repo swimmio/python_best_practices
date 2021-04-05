@@ -1,33 +1,43 @@
 {
     "id": "M1vpSdk22OT4Mxr2n2bx",
     "name": "Squared List",
-    "dod": "SW1wbGVtZW50JTIwJTYwc3F1YXJlZF9saXN0JTYwJTIwYWNjb3JkaW5nJTIwdG8lMjBpdHMlMjBkb2N1bWVudGF0aW9u",
-    "description": "VXNlJTIwJTVCbGlzdCUyMGNvbXByZWhlbnNpb25zJTVEKGh0dHBzJTNBJTJGJTJGZG9jcy5weXRob24ub3JnJTJGMyUyRnR1dG9yaWFsJTJGZGF0YXN0cnVjdHVyZXMuaHRtbCUyM2xpc3QtY29tcHJlaGVuc2lvbnMpJTIwZm9yJTIwdGhpcy4=",
-    "summary": "Q29tcHJlaGVuc2lvbnMlMjBhcmUlMjBBV0VTT01FIQ==",
-    "diff": "ZGlmZiUyMC0tZ2l0JTIwYSUyRnNxdWFyZWRfbGlzdC5weSUyMGIlMkZzcXVhcmVkX2xpc3QucHklMEFpbmRleCUyMGM1YWM1MDYuLjQyYmNmZWUlMjAxMDA2NDQlMEEtLS0lMjBhJTJGc3F1YXJlZF9saXN0LnB5JTBBJTJCJTJCJTJCJTIwYiUyRnNxdWFyZWRfbGlzdC5weSUwQSU0MCU0MCUyMC01JTJDNCUyMCUyQjUlMkM0JTIwJTQwJTQwJTIwZGVmJTIwc3F1YXJlZF9saXN0KGl0ZXJhYmxlKSUzQSUwQSUyMCUyMCUyMCUyMCUyMCUzRSUzRSUzRSUyMHNxdWFyZWRfbGlzdCglNUIxJTJDMiUyQzMlNUQpJTBBJTIwJTIwJTIwJTIwJTIwJTVCMSUyQyUyMDQlMkMlMjA5JTVEJTBBJTIwJTIwJTIwJTIwJTIwJTIyJTIyJTIyJTBBLSUyMCUyMCUyMCUyMHJldHVybiUyMCU1QnglMjAqKiUyMDIlMjBmb3IlMjB4JTIwaW4lMjBpdGVyYWJsZSU1RCUwQSUyQiUyMCUyMCUyMCUyMHBhc3MlMEE=",
-    "tests": [
-        "python3 -m doctest squared_list.py"
-    ],
-    "play_mode": "handson",
-    "hints": [
-        "https://python-3-patterns-idioms-test.readthedocs.io/en/latest/Comprehensions.html"
-    ],
-    "files": {
-        "squared_list.py": {
-            "index": [
-                "c5ac506..42bcfee",
-                "100644"
-            ],
-            "fileA": "squared_list.py",
-            "fileB": "squared_list.py",
-            "status": "MODIFIED",
-            "numLineDeletions": 1,
-            "numLineAdditions": 1,
-            "hunkContainers": [
-                "JTdCJTIyaHVuayUyMiUzQSU3QiUyMmhlYWRlciUyMiUzQSUyMiU0MCU0MCUyMC01JTJDNCUyMCUyQjUlMkM0JTIwJTQwJTQwJTIwZGVmJTIwc3F1YXJlZF9saXN0KGl0ZXJhYmxlKSUzQSUyMiUyQyUyMmNoYW5nZXMlMjIlM0ElNUIlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjAlMjAlM0UlM0UlM0UlMjBzcXVhcmVkX2xpc3QoJTVCMSUyQzIlMkMzJTVEKSUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTUlMkMlMjJiJTIyJTNBNSU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMCUyMCU1QjElMkMlMjA0JTJDJTIwOSU1RCUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTYlMkMlMjJiJTIyJTNBNiU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMCUyMCU1QyUyMiU1QyUyMiU1QyUyMiUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTclMkMlMjJiJTIyJTNBNyU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJkZWwlMjIlMkMlMjJtYXJrJTIyJTNBJTIyLSUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjByZXR1cm4lMjAlNUJ4JTIwKiolMjAyJTIwZm9yJTIweCUyMGluJTIwaXRlcmFibGUlNUQlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0E4JTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmFkZCUyMiUyQyUyMm1hcmslMjIlM0ElMjIlMkIlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwcGFzcyUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYiUyMiUzQTglN0QlN0QlNUQlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0ElN0IlMjJzdGFydExpbmUlMjIlM0E1JTJDJTIybGluZXNDb3VudCUyMiUzQTQlN0QlMkMlMjJiJTIyJTNBJTdCJTIyc3RhcnRMaW5lJTIyJTNBNSUyQyUyMmxpbmVzQ291bnQlMjIlM0E0JTdEJTdEJTdEJTdE"
-            ]
+    "file_version": "2.0.1",
+    "meta": {
+        "app_version": "0.4.1-0",
+        "file_blobs": {
+            "squared_list.py": "c5ac5060ffbf0316e910309a928409e4e0094068"
         }
     },
-    "app_version": "0.1.80",
-    "file_version": "1.0.2"
+    "content": [
+        {
+            "type": "text",
+            "text": "Use [list comprehensions](https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions) for this."
+        },
+        {
+            "firstLineNumber": 5,
+            "path": "squared_list.py",
+            "type": "snippet",
+            "lines": [
+                "     >>> squared_list([1,2,3])",
+                "     [1, 4, 9]",
+                "     \"\"\"",
+                "*    return [x ** 2 for x in iterable]",
+                "+    pass"
+            ],
+            "comments": []
+        },
+        {
+            "type": "text",
+            "text": "Comprehensions are AWESOME!"
+        }
+    ],
+    "task": {
+        "dod": "Implement `squared_list` according to its documentation",
+        "hints": [
+            "https://python-3-patterns-idioms-test.readthedocs.io/en/latest/Comprehensions.html"
+        ],
+        "tests": [
+            "python3 -m doctest squared_list.py"
+        ]
+    }
 }

@@ -1,32 +1,44 @@
 {
     "id": "k470bvk8OuhVmuWglroR",
     "name": "Squared List Type",
-    "tests": [
-        "mypy --strict squared_list_type.py"
-    ],
-    "hints": [],
-    "play_mode": "handson",
-    "files": {
-        "squared_list_type.py": {
-            "index": [
-                "3f42f70..0f00e88",
-                "100644"
-            ],
-            "fileA": "squared_list_type.py",
-            "fileB": "squared_list_type.py",
-            "status": "MODIFIED",
-            "numLineDeletions": 4,
-            "numLineAdditions": 1,
-            "hunkContainers": [
-                "JTdCJTIyaHVuayUyMiUzQSU3QiUyMmhlYWRlciUyMiUzQSUyMiU0MCU0MCUyMC0xJTJDNyUyMCUyQjElMkM0JTIwJTQwJTQwJTIyJTJDJTIyY2hhbmdlcyUyMiUzQSU1QiU3QiUyMnR5cGUlMjIlM0ElMjJkZWwlMjIlMkMlMjJtYXJrJTIyJTNBJTIyLSUyMiUyQyUyMmRhdGElMjIlM0ElMjJmcm9tJTIwdHlwaW5nJTIwaW1wb3J0JTIwTGlzdCUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTElN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyZGVsJTIyJTJDJTIybWFyayUyMiUzQSUyMi0lMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBMiU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJkZWwlMjIlMkMlMjJtYXJrJTIyJTNBJTIyLSUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0EzJTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmRlbCUyMiUyQyUyMm1hcmslMjIlM0ElMjItJTIyJTJDJTIyZGF0YSUyMiUzQSUyMmRlZiUyMHNxdWFyZWRfbGlzdChpbnRfbGlzdCUzQSUyMExpc3QlNUJpbnQlNUQpJTIwLSUzRSUyMExpc3QlNUJpbnQlNUQlM0ElMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0E0JTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmFkZCUyMiUyQyUyMm1hcmslMjIlM0ElMjIlMkIlMjIlMkMlMjJkYXRhJTIyJTNBJTIyZGVmJTIwc3F1YXJlZF9saXN0KGludF9saXN0KSUzQSUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYiUyMiUzQTElN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjAlMjByZXR1cm4lMjAlNUJpJTIwKiolMjAyJTIwZm9yJTIwaSUyMGluJTIwaW50X2xpc3QlNUQlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0E1JTJDJTIyYiUyMiUzQTIlN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0E2JTJDJTIyYiUyMiUzQTMlN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0E3JTJDJTIyYiUyMiUzQTQlN0QlN0QlNUQlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0ElN0IlMjJzdGFydExpbmUlMjIlM0ExJTJDJTIybGluZXNDb3VudCUyMiUzQTclN0QlMkMlMjJiJTIyJTNBJTdCJTIyc3RhcnRMaW5lJTIyJTNBMSUyQyUyMmxpbmVzQ291bnQlMjIlM0E0JTdEJTdEJTdEJTdE"
-            ]
+    "file_version": "2.0.1",
+    "meta": {
+        "app_version": "0.4.1-0",
+        "file_blobs": {
+            "squared_list_type.py": "3f42f70331827126d9882fcc7c0a8d526161ef85"
         }
     },
-    "diff": "ZGlmZiUyMC0tZ2l0JTIwYSUyRnNxdWFyZWRfbGlzdF90eXBlLnB5JTIwYiUyRnNxdWFyZWRfbGlzdF90eXBlLnB5JTBBaW5kZXglMjAzZjQyZjcwLi4wZjAwZTg4JTIwMTAwNjQ0JTBBLS0tJTIwYSUyRnNxdWFyZWRfbGlzdF90eXBlLnB5JTBBJTJCJTJCJTJCJTIwYiUyRnNxdWFyZWRfbGlzdF90eXBlLnB5JTBBJTQwJTQwJTIwLTElMkM3JTIwJTJCMSUyQzQlMjAlNDAlNDAlMEEtZnJvbSUyMHR5cGluZyUyMGltcG9ydCUyMExpc3QlMEEtJTBBLSUwQS1kZWYlMjBzcXVhcmVkX2xpc3QoaW50X2xpc3QlM0ElMjBMaXN0JTVCaW50JTVEKSUyMC0lM0UlMjBMaXN0JTVCaW50JTVEJTNBJTBBJTJCZGVmJTIwc3F1YXJlZF9saXN0KGludF9saXN0KSUzQSUwQSUyMCUyMCUyMCUyMCUyMHJldHVybiUyMCU1QmklMjAqKiUyMDIlMjBmb3IlMjBpJTIwaW4lMjBpbnRfbGlzdCU1RCUwQSUyMCUwQSUyMCUwQQ==",
-    "solution_files": [
-        "squared_list_type.py"
+    "content": [
+        {
+            "type": "text",
+            "text": "`squared_list` is missing type annotation - so [mypy](https://mypy.readthedocs.io/en/stable/introduction.html) is not happy.\n\nAdd the right annotation.\n\nIt would be useful to understand [kinds of types](https://mypy.readthedocs.io/en/stable/kinds_of_types.html) for that.\n\n# References\n* https://mypy.readthedocs.io/en/stable/builtin_types.html\n* https://mypy.readthedocs.io/en/stable/type_inference_and_annotations.html\n* https://mypy.readthedocs.io/en/stable/kinds_of_types.html"
+        },
+        {
+            "firstLineNumber": 1,
+            "path": "squared_list_type.py",
+            "type": "snippet",
+            "lines": [
+                "*from typing import List",
+                "+def squared_list(int_list):",
+                "*",
+                "*",
+                "*def squared_list(int_list: List[int]) -> List[int]:",
+                "     return [i ** 2 for i in int_list]",
+                " ",
+                " "
+            ],
+            "comments": []
+        },
+        {
+            "type": "text",
+            "text": ""
+        }
     ],
-    "description": "JTYwc3F1YXJlZF9saXN0JTYwJTIwaXMlMjBtaXNzaW5nJTIwdHlwZSUyMGFubm90YXRpb24lMjAtJTIwc28lMjAlNUJteXB5JTVEKGh0dHBzJTNBJTJGJTJGbXlweS5yZWFkdGhlZG9jcy5pbyUyRmVuJTJGc3RhYmxlJTJGaW50cm9kdWN0aW9uLmh0bWwpJTIwaXMlMjBub3QlMjBoYXBweS4lMEElMEFBZGQlMjB0aGUlMjByaWdodCUyMGFubm90YXRpb24uJTBBJTBBSXQlMjB3b3VsZCUyMGJlJTIwdXNlZnVsJTIwdG8lMjB1bmRlcnN0YW5kJTIwJTVCa2luZHMlMjBvZiUyMHR5cGVzJTVEKGh0dHBzJTNBJTJGJTJGbXlweS5yZWFkdGhlZG9jcy5pbyUyRmVuJTJGc3RhYmxlJTJGa2luZHNfb2ZfdHlwZXMuaHRtbCklMjBmb3IlMjB0aGF0LiUwQSUwQSUyMyUyMFJlZmVyZW5jZXMlMEEqJTIwaHR0cHMlM0ElMkYlMkZteXB5LnJlYWR0aGVkb2NzLmlvJTJGZW4lMkZzdGFibGUlMkZidWlsdGluX3R5cGVzLmh0bWwlMEEqJTIwaHR0cHMlM0ElMkYlMkZteXB5LnJlYWR0aGVkb2NzLmlvJTJGZW4lMkZzdGFibGUlMkZ0eXBlX2luZmVyZW5jZV9hbmRfYW5ub3RhdGlvbnMuaHRtbCUwQSolMjBodHRwcyUzQSUyRiUyRm15cHkucmVhZHRoZWRvY3MuaW8lMkZlbiUyRnN0YWJsZSUyRmtpbmRzX29mX3R5cGVzLmh0bWw=",
-    "app_version": "0.1.2",
-    "file_version": "1.0.1"
+    "task": {
+        "dod": "Make the test pass",
+        "hints": [],
+        "tests": [
+            "mypy --strict squared_list_type.py"
+        ]
+    }
 }

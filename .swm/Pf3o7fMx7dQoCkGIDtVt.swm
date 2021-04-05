@@ -1,32 +1,48 @@
 {
     "id": "Pf3o7fMx7dQoCkGIDtVt",
     "name": "Add Int String",
-    "tests": [
-        "mypy --strict add_int_str.py"
-    ],
-    "play_mode": "handson",
-    "hints": ["https://docs.python.org/3/library/typing.html#typing.TypeVar"],
-    "files": {
-        "add_int_str.py": {
-            "index": [
-                "11aa074..b6174ed",
-                "100644"
-            ],
-            "fileA": "add_int_str.py",
-            "fileB": "add_int_str.py",
-            "status": "MODIFIED",
-            "numLineDeletions": 6,
-            "numLineAdditions": 1,
-            "hunkContainers": [
-                "JTdCJTIyaHVuayUyMiUzQSU3QiUyMmhlYWRlciUyMiUzQSUyMiU0MCU0MCUyMC0xJTJDOSUyMCUyQjElMkM0JTIwJTQwJTQwJTIyJTJDJTIyY2hhbmdlcyUyMiUzQSU1QiU3QiUyMnR5cGUlMjIlM0ElMjJkZWwlMjIlMkMlMjJtYXJrJTIyJTNBJTIyLSUyMiUyQyUyMmRhdGElMjIlM0ElMjJmcm9tJTIwdHlwaW5nJTIwaW1wb3J0JTIwVHlwZVZhciUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTElN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyZGVsJTIyJTJDJTIybWFyayUyMiUzQSUyMi0lMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBMiU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJkZWwlMjIlMkMlMjJtYXJrJTIyJTNBJTIyLSUyMiUyQyUyMmRhdGElMjIlM0ElMjJUJTIwJTNEJTIwVHlwZVZhciglNUMlMjJUJTVDJTIyJTJDJTIwaW50JTJDJTIwc3RyKSUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTMlN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyZGVsJTIyJTJDJTIybWFyayUyMiUzQSUyMi0lMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBNCU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJkZWwlMjIlMkMlMjJtYXJrJTIyJTNBJTIyLSUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0E1JTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmRlbCUyMiUyQyUyMm1hcmslMjIlM0ElMjItJTIyJTJDJTIyZGF0YSUyMiUzQSUyMmRlZiUyMGFkZF9pbnRfc3RyKGElM0ElMjBUJTJDJTIwYiUzQSUyMFQpJTIwLSUzRSUyMFQlM0ElMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0E2JTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmFkZCUyMiUyQyUyMm1hcmslMjIlM0ElMjIlMkIlMjIlMkMlMjJkYXRhJTIyJTNBJTIyZGVmJTIwYWRkX2ludF9zdHIoYSUyQyUyMGIpJTNBJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJiJTIyJTNBMSU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMCUyMHJldHVybiUyMGElMjAlMkIlMjBiJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBNyUyQyUyMmIlMjIlM0EyJTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBOCUyQyUyMmIlMjIlM0EzJTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBOSUyQyUyMmIlMjIlM0E0JTdEJTdEJTVEJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBJTdCJTIyc3RhcnRMaW5lJTIyJTNBMSUyQyUyMmxpbmVzQ291bnQlMjIlM0E5JTdEJTJDJTIyYiUyMiUzQSU3QiUyMnN0YXJ0TGluZSUyMiUzQTElMkMlMjJsaW5lc0NvdW50JTIyJTNBNCU3RCU3RCU3RCU3RA=="
-            ]
+    "file_version": "2.0.1",
+    "meta": {
+        "app_version": "0.4.1-0",
+        "file_blobs": {
+            "add_int_str.py": "11aa074100478c128c05ff18da45cdeaf04cb707"
         }
     },
-    "diff": "ZGlmZiUyMC0tZ2l0JTIwYSUyRmFkZF9pbnRfc3RyLnB5JTIwYiUyRmFkZF9pbnRfc3RyLnB5JTBBaW5kZXglMjAxMWFhMDc0Li5iNjE3NGVkJTIwMTAwNjQ0JTBBLS0tJTIwYSUyRmFkZF9pbnRfc3RyLnB5JTBBJTJCJTJCJTJCJTIwYiUyRmFkZF9pbnRfc3RyLnB5JTBBJTQwJTQwJTIwLTElMkM5JTIwJTJCMSUyQzQlMjAlNDAlNDAlMEEtZnJvbSUyMHR5cGluZyUyMGltcG9ydCUyMFR5cGVWYXIlMEEtJTBBLVQlMjAlM0QlMjBUeXBlVmFyKCUyMlQlMjIlMkMlMjBpbnQlMkMlMjBzdHIpJTBBLSUwQS0lMEEtZGVmJTIwYWRkX2ludF9zdHIoYSUzQSUyMFQlMkMlMjBiJTNBJTIwVCklMjAtJTNFJTIwVCUzQSUwQSUyQmRlZiUyMGFkZF9pbnRfc3RyKGElMkMlMjBiKSUzQSUwQSUyMCUyMCUyMCUyMCUyMHJldHVybiUyMGElMjAlMkIlMjBiJTBBJTIwJTBBJTIwJTBB",
-    "solution_files": [
-        "add_int_str.py"
+    "content": [
+        {
+            "type": "text",
+            "text": "`add_int_str` is missing type annotation - so [mypy](https://mypy.readthedocs.io/en/stable/introduction.html) is not happy.\n\nAdd the right annotation.\n\nIt would be useful to understand [kinds of types](https://mypy.readthedocs.io/en/stable/kinds_of_types.html) for that.\n\n# References\n* https://mypy.readthedocs.io/en/stable/builtin_types.html\n* https://mypy.readthedocs.io/en/stable/type_inference_and_annotations.html\n* https://mypy.readthedocs.io/en/stable/kinds_of_types.html"
+        },
+        {
+            "firstLineNumber": 1,
+            "path": "add_int_str.py",
+            "type": "snippet",
+            "lines": [
+                "*from typing import TypeVar",
+                "+def add_int_str(a, b):",
+                "*",
+                "*T = TypeVar(\"T\", int, str)",
+                "*",
+                "*",
+                "*def add_int_str(a: T, b: T) -> T:",
+                "     return a + b",
+                " ",
+                " "
+            ],
+            "comments": []
+        },
+        {
+            "type": "text",
+            "text": ""
+        }
     ],
-    "description": "JTYwYWRkX2ludF9zdHIlNjAlMjBpcyUyMG1pc3NpbmclMjB0eXBlJTIwYW5ub3RhdGlvbiUyMC0lMjBzbyUyMCU1Qm15cHklNUQoaHR0cHMlM0ElMkYlMkZteXB5LnJlYWR0aGVkb2NzLmlvJTJGZW4lMkZzdGFibGUlMkZpbnRyb2R1Y3Rpb24uaHRtbCklMjBpcyUyMG5vdCUyMGhhcHB5LiUwQSUwQUFkZCUyMHRoZSUyMHJpZ2h0JTIwYW5ub3RhdGlvbi4lMEElMEFJdCUyMHdvdWxkJTIwYmUlMjB1c2VmdWwlMjB0byUyMHVuZGVyc3RhbmQlMjAlNUJraW5kcyUyMG9mJTIwdHlwZXMlNUQoaHR0cHMlM0ElMkYlMkZteXB5LnJlYWR0aGVkb2NzLmlvJTJGZW4lMkZzdGFibGUlMkZraW5kc19vZl90eXBlcy5odG1sKSUyMGZvciUyMHRoYXQuJTBBJTBBJTIzJTIwUmVmZXJlbmNlcyUwQSolMjBodHRwcyUzQSUyRiUyRm15cHkucmVhZHRoZWRvY3MuaW8lMkZlbiUyRnN0YWJsZSUyRmJ1aWx0aW5fdHlwZXMuaHRtbCUwQSolMjBodHRwcyUzQSUyRiUyRm15cHkucmVhZHRoZWRvY3MuaW8lMkZlbiUyRnN0YWJsZSUyRnR5cGVfaW5mZXJlbmNlX2FuZF9hbm5vdGF0aW9ucy5odG1sJTBBKiUyMGh0dHBzJTNBJTJGJTJGbXlweS5yZWFkdGhlZG9jcy5pbyUyRmVuJTJGc3RhYmxlJTJGa2luZHNfb2ZfdHlwZXMuaHRtbA==",
-    "app_version": "0.1.2",
-    "file_version": "1.0.1"
+    "task": {
+        "dod": "Make the test pass",
+        "hints": [
+            "https://docs.python.org/3/library/typing.html#typing.TypeVar"
+        ],
+        "tests": [
+            "mypy --strict add_int_str.py"
+        ]
+    }
 }

@@ -1,32 +1,44 @@
 {
     "id": "3VxvXHI1In9tz6lKo0NR",
     "name": "Get Element 1",
-    "tests": [
-        "mypy --strict get_element_1.py"
-    ],
-    "play_mode": "handson",
-    "hints": [],
-    "files": {
-        "get_element_1.py": {
-            "index": [
-                "ff5fbe1..3a9db88",
-                "100644"
-            ],
-            "fileA": "get_element_1.py",
-            "fileB": "get_element_1.py",
-            "status": "MODIFIED",
-            "numLineDeletions": 4,
-            "numLineAdditions": 1,
-            "hunkContainers": [
-                "JTdCJTIyaHVuayUyMiUzQSU3QiUyMmhlYWRlciUyMiUzQSUyMiU0MCU0MCUyMC0xJTJDNyUyMCUyQjElMkM0JTIwJTQwJTQwJTIyJTJDJTIyY2hhbmdlcyUyMiUzQSU1QiU3QiUyMnR5cGUlMjIlM0ElMjJkZWwlMjIlMkMlMjJtYXJrJTIyJTNBJTIyLSUyMiUyQyUyMmRhdGElMjIlM0ElMjJmcm9tJTIwdHlwaW5nJTIwaW1wb3J0JTIwKFNlcXVlbmNlJTJDJTIwT3B0aW9uYWwpJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBMSU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJkZWwlMjIlMkMlMjJtYXJrJTIyJTNBJTIyLSUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0EyJTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmRlbCUyMiUyQyUyMm1hcmslMjIlM0ElMjItJTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTMlN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyZGVsJTIyJTJDJTIybWFyayUyMiUzQSUyMi0lMjIlMkMlMjJkYXRhJTIyJTNBJTIyZGVmJTIwZ2V0X2VsZW1lbnRfMShtZW1iZXJzJTNBJTIwU2VxdWVuY2UlNUJpbnQlNUQpJTIwLSUzRSUyME9wdGlvbmFsJTVCaW50JTVEJTNBJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBNCU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJhZGQlMjIlMkMlMjJtYXJrJTIyJTNBJTIyJTJCJTIyJTJDJTIyZGF0YSUyMiUzQSUyMmRlZiUyMGdldF9lbGVtZW50XzEobWVtYmVycyklM0ElMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmIlMjIlM0ExJTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwJTIwaWYlMjBsZW4obWVtYmVycyklMjAlM0MlMjAyJTNBJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBNSUyQyUyMmIlMjIlM0EyJTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwcmV0dXJuJTIwTm9uZSUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTYlMkMlMjJiJTIyJTNBMyU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMCUyMHJldHVybiUyMG1lbWJlcnMlNUIxJTVEJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBNyUyQyUyMmIlMjIlM0E0JTdEJTdEJTVEJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBJTdCJTIyc3RhcnRMaW5lJTIyJTNBMSUyQyUyMmxpbmVzQ291bnQlMjIlM0E3JTdEJTJDJTIyYiUyMiUzQSU3QiUyMnN0YXJ0TGluZSUyMiUzQTElMkMlMjJsaW5lc0NvdW50JTIyJTNBNCU3RCU3RCU3RCU3RA=="
-            ]
+    "file_version": "2.0.1",
+    "meta": {
+        "app_version": "0.4.1-0",
+        "file_blobs": {
+            "get_element_1.py": "ff5fbe1de4966be571b36b2452485cd6c533f02c"
         }
     },
-    "diff": "ZGlmZiUyMC0tZ2l0JTIwYSUyRmdldF9lbGVtZW50XzEucHklMjBiJTJGZ2V0X2VsZW1lbnRfMS5weSUwQWluZGV4JTIwZmY1ZmJlMS4uM2E5ZGI4OCUyMDEwMDY0NCUwQS0tLSUyMGElMkZnZXRfZWxlbWVudF8xLnB5JTBBJTJCJTJCJTJCJTIwYiUyRmdldF9lbGVtZW50XzEucHklMEElNDAlNDAlMjAtMSUyQzclMjAlMkIxJTJDNCUyMCU0MCU0MCUwQS1mcm9tJTIwdHlwaW5nJTIwaW1wb3J0JTIwKFNlcXVlbmNlJTJDJTIwT3B0aW9uYWwpJTBBLSUwQS0lMEEtZGVmJTIwZ2V0X2VsZW1lbnRfMShtZW1iZXJzJTNBJTIwU2VxdWVuY2UlNUJpbnQlNUQpJTIwLSUzRSUyME9wdGlvbmFsJTVCaW50JTVEJTNBJTBBJTJCZGVmJTIwZ2V0X2VsZW1lbnRfMShtZW1iZXJzKSUzQSUwQSUyMCUyMCUyMCUyMCUyMGlmJTIwbGVuKG1lbWJlcnMpJTIwJTNDJTIwMiUzQSUwQSUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMHJldHVybiUyME5vbmUlMEElMjAlMjAlMjAlMjAlMjByZXR1cm4lMjBtZW1iZXJzJTVCMSU1RCUwQQ==",
-    "solution_files": [
-        "get_element_1.py"
+    "content": [
+        {
+            "type": "text",
+            "text": "`get_element_1` is missing type annotation - so [mypy](https://mypy.readthedocs.io/en/stable/introduction.html) is not happy.\n\nAdd the right annotation.\n\nIt would be useful to understand [kinds of types](https://mypy.readthedocs.io/en/stable/kinds_of_types.html) for that.\n\n# References\n* https://mypy.readthedocs.io/en/stable/builtin_types.html\n* https://mypy.readthedocs.io/en/stable/type_inference_and_annotations.html\n* https://mypy.readthedocs.io/en/stable/kinds_of_types.html"
+        },
+        {
+            "firstLineNumber": 1,
+            "path": "get_element_1.py",
+            "type": "snippet",
+            "lines": [
+                "*from typing import (Sequence, Optional)",
+                "+def get_element_1(members):",
+                "*",
+                "*",
+                "*def get_element_1(members: Sequence[int]) -> Optional[int]:",
+                "     if len(members) < 2:",
+                "         return None",
+                "     return members[1]"
+            ],
+            "comments": []
+        },
+        {
+            "type": "text",
+            "text": ""
+        }
     ],
-    "description": "JTYwZ2V0X2VsZW1lbnRfMSU2MCUyMGlzJTIwbWlzc2luZyUyMHR5cGUlMjBhbm5vdGF0aW9uJTIwLSUyMHNvJTIwJTVCbXlweSU1RChodHRwcyUzQSUyRiUyRm15cHkucmVhZHRoZWRvY3MuaW8lMkZlbiUyRnN0YWJsZSUyRmludHJvZHVjdGlvbi5odG1sKSUyMGlzJTIwbm90JTIwaGFwcHkuJTBBJTBBQWRkJTIwdGhlJTIwcmlnaHQlMjBhbm5vdGF0aW9uLiUwQSUwQUl0JTIwd291bGQlMjBiZSUyMHVzZWZ1bCUyMHRvJTIwdW5kZXJzdGFuZCUyMCU1QmtpbmRzJTIwb2YlMjB0eXBlcyU1RChodHRwcyUzQSUyRiUyRm15cHkucmVhZHRoZWRvY3MuaW8lMkZlbiUyRnN0YWJsZSUyRmtpbmRzX29mX3R5cGVzLmh0bWwpJTIwZm9yJTIwdGhhdC4lMEElMEElMjMlMjBSZWZlcmVuY2VzJTBBKiUyMGh0dHBzJTNBJTJGJTJGbXlweS5yZWFkdGhlZG9jcy5pbyUyRmVuJTJGc3RhYmxlJTJGYnVpbHRpbl90eXBlcy5odG1sJTBBKiUyMGh0dHBzJTNBJTJGJTJGbXlweS5yZWFkdGhlZG9jcy5pbyUyRmVuJTJGc3RhYmxlJTJGdHlwZV9pbmZlcmVuY2VfYW5kX2Fubm90YXRpb25zLmh0bWwlMEEqJTIwaHR0cHMlM0ElMkYlMkZteXB5LnJlYWR0aGVkb2NzLmlvJTJGZW4lMkZzdGFibGUlMkZraW5kc19vZl90eXBlcy5odG1s",
-    "app_version": "0.1.2",
-    "file_version": "1.0.1"
+    "task": {
+        "dod": "Make the test pass",
+        "hints": [],
+        "tests": [
+            "mypy --strict get_element_1.py"
+        ]
+    }
 }

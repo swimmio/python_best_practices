@@ -1,36 +1,73 @@
 {
     "id": "KYrEx5Ed2ozDrSPlVs64",
     "name": "Hello Async World!",
-    "tests": [
-        "python3 -m doctest async_io/hello_world.py"
-    ],
-    "hints": [
-        "`print_hello_world` and `print_hello_world_three_times` should be async functions",
-        "the equivalent of `time.sleep` is `await asyncio.sleep`"
-    ],
-    "play_mode": "handson",
-    "files": {
-        "async_io/hello_world.py": {
-            "index": [
-                "94ff818..19010fd",
-                "100644"
-            ],
-            "fileA": "async_io/hello_world.py",
-            "fileB": "async_io/hello_world.py",
-            "status": "MODIFIED",
-            "numLineDeletions": 7,
-            "numLineAdditions": 7,
-            "hunkContainers": [
-                "JTdCJTIyaHVuayUyMiUzQSU3QiUyMmhlYWRlciUyMiUzQSUyMiU0MCU0MCUyMC0xJTJDMTQlMjAlMkIxJTJDMTUlMjAlNDAlNDAlMjIlMkMlMjJjaGFuZ2VzJTIyJTNBJTVCJTdCJTIydHlwZSUyMiUzQSUyMmRlbCUyMiUyQyUyMm1hcmslMjIlM0ElMjItJTIyJTJDJTIyZGF0YSUyMiUzQSUyMmltcG9ydCUyMGFzeW5jaW8lMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0ExJTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmFkZCUyMiUyQyUyMm1hcmslMjIlM0ElMjIlMkIlMjIlMkMlMjJkYXRhJTIyJTNBJTIyaW1wb3J0JTIwdGltZSUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYiUyMiUzQTElN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0EyJTJDJTIyYiUyMiUzQTIlN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0EzJTJDJTIyYiUyMiUzQTMlN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyZGVsJTIyJTJDJTIybWFyayUyMiUzQSUyMi0lMjIlMkMlMjJkYXRhJTIyJTNBJTIyYXN5bmMlMjBkZWYlMjBwcmludF9oZWxsb193b3JsZCgpJTNBJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBNCU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJhZGQlMjIlMkMlMjJtYXJrJTIyJTNBJTIyJTJCJTIyJTJDJTIyZGF0YSUyMiUzQSUyMmRlZiUyMHByaW50X2hlbGxvX3dvcmxkKCklM0ElMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmIlMjIlM0E0JTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwJTIwcHJpbnQoJTVDJTIySGVsbG8lNUMlMjIpJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBNSUyQyUyMmIlMjIlM0E1JTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmRlbCUyMiUyQyUyMm1hcmslMjIlM0ElMjItJTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMGF3YWl0JTIwYXN5bmNpby5zbGVlcCgxKSUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTYlN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyYWRkJTIyJTJDJTIybWFyayUyMiUzQSUyMiUyQiUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjB0aW1lLnNsZWVwKDEpJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJiJTIyJTNBNiU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMCUyMHByaW50KCU1QyUyMldvcmxkJTVDJTIyKSUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTclMkMlMjJiJTIyJTNBNyU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTglMkMlMjJiJTIyJTNBOCU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTklMkMlMjJiJTIyJTNBOSU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJkZWwlMjIlMkMlMjJtYXJrJTIyJTNBJTIyLSUyMiUyQyUyMmRhdGElMjIlM0ElMjJhc3luYyUyMGRlZiUyMHByaW50X2hlbGxvX3dvcmxkX3RocmVlX3RpbWVzKCklM0ElMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0ExMCU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJkZWwlMjIlMkMlMjJtYXJrJTIyJTNBJTIyLSUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjBhd2FpdCUyMGFzeW5jaW8uZ2F0aGVyKHByaW50X2hlbGxvX3dvcmxkKCklMkMlMjBwcmludF9oZWxsb193b3JsZCgpJTJDJTIwcHJpbnRfaGVsbG9fd29ybGQoKSklMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0ExMSU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJhZGQlMjIlMkMlMjJtYXJrJTIyJTNBJTIyJTJCJTIyJTJDJTIyZGF0YSUyMiUzQSUyMmRlZiUyMHByaW50X2hlbGxvX3dvcmxkX3RocmVlX3RpbWVzKCklM0ElMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmIlMjIlM0ExMCU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJhZGQlMjIlMkMlMjJtYXJrJTIyJTNBJTIyJTJCJTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMGZvciUyMF8lMjBpbiUyMHJhbmdlKDMpJTNBJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJiJTIyJTNBMTElN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyYWRkJTIyJTJDJTIybWFyayUyMiUzQSUyMiUyQiUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjBwcmludF9oZWxsb193b3JsZCgpJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJiJTIyJTNBMTIlN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0ExMiUyQyUyMmIlMjIlM0ExMyU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTEzJTJDJTIyYiUyMiUzQTE0JTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwZGVmJTIwc3dpbW1fdW5pdCgpJTNBJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBMTQlMkMlMjJiJTIyJTNBMTUlN0QlN0QlNUQlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0ElN0IlMjJzdGFydExpbmUlMjIlM0ExJTJDJTIybGluZXNDb3VudCUyMiUzQTE0JTdEJTJDJTIyYiUyMiUzQSU3QiUyMnN0YXJ0TGluZSUyMiUzQTElMkMlMjJsaW5lc0NvdW50JTIyJTNBMTUlN0QlN0QlN0QlN0Q=",
-                "JTdCJTIyaHVuayUyMiUzQSU3QiUyMmhlYWRlciUyMiUzQSUyMiU0MCU0MCUyMC0yMSUyQzUlMjAlMkIyMiUyQzQlMjAlNDAlNDAlMjBkZWYlMjBzd2ltbV91bml0KCklM0ElMjIlMkMlMjJjaGFuZ2VzJTIyJTNBJTVCJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwJTIwV29ybGQlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0EyMSUyQyUyMmIlMjIlM0EyMiU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMCUyMFdvcmxkJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBMjIlMkMlMjJiJTIyJTNBMjMlN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjAlMjAlNUMlMjIlNUMlMjIlNUMlMjIlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0EyMyUyQyUyMmIlMjIlM0EyNCU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJkZWwlMjIlMkMlMjJtYXJrJTIyJTNBJTIyLSUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjBhc3luY2lvLnJ1bihwcmludF9oZWxsb193b3JsZF90aHJlZV90aW1lcygpKSUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTI0JTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmRlbCUyMiUyQyUyMm1hcmslMjIlM0ElMjItJTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTI1JTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmFkZCUyMiUyQyUyMm1hcmslMjIlM0ElMjIlMkIlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwcHJpbnRfaGVsbG9fd29ybGRfdGhyZWVfdGltZXMoKSUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYiUyMiUzQTI1JTdEJTdEJTVEJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBJTdCJTIyc3RhcnRMaW5lJTIyJTNBMjElMkMlMjJsaW5lc0NvdW50JTIyJTNBNSU3RCUyQyUyMmIlMjIlM0ElN0IlMjJzdGFydExpbmUlMjIlM0EyMiUyQyUyMmxpbmVzQ291bnQlMjIlM0E0JTdEJTdEJTdEJTdE"
-            ]
+    "file_version": "2.0.1",
+    "meta": {
+        "app_version": "0.4.1-0",
+        "file_blobs": {
+            "async_io/hello_world.py": "94ff818e0e734d2310722185f92097916b09030a"
         }
     },
-    "diff": "ZGlmZiUyMC0tZ2l0JTIwYSUyRmFzeW5jX2lvJTJGaGVsbG9fd29ybGQucHklMjBiJTJGYXN5bmNfaW8lMkZoZWxsb193b3JsZC5weSUwQWluZGV4JTIwOTRmZjgxOC4uMTkwMTBmZCUyMDEwMDY0NCUwQS0tLSUyMGElMkZhc3luY19pbyUyRmhlbGxvX3dvcmxkLnB5JTBBJTJCJTJCJTJCJTIwYiUyRmFzeW5jX2lvJTJGaGVsbG9fd29ybGQucHklMEElNDAlNDAlMjAtMSUyQzE0JTIwJTJCMSUyQzE1JTIwJTQwJTQwJTBBLWltcG9ydCUyMGFzeW5jaW8lMEElMkJpbXBvcnQlMjB0aW1lJTBBJTIwJTBBJTIwJTBBLWFzeW5jJTIwZGVmJTIwcHJpbnRfaGVsbG9fd29ybGQoKSUzQSUwQSUyQmRlZiUyMHByaW50X2hlbGxvX3dvcmxkKCklM0ElMEElMjAlMjAlMjAlMjAlMjBwcmludCglMjJIZWxsbyUyMiklMEEtJTIwJTIwJTIwJTIwYXdhaXQlMjBhc3luY2lvLnNsZWVwKDEpJTBBJTJCJTIwJTIwJTIwJTIwdGltZS5zbGVlcCgxKSUwQSUyMCUyMCUyMCUyMCUyMHByaW50KCUyMldvcmxkJTIyKSUwQSUyMCUwQSUyMCUwQS1hc3luYyUyMGRlZiUyMHByaW50X2hlbGxvX3dvcmxkX3RocmVlX3RpbWVzKCklM0ElMEEtJTIwJTIwJTIwJTIwYXdhaXQlMjBhc3luY2lvLmdhdGhlcihwcmludF9oZWxsb193b3JsZCgpJTJDJTIwcHJpbnRfaGVsbG9fd29ybGQoKSUyQyUyMHByaW50X2hlbGxvX3dvcmxkKCkpJTBBJTJCZGVmJTIwcHJpbnRfaGVsbG9fd29ybGRfdGhyZWVfdGltZXMoKSUzQSUwQSUyQiUyMCUyMCUyMCUyMGZvciUyMF8lMjBpbiUyMHJhbmdlKDMpJTNBJTBBJTJCJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwcHJpbnRfaGVsbG9fd29ybGQoKSUwQSUyMCUwQSUyMCUwQSUyMGRlZiUyMHN3aW1tX3VuaXQoKSUzQSUwQSU0MCU0MCUyMC0yMSUyQzUlMjAlMkIyMiUyQzQlMjAlNDAlNDAlMjBkZWYlMjBzd2ltbV91bml0KCklM0ElMEElMjAlMjAlMjAlMjAlMjBXb3JsZCUwQSUyMCUyMCUyMCUyMCUyMFdvcmxkJTBBJTIwJTIwJTIwJTIwJTIwJTIyJTIyJTIyJTBBLSUyMCUyMCUyMCUyMGFzeW5jaW8ucnVuKHByaW50X2hlbGxvX3dvcmxkX3RocmVlX3RpbWVzKCkpJTBBLSUwQSUyQiUyMCUyMCUyMCUyMHByaW50X2hlbGxvX3dvcmxkX3RocmVlX3RpbWVzKCklMEE=",
-    "solution_files": [
-        "async_io/hello_world.py"
+    "content": [
+        {
+            "type": "text",
+            "text": "In this Unit, we will learn the basics of `asyncio` in Python.\n\nThe function `swimm_unit` doesn't generate the right output according to its documentation.\n\nFix it by using `asyncio`.\n\nNote:\n* `print_hello_world` should be called 3 times.\n* Make sure you understand the following keywords: `await`, `async`\n* Make sure you understand the following functions: `asyncio.gather`, `asyncio.run`\n\n# References\n* https://docs.python.org/3/library/asyncio-task.html#asyncio-example-gather"
+        },
+        {
+            "firstLineNumber": 1,
+            "path": "async_io/hello_world.py",
+            "type": "snippet",
+            "lines": [
+                "*import asyncio",
+                "+import time",
+                " ",
+                " ",
+                "*async def print_hello_world():",
+                "+def print_hello_world():",
+                "     print(\"Hello\")",
+                "*    await asyncio.sleep(1)",
+                "+    time.sleep(1)",
+                "     print(\"World\")",
+                " ",
+                " ",
+                "*async def print_hello_world_three_times():",
+                "+def print_hello_world_three_times():",
+                "*    await asyncio.gather(print_hello_world(), print_hello_world(), print_hello_world())",
+                "+    for _ in range(3):",
+                "+        print_hello_world()",
+                " ",
+                " ",
+                " def swimm_unit():"
+            ],
+            "comments": []
+        },
+        {
+            "firstLineNumber": 21,
+            "path": "async_io/hello_world.py",
+            "type": "snippet",
+            "lines": [
+                "     World",
+                "     World",
+                "     \"\"\"",
+                "*    asyncio.run(print_hello_world_three_times())",
+                "+    print_hello_world_three_times()",
+                "*"
+            ],
+            "comments": []
+        },
+        {
+            "type": "text",
+            "text": ""
+        }
     ],
-    "description": "SW4lMjB0aGlzJTIwVW5pdCUyQyUyMHdlJTIwd2lsbCUyMGxlYXJuJTIwdGhlJTIwYmFzaWNzJTIwb2YlMjAlNjBhc3luY2lvJTYwJTIwaW4lMjBQeXRob24uJTBBJTBBVGhlJTIwZnVuY3Rpb24lMjAlNjBzd2ltbV91bml0JTYwJTIwZG9lc24ndCUyMGdlbmVyYXRlJTIwdGhlJTIwcmlnaHQlMjBvdXRwdXQlMjBhY2NvcmRpbmclMjB0byUyMGl0cyUyMGRvY3VtZW50YXRpb24uJTBBJTBBRml4JTIwaXQlMjBieSUyMHVzaW5nJTIwJTYwYXN5bmNpbyU2MC4lMEElMEFOb3RlJTNBJTBBKiUyMCU2MHByaW50X2hlbGxvX3dvcmxkJTYwJTIwc2hvdWxkJTIwYmUlMjBjYWxsZWQlMjAzJTIwdGltZXMuJTBBKiUyME1ha2UlMjBzdXJlJTIweW91JTIwdW5kZXJzdGFuZCUyMHRoZSUyMGZvbGxvd2luZyUyMGtleXdvcmRzJTNBJTIwJTYwYXdhaXQlNjAlMkMlMjAlNjBhc3luYyU2MCUwQSolMjBNYWtlJTIwc3VyZSUyMHlvdSUyMHVuZGVyc3RhbmQlMjB0aGUlMjBmb2xsb3dpbmclMjBmdW5jdGlvbnMlM0ElMjAlNjBhc3luY2lvLmdhdGhlciU2MCUyQyUyMCU2MGFzeW5jaW8ucnVuJTYwJTBBJTBBJTIzJTIwUmVmZXJlbmNlcyUwQSolMjBodHRwcyUzQSUyRiUyRmRvY3MucHl0aG9uLm9yZyUyRjMlMkZsaWJyYXJ5JTJGYXN5bmNpby10YXNrLmh0bWwlMjNhc3luY2lvLWV4YW1wbGUtZ2F0aGVy",
-    "app_version": "0.1.2",
-    "file_version": "1.0.1"
+    "task": {
+        "dod": "Make the test pass",
+        "hints": [
+            "`print_hello_world` and `print_hello_world_three_times` should be async functions",
+            "the equivalent of `time.sleep` is `await asyncio.sleep`"
+        ],
+        "tests": [
+            "python3 -m doctest async_io/hello_world.py"
+        ]
+    }
 }

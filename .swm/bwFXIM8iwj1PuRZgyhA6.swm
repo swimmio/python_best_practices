@@ -1,34 +1,41 @@
 {
     "id": "bwFXIM8iwj1PuRZgyhA6",
     "name": "Default Value",
-    "tests": [
-        "python3 -m doctest default_value.py"
-    ],
-    "hints": [],
-    "play_mode": "handson",
-    "files": {
-        "default_value.py": {
-            "index": [
-                "5ae42c0..2f53e32",
-                "100644"
-            ],
-            "fileA": "default_value.py",
-            "fileB": "default_value.py",
-            "status": "MODIFIED",
-            "numLineDeletions": 1,
-            "numLineAdditions": 1,
-            "hunkContainers": [
-                "JTdCJTIyaHVuayUyMiUzQSU3QiUyMmhlYWRlciUyMiUzQSUyMiU0MCU0MCUyMC05JTJDNCUyMCUyQjklMkM0JTIwJTQwJTQwJTIwZGVmJTIwZGVmYXVsdF92YWx1ZShhcmd1bWVudCklM0ElMjIlMkMlMjJjaGFuZ2VzJTIyJTNBJTVCJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwJTIwJTNFJTNFJTNFJTIwZGVmYXVsdF92YWx1ZShOb25lKSUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTklMkMlMjJiJTIyJTNBOSU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMCUyMCdzd2ltbSclMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0ExMCUyQyUyMmIlMjIlM0ExMCU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMCUyMCU1QyUyMiU1QyUyMiU1QyUyMiUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTExJTJDJTIyYiUyMiUzQTExJTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmRlbCUyMiUyQyUyMm1hcmslMjIlM0ElMjItJTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMHJldHVybiUyMGFyZ3VtZW50JTIwb3IlMjAnc3dpbW0nJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBMTIlN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyYWRkJTIyJTJDJTIybWFyayUyMiUzQSUyMiUyQiUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjBwYXNzJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJiJTIyJTNBMTIlN0QlN0QlNUQlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0ElN0IlMjJzdGFydExpbmUlMjIlM0E5JTJDJTIybGluZXNDb3VudCUyMiUzQTQlN0QlMkMlMjJiJTIyJTNBJTdCJTIyc3RhcnRMaW5lJTIyJTNBOSUyQyUyMmxpbmVzQ291bnQlMjIlM0E0JTdEJTdEJTdEJTdE"
-            ]
+    "file_version": "2.0.1",
+    "meta": {
+        "app_version": "0.4.1-0",
+        "file_blobs": {
+            "default_value.py": "5ae42c0e514c8f0f83923d3c1f3ef6b81c843bfe"
         }
     },
-    "diff": "ZGlmZiUyMC0tZ2l0JTIwYSUyRmRlZmF1bHRfdmFsdWUucHklMjBiJTJGZGVmYXVsdF92YWx1ZS5weSUwQWluZGV4JTIwNWFlNDJjMC4uMmY1M2UzMiUyMDEwMDY0NCUwQS0tLSUyMGElMkZkZWZhdWx0X3ZhbHVlLnB5JTBBJTJCJTJCJTJCJTIwYiUyRmRlZmF1bHRfdmFsdWUucHklMEElNDAlNDAlMjAtOSUyQzQlMjAlMkI5JTJDNCUyMCU0MCU0MCUyMGRlZiUyMGRlZmF1bHRfdmFsdWUoYXJndW1lbnQpJTNBJTBBJTIwJTIwJTIwJTIwJTIwJTNFJTNFJTNFJTIwZGVmYXVsdF92YWx1ZShOb25lKSUwQSUyMCUyMCUyMCUyMCUyMCdzd2ltbSclMEElMjAlMjAlMjAlMjAlMjAlMjIlMjIlMjIlMEEtJTIwJTIwJTIwJTIwcmV0dXJuJTIwYXJndW1lbnQlMjBvciUyMCdzd2ltbSclMEElMkIlMjAlMjAlMjAlMjBwYXNzJTBB",
-    "solution_files": [
-        "default_value.py"
+    "content": [
+        {
+            "type": "text",
+            "text": ""
+        },
+        {
+            "firstLineNumber": 9,
+            "path": "default_value.py",
+            "type": "snippet",
+            "lines": [
+                "     >>> default_value(None)",
+                "     'swimm'",
+                "     \"\"\"",
+                "*    return argument or 'swimm'",
+                "+    pass"
+            ],
+            "comments": []
+        },
+        {
+            "type": "text",
+            "text": "This syntax is common for default values - you don't have to use an `if` clause here"
+        }
     ],
-    "description": "",
-    "app_version": "0.1.50",
-    "file_version": "1.0.2",
-    "dod": "SW1wbGVtZW50JTIwJTYwZGVmYXVsdF92YWx1ZSU2MCUyMGFjY29yZGluZyUyMHRvJTIwaXRzJTIwZG9jdW1lbnRhdGlvbg==",
-    "summary": "VGhpcyUyMHN5bnRheCUyMGlzJTIwY29tbW9uJTIwZm9yJTIwZGVmYXVsdCUyMHZhbHVlcyUyMC0lMjB5b3UlMjBkb24ndCUyMGhhdmUlMjB0byUyMHVzZSUyMGFuJTIwJTYwaWYlNjAlMjBjbGF1c2UlMjBoZXJl"
+    "task": {
+        "dod": "Implement `default_value` according to its documentation",
+        "hints": [],
+        "tests": [
+            "python3 -m doctest default_value.py"
+        ]
+    }
 }

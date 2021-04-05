@@ -1,32 +1,41 @@
 {
     "id": "dHQ5iakK0ry2I9M5AHkc",
     "name": "Multiply Str",
-    "tests": [
-        "mypy --strict multiply_str.py"
-    ],
-    "hints": [],
-    "play_mode": "handson",
-    "files": {
-        "multiply_str.py": {
-            "index": [
-                "b7fb7f4..8894871",
-                "100644"
-            ],
-            "fileA": "multiply_str.py",
-            "fileB": "multiply_str.py",
-            "status": "MODIFIED",
-            "numLineDeletions": 1,
-            "numLineAdditions": 1,
-            "hunkContainers": [
-                "JTdCJTIyaHVuayUyMiUzQSU3QiUyMmhlYWRlciUyMiUzQSUyMiU0MCU0MCUyMC0xJTJDNCUyMCUyQjElMkM0JTIwJTQwJTQwJTIyJTJDJTIyY2hhbmdlcyUyMiUzQSU1QiU3QiUyMnR5cGUlMjIlM0ElMjJkZWwlMjIlMkMlMjJtYXJrJTIyJTNBJTIyLSUyMiUyQyUyMmRhdGElMjIlM0ElMjJkZWYlMjBtdWx0aXBseV9zdHIocyUzQSUyMHN0ciUyQyUyMGNvdW50JTNBJTIwaW50KSUyMC0lM0UlMjBzdHIlM0ElMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0ExJTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmFkZCUyMiUyQyUyMm1hcmslMjIlM0ElMjIlMkIlMjIlMkMlMjJkYXRhJTIyJTNBJTIyZGVmJTIwbXVsdGlwbHlfc3RyKHMlMkMlMjBjb3VudCklM0ElMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmIlMjIlM0ExJTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwJTIwcmV0dXJuJTIwcyUyMColMjBjb3VudCUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTIlMkMlMjJiJTIyJTNBMiU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTMlMkMlMjJiJTIyJTNBMyU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTQlMkMlMjJiJTIyJTNBNCU3RCU3RCU1RCUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQSU3QiUyMnN0YXJ0TGluZSUyMiUzQTElMkMlMjJsaW5lc0NvdW50JTIyJTNBNCU3RCUyQyUyMmIlMjIlM0ElN0IlMjJzdGFydExpbmUlMjIlM0ExJTJDJTIybGluZXNDb3VudCUyMiUzQTQlN0QlN0QlN0QlN0Q="
-            ]
+    "file_version": "2.0.1",
+    "meta": {
+        "app_version": "0.4.1-0",
+        "file_blobs": {
+            "multiply_str.py": "b7fb7f41a4b0abbe58a777348e6696f315132139"
         }
     },
-    "diff": "ZGlmZiUyMC0tZ2l0JTIwYSUyRm11bHRpcGx5X3N0ci5weSUyMGIlMkZtdWx0aXBseV9zdHIucHklMEFpbmRleCUyMGI3ZmI3ZjQuLjg4OTQ4NzElMjAxMDA2NDQlMEEtLS0lMjBhJTJGbXVsdGlwbHlfc3RyLnB5JTBBJTJCJTJCJTJCJTIwYiUyRm11bHRpcGx5X3N0ci5weSUwQSU0MCU0MCUyMC0xJTJDNCUyMCUyQjElMkM0JTIwJTQwJTQwJTBBLWRlZiUyMG11bHRpcGx5X3N0cihzJTNBJTIwc3RyJTJDJTIwY291bnQlM0ElMjBpbnQpJTIwLSUzRSUyMHN0ciUzQSUwQSUyQmRlZiUyMG11bHRpcGx5X3N0cihzJTJDJTIwY291bnQpJTNBJTBBJTIwJTIwJTIwJTIwJTIwcmV0dXJuJTIwcyUyMColMjBjb3VudCUwQSUyMCUwQSUyMCUwQQ==",
-    "solution_files": [
-        "multiply_str.py"
+    "content": [
+        {
+            "type": "text",
+            "text": "`multiply_str` is missing type annotation - so [mypy](https://mypy.readthedocs.io/en/stable/introduction.html) is not happy.\n\nAdd the right annotation.\n\n# References\n* https://mypy.readthedocs.io/en/stable/builtin_types.html\n* https://mypy.readthedocs.io/en/stable/type_inference_and_annotations.html"
+        },
+        {
+            "firstLineNumber": 1,
+            "path": "multiply_str.py",
+            "type": "snippet",
+            "lines": [
+                "*def multiply_str(s: str, count: int) -> str:",
+                "+def multiply_str(s, count):",
+                "     return s * count",
+                " ",
+                " "
+            ],
+            "comments": []
+        },
+        {
+            "type": "text",
+            "text": ""
+        }
     ],
-    "description": "JTYwbXVsdGlwbHlfc3RyJTYwJTIwaXMlMjBtaXNzaW5nJTIwdHlwZSUyMGFubm90YXRpb24lMjAtJTIwc28lMjAlNUJteXB5JTVEKGh0dHBzJTNBJTJGJTJGbXlweS5yZWFkdGhlZG9jcy5pbyUyRmVuJTJGc3RhYmxlJTJGaW50cm9kdWN0aW9uLmh0bWwpJTIwaXMlMjBub3QlMjBoYXBweS4lMEElMEFBZGQlMjB0aGUlMjByaWdodCUyMGFubm90YXRpb24uJTBBJTBBJTIzJTIwUmVmZXJlbmNlcyUwQSolMjBodHRwcyUzQSUyRiUyRm15cHkucmVhZHRoZWRvY3MuaW8lMkZlbiUyRnN0YWJsZSUyRmJ1aWx0aW5fdHlwZXMuaHRtbCUwQSolMjBodHRwcyUzQSUyRiUyRm15cHkucmVhZHRoZWRvY3MuaW8lMkZlbiUyRnN0YWJsZSUyRnR5cGVfaW5mZXJlbmNlX2FuZF9hbm5vdGF0aW9ucy5odG1s",
-    "app_version": "0.1.2",
-    "file_version": "1.0.1"
+    "task": {
+        "dod": "Make the test pass",
+        "hints": [],
+        "tests": [
+            "mypy --strict multiply_str.py"
+        ]
+    }
 }

@@ -1,37 +1,45 @@
 {
     "id": "gZOl1nvyYSYujEXL2qTu",
     "name": "Sorting by the third element",
-    "tests": [
-        "python3 -m doctest sort_by_third_element.py"
-    ],
-    "hints": [
-        "Perhaps `sorted` can help",
-        "`sorted` has a second argument"
-    ],
-    "play_mode": "handson",
-    "files": {
-        "sort_by_third_element.py": {
-            "index": [
-                "0837f05..385fe0b",
-                "100644"
-            ],
-            "fileA": "sort_by_third_element.py",
-            "fileB": "sort_by_third_element.py",
-            "status": "MODIFIED",
-            "numLineDeletions": 2,
-            "numLineAdditions": 1,
-            "hunkContainers": [
-                "JTdCJTIyaHVuayUyMiUzQSU3QiUyMmhlYWRlciUyMiUzQSUyMiU0MCU0MCUyMC03JTJDNSUyMCUyQjclMkM0JTIwJTQwJTQwJTIwZGVmJTIwc29ydF9ieV90aGlyZF9lbGVtZW50KGl0ZXJhYmxlKSUzQSUyMiUyQyUyMmNoYW5nZXMlMjIlM0ElNUIlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjAlMjAlM0UlM0UlM0UlMjBzb3J0X2J5X3RoaXJkX2VsZW1lbnQoJTVCKDElMkMyJTJDMyUyQzQpJTJDJTIwKDElMkM1JTJDOSUyQzEwMjMpJTJDJTIwKDElMkMxJTJDMSklNUQpJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBNyUyQyUyMmIlMjIlM0E3JTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwJTIwJTVCKDElMkMlMjAxJTJDJTIwMSklMkMlMjAoMSUyQyUyMDIlMkMlMjAzJTJDJTIwNCklMkMlMjAoMSUyQyUyMDUlMkMlMjA5JTJDJTIwMTAyMyklNUQlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0E4JTJDJTIyYiUyMiUzQTglN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjAlMjAlNUMlMjIlNUMlMjIlNUMlMjIlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0E5JTJDJTIyYiUyMiUzQTklN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyZGVsJTIyJTJDJTIybWFyayUyMiUzQSUyMi0lMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwaW1wb3J0JTIwb3BlcmF0b3IlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0ExMCU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJkZWwlMjIlMkMlMjJtYXJrJTIyJTNBJTIyLSUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjByZXR1cm4lMjBzb3J0ZWQoaXRlcmFibGUlMkMlMjBrZXklM0RvcGVyYXRvci5pdGVtZ2V0dGVyKDIpKSUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTExJTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmFkZCUyMiUyQyUyMm1hcmslMjIlM0ElMjIlMkIlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwcGFzcyUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYiUyMiUzQTEwJTdEJTdEJTVEJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBJTdCJTIyc3RhcnRMaW5lJTIyJTNBNyUyQyUyMmxpbmVzQ291bnQlMjIlM0E1JTdEJTJDJTIyYiUyMiUzQSU3QiUyMnN0YXJ0TGluZSUyMiUzQTclMkMlMjJsaW5lc0NvdW50JTIyJTNBNCU3RCU3RCU3RCU3RA=="
-            ]
+    "file_version": "2.0.1",
+    "meta": {
+        "app_version": "0.4.1-0",
+        "file_blobs": {
+            "sort_by_third_element.py": "0837f054386a8797b094215f116e4b7dd1d7136a"
         }
     },
-    "diff": "ZGlmZiUyMC0tZ2l0JTIwYSUyRnNvcnRfYnlfdGhpcmRfZWxlbWVudC5weSUyMGIlMkZzb3J0X2J5X3RoaXJkX2VsZW1lbnQucHklMEFpbmRleCUyMDA4MzdmMDUuLjM4NWZlMGIlMjAxMDA2NDQlMEEtLS0lMjBhJTJGc29ydF9ieV90aGlyZF9lbGVtZW50LnB5JTBBJTJCJTJCJTJCJTIwYiUyRnNvcnRfYnlfdGhpcmRfZWxlbWVudC5weSUwQSU0MCU0MCUyMC03JTJDNSUyMCUyQjclMkM0JTIwJTQwJTQwJTIwZGVmJTIwc29ydF9ieV90aGlyZF9lbGVtZW50KGl0ZXJhYmxlKSUzQSUwQSUyMCUyMCUyMCUyMCUyMCUzRSUzRSUzRSUyMHNvcnRfYnlfdGhpcmRfZWxlbWVudCglNUIoMSUyQzIlMkMzJTJDNCklMkMlMjAoMSUyQzUlMkM5JTJDMTAyMyklMkMlMjAoMSUyQzElMkMxKSU1RCklMEElMjAlMjAlMjAlMjAlMjAlNUIoMSUyQyUyMDElMkMlMjAxKSUyQyUyMCgxJTJDJTIwMiUyQyUyMDMlMkMlMjA0KSUyQyUyMCgxJTJDJTIwNSUyQyUyMDklMkMlMjAxMDIzKSU1RCUwQSUyMCUyMCUyMCUyMCUyMCUyMiUyMiUyMiUwQS0lMjAlMjAlMjAlMjBpbXBvcnQlMjBvcGVyYXRvciUwQS0lMjAlMjAlMjAlMjByZXR1cm4lMjBzb3J0ZWQoaXRlcmFibGUlMkMlMjBrZXklM0RvcGVyYXRvci5pdGVtZ2V0dGVyKDIpKSUwQSUyQiUyMCUyMCUyMCUyMHBhc3MlMEE=",
-    "solution_files": [
-        "sort_by_third_element.py"
+    "content": [
+        {
+            "type": "text",
+            "text": ""
+        },
+        {
+            "firstLineNumber": 7,
+            "path": "sort_by_third_element.py",
+            "type": "snippet",
+            "lines": [
+                "     >>> sort_by_third_element([(1,2,3,4), (1,5,9,1023), (1,1,1)])",
+                "     [(1, 1, 1), (1, 2, 3, 4), (1, 5, 9, 1023)]",
+                "     \"\"\"",
+                "*    import operator",
+                "+    pass",
+                "*    return sorted(iterable, key=operator.itemgetter(2))"
+            ],
+            "comments": []
+        },
+        {
+            "type": "text",
+            "text": ""
+        }
     ],
-    "description": "",
-    "app_version": "0.1.31",
-    "file_version": "1.0.2",
-    "dod": "SW1wbGVtZW50JTIwJTYwc29ydF9ieV90aGlyZF9lbGVtZW50JTYwJTIwYWNjb3JkaW5nJTIwdG8lMjBpdHMlMjBpbXBsZW1lbnRhdGlvbi4=",
-    "summary": ""
+    "task": {
+        "dod": "Implement `sort_by_third_element` according to its implementation.",
+        "hints": [
+            "Perhaps `sorted` can help",
+            "`sorted` has a second argument"
+        ],
+        "tests": [
+            "python3 -m doctest sort_by_third_element.py"
+        ]
+    }
 }

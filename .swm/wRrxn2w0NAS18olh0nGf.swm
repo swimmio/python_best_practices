@@ -1,36 +1,44 @@
 {
     "id": "wRrxn2w0NAS18olh0nGf",
     "name": "Full Names",
-    "tests": [
-        "python3 -m doctest full_names.py"
-    ],
-    "hints": [
-        "`zip`"
-    ],
-    "play_mode": "handson",
-    "files": {
-        "full_names.py": {
-            "index": [
-                "7aebd68..59961fd",
-                "100644"
-            ],
-            "fileA": "full_names.py",
-            "fileB": "full_names.py",
-            "status": "MODIFIED",
-            "numLineDeletions": 2,
-            "numLineAdditions": 1,
-            "hunkContainers": [
-                "JTdCJTIyaHVuayUyMiUzQSU3QiUyMmhlYWRlciUyMiUzQSUyMiU0MCU0MCUyMC04JTJDNSUyMCUyQjglMkM0JTIwJTQwJTQwJTIwZGVmJTIwZnVsbF9uYW1lcyhmaXJzdF9uYW1lcyUyQyUyMGxhc3RfbmFtZXMpJTNBJTIyJTJDJTIyY2hhbmdlcyUyMiUzQSU1QiU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMCUyMEpvaG4lMjBTbWl0aCUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTglMkMlMjJiJTIyJTNBOCU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMCUyMFN3aW1tJTIwaW8lMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0E5JTJDJTIyYiUyMiUzQTklN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjAlMjAlNUMlMjIlNUMlMjIlNUMlMjIlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0ExMCUyQyUyMmIlMjIlM0ExMCU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJkZWwlMjIlMkMlMjJtYXJrJTIyJTNBJTIyLSUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjBmb3IlMjAoZmlyc3RfbmFtZSUyQyUyMGxhc3RfbmFtZSklMjBpbiUyMHppcChmaXJzdF9uYW1lcyUyQyUyMGxhc3RfbmFtZXMpJTNBJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBMTElN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyZGVsJTIyJTJDJTIybWFyayUyMiUzQSUyMi0lMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwcHJpbnQoZmlyc3RfbmFtZSUyQyUyMGxhc3RfbmFtZSklMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0ExMiU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJhZGQlMjIlMkMlMjJtYXJrJTIyJTNBJTIyJTJCJTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMHBhc3MlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmIlMjIlM0ExMSU3RCU3RCU1RCUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQSU3QiUyMnN0YXJ0TGluZSUyMiUzQTglMkMlMjJsaW5lc0NvdW50JTIyJTNBNSU3RCUyQyUyMmIlMjIlM0ElN0IlMjJzdGFydExpbmUlMjIlM0E4JTJDJTIybGluZXNDb3VudCUyMiUzQTQlN0QlN0QlN0QlN0Q="
-            ]
+    "file_version": "2.0.1",
+    "meta": {
+        "app_version": "0.4.1-0",
+        "file_blobs": {
+            "full_names.py": "7aebd68518abfd8cede2d1ddec412883144c0324"
         }
     },
-    "diff": "ZGlmZiUyMC0tZ2l0JTIwYSUyRmZ1bGxfbmFtZXMucHklMjBiJTJGZnVsbF9uYW1lcy5weSUwQWluZGV4JTIwN2FlYmQ2OC4uNTk5NjFmZCUyMDEwMDY0NCUwQS0tLSUyMGElMkZmdWxsX25hbWVzLnB5JTBBJTJCJTJCJTJCJTIwYiUyRmZ1bGxfbmFtZXMucHklMEElNDAlNDAlMjAtOCUyQzUlMjAlMkI4JTJDNCUyMCU0MCU0MCUyMGRlZiUyMGZ1bGxfbmFtZXMoZmlyc3RfbmFtZXMlMkMlMjBsYXN0X25hbWVzKSUzQSUwQSUyMCUyMCUyMCUyMCUyMEpvaG4lMjBTbWl0aCUwQSUyMCUyMCUyMCUyMCUyMFN3aW1tJTIwaW8lMEElMjAlMjAlMjAlMjAlMjAlMjIlMjIlMjIlMEEtJTIwJTIwJTIwJTIwZm9yJTIwKGZpcnN0X25hbWUlMkMlMjBsYXN0X25hbWUpJTIwaW4lMjB6aXAoZmlyc3RfbmFtZXMlMkMlMjBsYXN0X25hbWVzKSUzQSUwQS0lMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjBwcmludChmaXJzdF9uYW1lJTJDJTIwbGFzdF9uYW1lKSUwQSUyQiUyMCUyMCUyMCUyMHBhc3MlMEE=",
-    "solution_files": [
-        "full_names.py"
+    "content": [
+        {
+            "type": "text",
+            "text": ""
+        },
+        {
+            "firstLineNumber": 8,
+            "path": "full_names.py",
+            "type": "snippet",
+            "lines": [
+                "     John Smith",
+                "     Swimm io",
+                "     \"\"\"",
+                "*    for (first_name, last_name) in zip(first_names, last_names):",
+                "+    pass",
+                "*        print(first_name, last_name)"
+            ],
+            "comments": []
+        },
+        {
+            "type": "text",
+            "text": ""
+        }
     ],
-    "description": "",
-    "app_version": "0.1.40",
-    "file_version": "1.0.2",
-    "dod": "SW1wbGVtZW50JTIwJTYwZnVsbF9uYW1lcyU2MCUyMGFjY29yZGluZyUyMHRvJTIwaXRzJTIwZG9jdW1lbnRhdGlvbg==",
-    "summary": ""
+    "task": {
+        "dod": "Implement `full_names` according to its documentation",
+        "hints": [
+            "`zip`"
+        ],
+        "tests": [
+            "python3 -m doctest full_names.py"
+        ]
+    }
 }

@@ -1,37 +1,57 @@
 {
     "id": "0CdggOZT3Zs6yiIucH9X",
     "name": "Counting Occurrences",
-    "tests": [
-        "python3 -m doctest counting_occurrences.py"
-    ],
-    "play_mode": "handson",
-    "hints": [
-        "`import collections`"
-    ],
-    "files": {
-        "counting_occurrences.py": {
-            "index": [
-                "80be3a0..f1853c5",
-                "100644"
-            ],
-            "fileA": "counting_occurrences.py",
-            "fileB": "counting_occurrences.py",
-            "status": "MODIFIED",
-            "numLineDeletions": 4,
-            "numLineAdditions": 1,
-            "hunkContainers": [
-                "JTdCJTIyaHVuayUyMiUzQSU3QiUyMmhlYWRlciUyMiUzQSUyMiU0MCU0MCUyMC0xJTJDNiUyMCUyQjElMkMzJTIwJTQwJTQwJTIyJTJDJTIyY2hhbmdlcyUyMiUzQSU1QiU3QiUyMnR5cGUlMjIlM0ElMjJkZWwlMjIlMkMlMjJtYXJrJTIyJTNBJTIyLSUyMiUyQyUyMmRhdGElMjIlM0ElMjJpbXBvcnQlMjBjb2xsZWN0aW9ucyUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTElN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyZGVsJTIyJTJDJTIybWFyayUyMiUzQSUyMi0lMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBMiU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJkZWwlMjIlMkMlMjJtYXJrJTIyJTNBJTIyLSUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0EzJTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwZGVmJTIwY291bnRpbmdfb2NjdXJyZW5jZXMoaXRlcmFibGUlMkMlMjBlbGVtZW50KSUzQSUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTQlMkMlMjJiJTIyJTNBMSU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMCUyMCU1QyUyMiU1QyUyMiU1QyUyMiUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTUlMkMlMjJiJTIyJTNBMiU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMCUyMFVzZSUyMCU2MGNvbGxlY3Rpb25zJTYwJTIwbW9kdWxlJTIwdG8lMjBpbXBsZW1lbnQlMjB0aGlzJTIwZnVuY3Rpb24lMjB0aGF0JTIwcmV0dXJucyUyMGhvdyUyMG1hbnklMjB0aW1lcyUyMCU2MGVsZW1lbnQlNjAlMjBhcHBlYXJzJTIwaW4lMjAlNjBpdGVyYWJsZSU2MC4lMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0E2JTJDJTIyYiUyMiUzQTMlN0QlN0QlNUQlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0ElN0IlMjJzdGFydExpbmUlMjIlM0ExJTJDJTIybGluZXNDb3VudCUyMiUzQTYlN0QlMkMlMjJiJTIyJTNBJTdCJTIyc3RhcnRMaW5lJTIyJTNBMSUyQyUyMmxpbmVzQ291bnQlMjIlM0EzJTdEJTdEJTdEJTdE",
-                "JTdCJTIyaHVuayUyMiUzQSU3QiUyMmhlYWRlciUyMiUzQSUyMiU0MCU0MCUyMC0xMiUyQzQlMjAlMkI5JTJDNCUyMCU0MCU0MCUyMGRlZiUyMGNvdW50aW5nX29jY3VycmVuY2VzKGl0ZXJhYmxlJTJDJTIwZWxlbWVudCklM0ElMjIlMkMlMjJjaGFuZ2VzJTIyJTNBJTVCJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwJTIwJTNFJTNFJTNFJTIwY291bnRpbmdfb2NjdXJyZW5jZXMoJTVCJ3N3aW1tJyUyQyUyMCdoaSclMkMlMjAnc3dpbW0nJTJDJTIwJ2J5ZSclNUQlMkMlMjAnbm9uX2V4aXN0aW5nJyklMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0ExMiUyQyUyMmIlMjIlM0E5JTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwJTIwMCUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTEzJTJDJTIyYiUyMiUzQTEwJTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwJTIwJTVDJTIyJTVDJTIyJTVDJTIyJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBMTQlMkMlMjJiJTIyJTNBMTElN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyZGVsJTIyJTJDJTIybWFyayUyMiUzQSUyMi0lMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwcmV0dXJuJTIwY29sbGVjdGlvbnMuQ291bnRlcihpdGVyYWJsZSklNUJlbGVtZW50JTVEJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBMTUlN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyYWRkJTIyJTJDJTIybWFyayUyMiUzQSUyMiUyQiUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjBwYXNzJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJiJTIyJTNBMTIlN0QlN0QlNUQlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0ElN0IlMjJzdGFydExpbmUlMjIlM0ExMiUyQyUyMmxpbmVzQ291bnQlMjIlM0E0JTdEJTJDJTIyYiUyMiUzQSU3QiUyMnN0YXJ0TGluZSUyMiUzQTklMkMlMjJsaW5lc0NvdW50JTIyJTNBNCU3RCU3RCU3RCU3RA=="
-            ]
+    "file_version": "2.0.1",
+    "meta": {
+        "app_version": "0.4.1-0",
+        "file_blobs": {
+            "counting_occurrences.py": "80be3a038940a4d24b4d139ce089eba31f4af7a8"
         }
     },
-    "diff": "ZGlmZiUyMC0tZ2l0JTIwYSUyRmNvdW50aW5nX29jY3VycmVuY2VzLnB5JTIwYiUyRmNvdW50aW5nX29jY3VycmVuY2VzLnB5JTBBaW5kZXglMjA4MGJlM2EwLi5mMTg1M2M1JTIwMTAwNjQ0JTBBLS0tJTIwYSUyRmNvdW50aW5nX29jY3VycmVuY2VzLnB5JTBBJTJCJTJCJTJCJTIwYiUyRmNvdW50aW5nX29jY3VycmVuY2VzLnB5JTBBJTQwJTQwJTIwLTElMkM2JTIwJTJCMSUyQzMlMjAlNDAlNDAlMEEtaW1wb3J0JTIwY29sbGVjdGlvbnMlMEEtJTBBLSUwQSUyMGRlZiUyMGNvdW50aW5nX29jY3VycmVuY2VzKGl0ZXJhYmxlJTJDJTIwZWxlbWVudCklM0ElMEElMjAlMjAlMjAlMjAlMjAlMjIlMjIlMjIlMEElMjAlMjAlMjAlMjAlMjBVc2UlMjAlNjBjb2xsZWN0aW9ucyU2MCUyMG1vZHVsZSUyMHRvJTIwaW1wbGVtZW50JTIwdGhpcyUyMGZ1bmN0aW9uJTIwdGhhdCUyMHJldHVybnMlMjBob3clMjBtYW55JTIwdGltZXMlMjAlNjBlbGVtZW50JTYwJTIwYXBwZWFycyUyMGluJTIwJTYwaXRlcmFibGUlNjAuJTBBJTQwJTQwJTIwLTEyJTJDNCUyMCUyQjklMkM0JTIwJTQwJTQwJTIwZGVmJTIwY291bnRpbmdfb2NjdXJyZW5jZXMoaXRlcmFibGUlMkMlMjBlbGVtZW50KSUzQSUwQSUyMCUyMCUyMCUyMCUyMCUzRSUzRSUzRSUyMGNvdW50aW5nX29jY3VycmVuY2VzKCU1Qidzd2ltbSclMkMlMjAnaGknJTJDJTIwJ3N3aW1tJyUyQyUyMCdieWUnJTVEJTJDJTIwJ25vbl9leGlzdGluZycpJTBBJTIwJTIwJTIwJTIwJTIwMCUwQSUyMCUyMCUyMCUyMCUyMCUyMiUyMiUyMiUwQS0lMjAlMjAlMjAlMjByZXR1cm4lMjBjb2xsZWN0aW9ucy5Db3VudGVyKGl0ZXJhYmxlKSU1QmVsZW1lbnQlNUQlMEElMkIlMjAlMjAlMjAlMjBwYXNzJTBB",
-    "solution_files": [
-        "counting_occurrences.py"
+    "content": [
+        {
+            "type": "text",
+            "text": ""
+        },
+        {
+            "firstLineNumber": 1,
+            "path": "counting_occurrences.py",
+            "type": "snippet",
+            "lines": [
+                "*import collections",
+                "*",
+                "*",
+                " def counting_occurrences(iterable, element):",
+                "     \"\"\"",
+                "     Use `collections` module to implement this function that returns how many times `element` appears in `iterable`."
+            ],
+            "comments": []
+        },
+        {
+            "firstLineNumber": 12,
+            "path": "counting_occurrences.py",
+            "type": "snippet",
+            "lines": [
+                "     >>> counting_occurrences(['swimm', 'hi', 'swimm', 'bye'], 'non_existing')",
+                "     0",
+                "     \"\"\"",
+                "*    return collections.Counter(iterable)[element]",
+                "+    pass"
+            ],
+            "comments": []
+        },
+        {
+            "type": "text",
+            "text": ""
+        }
     ],
-    "description": "",
-    "app_version": "0.1.31",
-    "file_version": "1.0.2",
-    "dod": "SW1wbGVtZW50JTIwJTYwY291bnRpbmdfb2NjdXJyZW5jZXMlNjAlMjBhY2NvcmRpbmclMjB0byUyMGl0cyUyMGRvY3VtZW50YXRpb24=",
-    "summary": ""
+    "task": {
+        "dod": "Implement `counting_occurrences` according to its documentation",
+        "hints": [
+            "`import collections`"
+        ],
+        "tests": [
+            "python3 -m doctest counting_occurrences.py"
+        ]
+    }
 }

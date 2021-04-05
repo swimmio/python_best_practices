@@ -1,33 +1,60 @@
 {
     "id": "4nYEJZ3vS6qGE9S5RYHi",
     "name": "Get Dict",
-    "tests": [
-        "mypy --strict get_dict.py"
-    ],
-    "hints": [],
-    "play_mode": "handson",
-    "files": {
-        "get_dict.py": {
-            "index": [
-                "009a9bc..5dd43d4",
-                "100644"
-            ],
-            "fileA": "get_dict.py",
-            "fileB": "get_dict.py",
-            "status": "MODIFIED",
-            "numLineDeletions": 5,
-            "numLineAdditions": 2,
-            "hunkContainers": [
-                "JTdCJTIyaHVuayUyMiUzQSU3QiUyMmhlYWRlciUyMiUzQSUyMiU0MCU0MCUyMC0xJTJDNyUyMCUyQjElMkM0JTIwJTQwJTQwJTIyJTJDJTIyY2hhbmdlcyUyMiUzQSU1QiU3QiUyMnR5cGUlMjIlM0ElMjJkZWwlMjIlMkMlMjJtYXJrJTIyJTNBJTIyLSUyMiUyQyUyMmRhdGElMjIlM0ElMjJmcm9tJTIwdHlwaW5nJTIwaW1wb3J0JTIwRGljdCUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTElN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyZGVsJTIyJTJDJTIybWFyayUyMiUzQSUyMi0lMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBMiU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJkZWwlMjIlMkMlMjJtYXJrJTIyJTNBJTIyLSUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0EzJTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmRlbCUyMiUyQyUyMm1hcmslMjIlM0ElMjItJTIyJTJDJTIyZGF0YSUyMiUzQSUyMmRlZiUyMGdldF9kaWN0X3N0cl9zdHIoZCUzQSUyMERpY3QlNUJzdHIlMkMlMjBzdHIlNUQpJTIwLSUzRSUyME5vbmUlM0ElMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0E0JTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmFkZCUyMiUyQyUyMm1hcmslMjIlM0ElMjIlMkIlMjIlMkMlMjJkYXRhJTIyJTNBJTIyZGVmJTIwZ2V0X2RpY3Rfc3RyX3N0cihkKSUzQSUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYiUyMiUzQTElN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjAlMjBwYXNzJTIwJTIwJTIzJTIwVGhlJTIwaW1wbGVtZW50YXRpb24lMjBkb2Vzbid0JTIwbWF0dGVyJTIwaGVyZSUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTUlMkMlMjJiJTIyJTNBMiU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTYlMkMlMjJiJTIyJTNBMyU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTclMkMlMjJiJTIyJTNBNCU3RCU3RCU1RCUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQSU3QiUyMnN0YXJ0TGluZSUyMiUzQTElMkMlMjJsaW5lc0NvdW50JTIyJTNBNyU3RCUyQyUyMmIlMjIlM0ElN0IlMjJzdGFydExpbmUlMjIlM0ExJTJDJTIybGluZXNDb3VudCUyMiUzQTQlN0QlN0QlN0QlN0Q=",
-                "JTdCJTIyaHVuayUyMiUzQSU3QiUyMmhlYWRlciUyMiUzQSUyMiU0MCU0MCUyMC05JTJDNyUyMCUyQjYlMkM3JTIwJTQwJTQwJTIwZ2V0X2RpY3Rfc3RyX3N0ciglN0IlNUMlMjJhJTVDJTIyJTNBJTIwJTVDJTIyYiU1QyUyMiU3RCklMjIlMkMlMjJjaGFuZ2VzJTIyJTNBJTVCJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwZ2V0X2RpY3Rfc3RyX3N0ciglN0IlN0QpJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBOSUyQyUyMmIlMjIlM0E2JTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBMTAlMkMlMjJiJTIyJTNBNyU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTExJTJDJTIyYiUyMiUzQTglN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyZGVsJTIyJTJDJTIybWFyayUyMiUzQSUyMi0lMjIlMkMlMjJkYXRhJTIyJTNBJTIyZGVmJTIwZ2V0X2RpY3Rfc3RyX2ludChkJTNBJTIwRGljdCU1QnN0ciUyQyUyMGludCU1RCklMjAtJTNFJTIwTm9uZSUzQSUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTEyJTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmFkZCUyMiUyQyUyMm1hcmslMjIlM0ElMjIlMkIlMjIlMkMlMjJkYXRhJTIyJTNBJTIyZGVmJTIwZ2V0X2RpY3Rfc3RyX2ludChkKSUzQSUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYiUyMiUzQTklN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjAlMjBwYXNzJTIwJTIwJTIzJTIwVGhlJTIwaW1wbGVtZW50YXRpb24lMjBkb2Vzbid0JTIwbWF0dGVyJTIwaGVyZSUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTEzJTJDJTIyYiUyMiUzQTEwJTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBMTQlMkMlMjJiJTIyJTNBMTElN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0ExNSUyQyUyMmIlMjIlM0ExMiU3RCU3RCU1RCUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQSU3QiUyMnN0YXJ0TGluZSUyMiUzQTklMkMlMjJsaW5lc0NvdW50JTIyJTNBNyU3RCUyQyUyMmIlMjIlM0ElN0IlMjJzdGFydExpbmUlMjIlM0E2JTJDJTIybGluZXNDb3VudCUyMiUzQTclN0QlN0QlN0QlN0Q="
-            ]
+    "file_version": "2.0.1",
+    "meta": {
+        "app_version": "0.4.1-0",
+        "file_blobs": {
+            "get_dict.py": "009a9bc315ed03ee9567a23f5a131a730d174a0c"
         }
     },
-    "diff": "ZGlmZiUyMC0tZ2l0JTIwYSUyRmdldF9kaWN0LnB5JTIwYiUyRmdldF9kaWN0LnB5JTBBaW5kZXglMjAwMDlhOWJjLi41ZGQ0M2Q0JTIwMTAwNjQ0JTBBLS0tJTIwYSUyRmdldF9kaWN0LnB5JTBBJTJCJTJCJTJCJTIwYiUyRmdldF9kaWN0LnB5JTBBJTQwJTQwJTIwLTElMkM3JTIwJTJCMSUyQzQlMjAlNDAlNDAlMEEtZnJvbSUyMHR5cGluZyUyMGltcG9ydCUyMERpY3QlMEEtJTBBLSUwQS1kZWYlMjBnZXRfZGljdF9zdHJfc3RyKGQlM0ElMjBEaWN0JTVCc3RyJTJDJTIwc3RyJTVEKSUyMC0lM0UlMjBOb25lJTNBJTBBJTJCZGVmJTIwZ2V0X2RpY3Rfc3RyX3N0cihkKSUzQSUwQSUyMCUyMCUyMCUyMCUyMHBhc3MlMjAlMjAlMjMlMjBUaGUlMjBpbXBsZW1lbnRhdGlvbiUyMGRvZXNuJ3QlMjBtYXR0ZXIlMjBoZXJlJTBBJTIwJTBBJTIwJTBBJTQwJTQwJTIwLTklMkM3JTIwJTJCNiUyQzclMjAlNDAlNDAlMjBnZXRfZGljdF9zdHJfc3RyKCU3QiUyMmElMjIlM0ElMjAlMjJiJTIyJTdEKSUwQSUyMGdldF9kaWN0X3N0cl9zdHIoJTdCJTdEKSUwQSUyMCUwQSUyMCUwQS1kZWYlMjBnZXRfZGljdF9zdHJfaW50KGQlM0ElMjBEaWN0JTVCc3RyJTJDJTIwaW50JTVEKSUyMC0lM0UlMjBOb25lJTNBJTBBJTJCZGVmJTIwZ2V0X2RpY3Rfc3RyX2ludChkKSUzQSUwQSUyMCUyMCUyMCUyMCUyMHBhc3MlMjAlMjAlMjMlMjBUaGUlMjBpbXBsZW1lbnRhdGlvbiUyMGRvZXNuJ3QlMjBtYXR0ZXIlMjBoZXJlJTBBJTIwJTBBJTIwJTBB",
-    "solution_files": [
-        "get_dict.py"
+    "content": [
+        {
+            "type": "text",
+            "text": "`get_dict_str_str` and `get_dict_str_int` are missing type annotation - so [mypy](https://mypy.readthedocs.io/en/stable/introduction.html) is not happy.\n\nAdd the right annotations.\n\nIt would be useful to understand the type `Dict` within [builtin types](https://mypy.readthedocs.io/en/stable/builtin_types.html) for that.\n\n# References\n* https://mypy.readthedocs.io/en/stable/builtin_types.html"
+        },
+        {
+            "firstLineNumber": 1,
+            "path": "get_dict.py",
+            "type": "snippet",
+            "lines": [
+                "*from typing import Dict",
+                "+def get_dict_str_str(d):",
+                "*",
+                "*",
+                "*def get_dict_str_str(d: Dict[str, str]) -> None:",
+                "     pass  # The implementation doesn't matter here",
+                " ",
+                " "
+            ],
+            "comments": []
+        },
+        {
+            "firstLineNumber": 9,
+            "path": "get_dict.py",
+            "type": "snippet",
+            "lines": [
+                " get_dict_str_str({})",
+                " ",
+                " ",
+                "*def get_dict_str_int(d: Dict[str, int]) -> None:",
+                "+def get_dict_str_int(d):",
+                "     pass  # The implementation doesn't matter here",
+                " ",
+                " "
+            ],
+            "comments": []
+        },
+        {
+            "type": "text",
+            "text": ""
+        }
     ],
-    "description": "JTYwZ2V0X2RpY3Rfc3RyX3N0ciU2MCUyMGFuZCUyMCU2MGdldF9kaWN0X3N0cl9pbnQlNjAlMjBhcmUlMjBtaXNzaW5nJTIwdHlwZSUyMGFubm90YXRpb24lMjAtJTIwc28lMjAlNUJteXB5JTVEKGh0dHBzJTNBJTJGJTJGbXlweS5yZWFkdGhlZG9jcy5pbyUyRmVuJTJGc3RhYmxlJTJGaW50cm9kdWN0aW9uLmh0bWwpJTIwaXMlMjBub3QlMjBoYXBweS4lMEElMEFBZGQlMjB0aGUlMjByaWdodCUyMGFubm90YXRpb25zLiUwQSUwQUl0JTIwd291bGQlMjBiZSUyMHVzZWZ1bCUyMHRvJTIwdW5kZXJzdGFuZCUyMHRoZSUyMHR5cGUlMjAlNjBEaWN0JTYwJTIwd2l0aGluJTIwJTVCYnVpbHRpbiUyMHR5cGVzJTVEKGh0dHBzJTNBJTJGJTJGbXlweS5yZWFkdGhlZG9jcy5pbyUyRmVuJTJGc3RhYmxlJTJGYnVpbHRpbl90eXBlcy5odG1sKSUyMGZvciUyMHRoYXQuJTBBJTBBJTIzJTIwUmVmZXJlbmNlcyUwQSolMjBodHRwcyUzQSUyRiUyRm15cHkucmVhZHRoZWRvY3MuaW8lMkZlbiUyRnN0YWJsZSUyRmJ1aWx0aW5fdHlwZXMuaHRtbA==",
-    "app_version": "0.1.2",
-    "file_version": "1.0.1"
+    "task": {
+        "dod": "Make the test pass",
+        "hints": [],
+        "tests": [
+            "mypy --strict get_dict.py"
+        ]
+    }
 }

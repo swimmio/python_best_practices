@@ -1,39 +1,51 @@
 {
     "id": "5UFHwSCW30etM97RufMw",
     "name": "Is only UPPER strings?",
-    "dod": "SW1wbGVtZW50JTIwJTYwaXNfb25seV91cHBlcl9zdHJpbmdzJTYwJTIwYWNjb3JkaW5nJTIwdG8lMjBpdHMlMjBkb2N1bWVudGF0aW9u",
-    "description": "",
-    "summary": "JTYwYWxsJTYwJTIwaXMlMjB1c2VmdWwh",
-    "diff": "ZGlmZiUyMC0tZ2l0JTIwYSUyRmlzX29ubHlfdXBwZXJfc3RyaW5ncy5weSUyMGIlMkZpc19vbmx5X3VwcGVyX3N0cmluZ3MucHklMEFpbmRleCUyMGM4YWIyNTkuLjM3YTAzNTQlMjAxMDA2NDQlMEEtLS0lMjBhJTJGaXNfb25seV91cHBlcl9zdHJpbmdzLnB5JTBBJTJCJTJCJTJCJTIwYiUyRmlzX29ubHlfdXBwZXJfc3RyaW5ncy5weSUwQSU0MCU0MCUyMC04JTJDNCUyMCUyQjglMkM0JTIwJTQwJTQwJTIwZGVmJTIwaXNfb25seV91cHBlcl9zdHJpbmdzKGl0ZXJhYmxlKSUzQSUwQSUyMCUyMCUyMCUyMCUyMCUzRSUzRSUzRSUyMGlzX29ubHlfdXBwZXJfc3RyaW5ncyglNUIlMjJTV0lNTSUyMiUyQyUyMCUyMlVOSVQlMjIlMkMlMjAlMjJTV2ltbUlORyUyMiU1RCklMEElMjAlMjAlMjAlMjAlMjBGYWxzZSUwQSUyMCUyMCUyMCUyMCUyMCUyMiUyMiUyMiUwQS0lMjAlMjAlMjAlMjByZXR1cm4lMjBhbGwoKHMuaXN1cHBlcigpJTIwZm9yJTIwcyUyMGluJTIwaXRlcmFibGUpKSUwQSUyQiUyMCUyMCUyMCUyMHBhc3MlMEE=",
-    "tests": [
-        "python3 -m doctest is_only_upper_strings.py"
-    ],
-    "play_mode": "handson",
-    "hints": [
-        "`dir(str)`",
-        "`all` is a useful builtin function"
-    ],
-    "cr": [{"action": "includes",
-            "value": "if ",
-            "message": "There is no need to use conditions here. The solution can contain a single line only."
-            }
-            ],
-    "files": {
-        "is_only_upper_strings.py": {
-            "index": [
-                "c8ab259..37a0354",
-                "100644"
-            ],
-            "fileA": "is_only_upper_strings.py",
-            "fileB": "is_only_upper_strings.py",
-            "status": "MODIFIED",
-            "numLineDeletions": 1,
-            "numLineAdditions": 1,
-            "hunkContainers": [
-                "JTdCJTIyaHVuayUyMiUzQSU3QiUyMmhlYWRlciUyMiUzQSUyMiU0MCU0MCUyMC04JTJDNCUyMCUyQjglMkM0JTIwJTQwJTQwJTIwZGVmJTIwaXNfb25seV91cHBlcl9zdHJpbmdzKGl0ZXJhYmxlKSUzQSUyMiUyQyUyMmNoYW5nZXMlMjIlM0ElNUIlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjAlMjAlM0UlM0UlM0UlMjBpc19vbmx5X3VwcGVyX3N0cmluZ3MoJTVCJTVDJTIyU1dJTU0lNUMlMjIlMkMlMjAlNUMlMjJVTklUJTVDJTIyJTJDJTIwJTVDJTIyU1dpbW1JTkclNUMlMjIlNUQpJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBOCUyQyUyMmIlMjIlM0E4JTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwJTIwRmFsc2UlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0E5JTJDJTIyYiUyMiUzQTklN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjAlMjAlNUMlMjIlNUMlMjIlNUMlMjIlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0ExMCUyQyUyMmIlMjIlM0ExMCU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJkZWwlMjIlMkMlMjJtYXJrJTIyJTNBJTIyLSUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjByZXR1cm4lMjBhbGwoKHMuaXN1cHBlcigpJTIwZm9yJTIwcyUyMGluJTIwaXRlcmFibGUpKSUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTExJTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmFkZCUyMiUyQyUyMm1hcmslMjIlM0ElMjIlMkIlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwcGFzcyUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYiUyMiUzQTExJTdEJTdEJTVEJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBJTdCJTIyc3RhcnRMaW5lJTIyJTNBOCUyQyUyMmxpbmVzQ291bnQlMjIlM0E0JTdEJTJDJTIyYiUyMiUzQSU3QiUyMnN0YXJ0TGluZSUyMiUzQTglMkMlMjJsaW5lc0NvdW50JTIyJTNBNCU3RCU3RCU3RCU3RA=="
-            ]
+    "file_version": "2.0.1",
+    "meta": {
+        "app_version": "0.4.1-0",
+        "file_blobs": {
+            "is_only_upper_strings.py": "c8ab25964128e2abb1d7f050a7e2a7fe1992a5f4"
         }
     },
-    "app_version": "0.1.80",
-    "file_version": "1.0.2"
+    "content": [
+        {
+            "type": "text",
+            "text": ""
+        },
+        {
+            "firstLineNumber": 8,
+            "path": "is_only_upper_strings.py",
+            "type": "snippet",
+            "lines": [
+                "     >>> is_only_upper_strings([\"SWIMM\", \"UNIT\", \"SWimmING\"])",
+                "     False",
+                "     \"\"\"",
+                "*    return all((s.isupper() for s in iterable))",
+                "+    pass"
+            ],
+            "comments": []
+        },
+        {
+            "type": "text",
+            "text": "`all` is useful!"
+        }
+    ],
+    "task": {
+        "dod": "Implement `is_only_upper_strings` according to its documentation",
+        "hints": [
+            "`dir(str)`",
+            "`all` is a useful builtin function"
+        ],
+        "tests": [
+            "python3 -m doctest is_only_upper_strings.py"
+        ],
+        "crActions": [
+            {
+                "action": "includes",
+                "value": "if ",
+                "message": "There is no need to use conditions here. The solution can contain a single line only."
+            }
+        ]
+    }
 }

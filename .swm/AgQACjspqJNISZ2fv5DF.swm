@@ -1,87 +1,85 @@
 {
     "id": "AgQACjspqJNISZ2fv5DF",
     "name": "Numbers Dict",
-    "dod": "",
-    "description": "It's hard for the human eye to read a number such as `1000000` and immediately recognize it has exactly 6 `0`s. We are used to using commas (`,`) to make numbers more clear - e.g., writing 1000000 as `1,000,000`.\n\nIn Python, you can’t use commas to group digits in integer literals. Yet, there is a cool trick to make numbers more readable in Python, by using an underscore (`_`). For example, writing the above number as `1_000_000`.\nActually, when defining a number.",
-    "summary": "Using numeric literals (with `_`) improve readability",
-    "hunksOrder": [
-        "numbers_dict.py_0",
-        "numbers_dict.py_1",
-        "numbers_dict.py_2",
-        "numbers_dict.py_3"
-    ],
-    "tests": [],
-    "hints": [],
-    "play_mode": "walkthrough",
-    "swimmPatch": {
-        "numbers_dict.py": {
-            "diffType": "MODIFIED",
-            "fileDiffHeader": "diff --git a/numbers_dict.py b/numbers_dict.py\nindex 12df4a4..9735835 100644\n--- a/numbers_dict.py\n+++ b/numbers_dict.py",
-            "hunks": [
-                {
-                    "swimmHunkMetadata": {
-                        "hunkComments": [
-                            "Consider this simple function with the code snippet below:"
-                        ]
-                    },
-                    "hunkDiffLines": [
-                        "@@ -1,13 +1,0 @@",
-                        "-def numbers_dict():\r",
-                        "-    \"\"\"\r",
-                        "-    >>> numbers = numbers_dict()\r",
-                        "-    >>> numbers['one']\r",
-                        "-    1\r",
-                        "-    >>> numbers['thousand']\r",
-                        "-    1000\r",
-                        "-    >>> numbers['million']\r",
-                        "-    1000000\r",
-                        "-    >>> 1_000 == 1_0_0_0 == 1000 == 100_0\r",
-                        "-    True\r",
-                        "-    \"\"\"\r",
-                        "-    return {'one': 1, 'thousand': 1_000, 'million': 1_000_000}"
-                    ]
-                },
-                {
-                    "swimmHunkMetadata": {
-                        "hunkComments": [
-                            "We assign `numbers` with the dictionary created by `numbers_dict()`:"
-                        ]
-                    },
-                    "hunkDiffLines": [
-                        "@@ -3,1 +3,0 @@",
-                        "-    >>> numbers = numbers_dict()\r"
-                    ]
-                },
-                {
-                    "swimmHunkMetadata": {
-                        "hunkComments": [
-                            "When declaring the dictionary, we set `'thousand' : 1_000`, yet Python shows us the value to be `1000`.",
-                            "That is because an underscore in integer literals is only for readability, and is actually ignored."
-                        ]
-                    },
-                    "hunkDiffLines": [
-                        "@@ -6,2 +6,0 @@",
-                        "-    >>> numbers['thousand']\r",
-                        "-    1000\r"
-                    ]
-                },
-                {
-                    "swimmHunkMetadata": {
-                        "hunkComments": [
-                            "As you can see below, it doesn't matter if we put one `_`, no `_` at all or multiple `_`, or where we put the `_` - the number is still the same:"
-                        ]
-                    },
-                    "hunkDiffLines": [
-                        "@@ -10,2 +10,0 @@",
-                        "-    >>> 1_000 == 1_0_0_0 == 1000 == 100_0\r",
-                        "-    True\r"
-                    ]
-                }
-            ]
+    "file_version": "2.0.1",
+    "meta": {
+        "app_version": "0.4.1-0",
+        "file_blobs": {
+            "numbers_dict.py": "e694337147e561b94e7664be920a3a5c514ef5ee"
         }
     },
-    "app_version": "0.3.4-0",
-    "file_version": "1.0.4",
-    "diff": "diff --git a/numbers_dict.py b/numbers_dict.py\nindex 12df4a4..9735835 100644\n--- a/numbers_dict.py\n+++ b/numbers_dict.py\n@@ -1,13 +0,0 @@\n-def numbers_dict():\r\n-    \"\"\"\r\n-    >>> numbers = numbers_dict()\r\n-    >>> numbers['one']\r\n-    1\r\n-    >>> numbers['thousand']\r\n-    1000\r\n-    >>> numbers['million']\r\n-    1000000\r\n-    >>> 1_000 == 1_0_0_0 == 1000 == 100_0\r\n-    True\r\n-    \"\"\"\r\n-    return {'one': 1, 'thousand': 1_000, 'million': 1_000_000}\n",
-    "last_commit_sha_for_swimm_patch": "7ca0558d157bc2c672c5a377f3a71ee6b0f654fa"
+    "content": [
+        {
+            "type": "text",
+            "text": "It's hard for the human eye to read a number such as `1000000` and immediately recognize it has exactly 6 `0`s. We are used to using commas (`,`) to make numbers more clear - e.g., writing 1000000 as `1,000,000`.\n\nIn Python, you can’t use commas to group digits in integer literals. Yet, there is a cool trick to make numbers more readable in Python, by using an underscore (`_`). For example, writing the above number as `1_000_000`.\nActually, when defining a number."
+        },
+        {
+            "type": "snippet",
+            "path": "numbers_dict.py",
+            "comments": [
+                "Consider this simple function with the code snippet below:"
+            ],
+            "firstLineNumber": 1,
+            "lines": [
+                "*def numbers_dict():\r",
+                "*    \"\"\"\r",
+                "*    >>> numbers = numbers_dict()\r",
+                "*    >>> numbers['one']\r",
+                "*    1\r",
+                "*    >>> numbers['thousand']\r",
+                "*    1000\r",
+                "*    >>> numbers['million']\r",
+                "*    1000000\r",
+                "*    >>> 1_000 == 1_0_0_0 == 1000 == 100_0\r",
+                "*    True\r",
+                "*    \"\"\"\r",
+                "*    return {'one': 1, 'thousand': 1_000, 'million': 1_000_000}"
+            ]
+        },
+        {
+            "type": "snippet",
+            "path": "numbers_dict.py",
+            "comments": [
+                "We assign `numbers` with the dictionary created by `numbers_dict()`:"
+            ],
+            "firstLineNumber": 3,
+            "lines": [
+                "*    >>> numbers = numbers_dict()\r"
+            ]
+        },
+        {
+            "type": "snippet",
+            "path": "numbers_dict.py",
+            "comments": [
+                "When declaring the dictionary, we set `'thousand' : 1_000`, yet Python shows us the value to be `1000`.",
+                "That is because an underscore in integer literals is only for readability, and is actually ignored."
+            ],
+            "firstLineNumber": 6,
+            "lines": [
+                "*    >>> numbers['thousand']\r",
+                "*    1000\r"
+            ]
+        },
+        {
+            "type": "snippet",
+            "path": "numbers_dict.py",
+            "comments": [
+                "As you can see below, it doesn't matter if we put one `_`, no `_` at all or multiple `_`, or where we put the `_` - the number is still the same:"
+            ],
+            "firstLineNumber": 10,
+            "lines": [
+                "*    >>> 1_000 == 1_0_0_0 == 1000 == 100_0\r",
+                "*    True\r"
+            ]
+        },
+        {
+            "type": "text",
+            "text": "Using numeric literals (with `_`) improve readability"
+        }
+    ],
+    "task": {
+        "dod": "Make the test pass",
+        "hints": [],
+        "tests": []
+    }
 }

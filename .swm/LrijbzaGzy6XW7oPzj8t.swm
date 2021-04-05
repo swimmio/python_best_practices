@@ -1,33 +1,44 @@
 {
     "id": "LrijbzaGzy6XW7oPzj8t",
     "name": "Squared Set",
-    "dod": "SW1wbGVtZW50JTIwJTYwc3F1YXJlZF9zZXQlNjAlMjBhY2NvcmRpbmclMjB0byUyMGl0cyUyMGRvY3VtZW50YXRpb24=",
-    "description": "VXNlJTIwY29tcHJlaGVuc2lvbnMlMjBmb3IlMjB0aGlzJTIwb25lLg==",
-    "summary": "JTVCc2V0JTIwY29tcHJlaGVuc2lvbnMlNUQoaHR0cHMlM0ElMkYlMkZweXRob24tcmVmZXJlbmNlLnJlYWR0aGVkb2NzLmlvJTJGZW4lMkZsYXRlc3QlMkZkb2NzJTJGY29tcHJlaGVuc2lvbnMlMkZzZXRfY29tcHJlaGVuc2lvbi5odG1sKSUyMGFyZSUyMGNvb2wh",
-    "diff": "ZGlmZiUyMC0tZ2l0JTIwYSUyRnNxdWFyZWRfc2V0LnB5JTIwYiUyRnNxdWFyZWRfc2V0LnB5JTBBaW5kZXglMjAwOGI4MzUyLi4wZGYxMDFlJTIwMTAwNjQ0JTBBLS0tJTIwYSUyRnNxdWFyZWRfc2V0LnB5JTBBJTJCJTJCJTJCJTIwYiUyRnNxdWFyZWRfc2V0LnB5JTBBJTQwJTQwJTIwLTYlMkM1JTIwJTJCNiUyQzQlMjAlNDAlNDAlMjBkZWYlMjBzcXVhcmVkX3NldChpdGVyYWJsZSklM0ElMEElMjAlMjAlMjAlMjAlMjAlM0UlM0UlM0UlMjBzcXVhcmVkX3NldCglNUIxJTJDMiUyQzMlMkMtMyUyQzQlMkMzJTVEKSUwQSUyMCUyMCUyMCUyMCUyMCU3QjE2JTJDJTIwMSUyQyUyMDQlMkMlMjA5JTdEJTBBJTIwJTIwJTIwJTIwJTIwJTIyJTIyJTIyJTBBLSUyMCUyMCUyMCUyMCUyMyUyMHNldCUyMGNvbXByZWhlbnNpb25zJTIwYXJlJTIwY29vbCElMEEtJTIwJTIwJTIwJTIwcmV0dXJuJTIwJTdCeCUyMCoqJTIwMiUyMGZvciUyMHglMjBpbiUyMGl0ZXJhYmxlJTdEJTBBJTJCJTIwJTIwJTIwJTIwcGFzcyUwQQ==",
-    "tests": [
-        "python3 -m doctest squared_set.py"
-    ],
-    "play_mode": "handson",
-    "hints": [
-        "https://python-reference.readthedocs.io/en/latest/docs/comprehensions/set_comprehension.html"
-    ],
-    "files": {
-        "squared_set.py": {
-            "index": [
-                "08b8352..0df101e",
-                "100644"
-            ],
-            "fileA": "squared_set.py",
-            "fileB": "squared_set.py",
-            "status": "MODIFIED",
-            "numLineDeletions": 2,
-            "numLineAdditions": 1,
-            "hunkContainers": [
-                "JTdCJTIyaHVuayUyMiUzQSU3QiUyMmhlYWRlciUyMiUzQSUyMiU0MCU0MCUyMC02JTJDNSUyMCUyQjYlMkM0JTIwJTQwJTQwJTIwZGVmJTIwc3F1YXJlZF9zZXQoaXRlcmFibGUpJTNBJTIyJTJDJTIyY2hhbmdlcyUyMiUzQSU1QiU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMCUyMCUzRSUzRSUzRSUyMHNxdWFyZWRfc2V0KCU1QjElMkMyJTJDMyUyQy0zJTJDNCUyQzMlNUQpJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBNiUyQyUyMmIlMjIlM0E2JTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwJTIwJTdCMTYlMkMlMjAxJTJDJTIwNCUyQyUyMDklN0QlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0E3JTJDJTIyYiUyMiUzQTclN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjAlMjAlNUMlMjIlNUMlMjIlNUMlMjIlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0E4JTJDJTIyYiUyMiUzQTglN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyZGVsJTIyJTJDJTIybWFyayUyMiUzQSUyMi0lMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwJTIzJTIwc2V0JTIwY29tcHJlaGVuc2lvbnMlMjBhcmUlMjBjb29sISUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTklN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyZGVsJTIyJTJDJTIybWFyayUyMiUzQSUyMi0lMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwcmV0dXJuJTIwJTdCeCUyMCoqJTIwMiUyMGZvciUyMHglMjBpbiUyMGl0ZXJhYmxlJTdEJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBMTAlN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyYWRkJTIyJTJDJTIybWFyayUyMiUzQSUyMiUyQiUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjBwYXNzJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJiJTIyJTNBOSU3RCU3RCU1RCUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQSU3QiUyMnN0YXJ0TGluZSUyMiUzQTYlMkMlMjJsaW5lc0NvdW50JTIyJTNBNSU3RCUyQyUyMmIlMjIlM0ElN0IlMjJzdGFydExpbmUlMjIlM0E2JTJDJTIybGluZXNDb3VudCUyMiUzQTQlN0QlN0QlN0QlN0Q="
-            ]
+    "file_version": "2.0.1",
+    "meta": {
+        "app_version": "0.4.1-0",
+        "file_blobs": {
+            "squared_set.py": "08b835207b0bba7cc6e8ef1236f74fd6273f670d"
         }
     },
-    "app_version": "0.1.80",
-    "file_version": "1.0.2"
+    "content": [
+        {
+            "type": "text",
+            "text": "Use comprehensions for this one."
+        },
+        {
+            "firstLineNumber": 6,
+            "path": "squared_set.py",
+            "type": "snippet",
+            "lines": [
+                "     >>> squared_set([1,2,3,-3,4,3])",
+                "     {16, 1, 4, 9}",
+                "     \"\"\"",
+                "*    # set comprehensions are cool!",
+                "+    pass",
+                "*    return {x ** 2 for x in iterable}"
+            ],
+            "comments": []
+        },
+        {
+            "type": "text",
+            "text": "[set comprehensions](https://python-reference.readthedocs.io/en/latest/docs/comprehensions/set_comprehension.html) are cool!"
+        }
+    ],
+    "task": {
+        "dod": "Implement `squared_set` according to its documentation",
+        "hints": [
+            "https://python-reference.readthedocs.io/en/latest/docs/comprehensions/set_comprehension.html"
+        ],
+        "tests": [
+            "python3 -m doctest squared_set.py"
+        ]
+    }
 }

@@ -1,32 +1,44 @@
 {
     "id": "NJHz4NvyXIAHttl5pDVg",
     "name": "Class Basics",
-    "tests": [
-        "mypy --strict typing_class_basics.py"
-    ],
-    "hints": [],
-    "play_mode": "handson",
-    "files": {
-        "typing_class_basics.py": {
-            "index": [
-                "1108d0d..fce3dee",
-                "100644"
-            ],
-            "fileA": "typing_class_basics.py",
-            "fileB": "typing_class_basics.py",
-            "status": "MODIFIED",
-            "numLineDeletions": 1,
-            "numLineAdditions": 1,
-            "hunkContainers": [
-                "JTdCJTIyaHVuayUyMiUzQSU3QiUyMmhlYWRlciUyMiUzQSUyMiU0MCU0MCUyMC0zJTJDNyUyMCUyQjMlMkM3JTIwJTQwJTQwJTIwY2xhc3MlMjBBJTNBJTIyJTJDJTIyY2hhbmdlcyUyMiUzQSU1QiU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTMlMkMlMjJiJTIyJTNBMyU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTQlMkMlMjJiJTIyJTNBNCU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMGNsYXNzJTIwQiUzQSUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTUlMkMlMjJiJTIyJTNBNSU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJkZWwlMjIlMkMlMjJtYXJrJTIyJTNBJTIyLSUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjBkZWYlMjBmKHNlbGYlMkMlMjBhJTNBJTIwQSklMjAtJTNFJTIwTm9uZSUzQSUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTYlN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyYWRkJTIyJTJDJTIybWFyayUyMiUzQSUyMiUyQiUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjBkZWYlMjBmKHNlbGYlMkMlMjBhKSUzQSUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYiUyMiUzQTYlN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjBwYXNzJTIwJTIwJTIzJTIwVGhlJTIwaW1wbGVtZW50YXRpb24lMjBkb2Vzbid0JTIwbWF0dGVyJTIwaGVyZSUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTclMkMlMjJiJTIyJTNBNyU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTglMkMlMjJiJTIyJTNBOCU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTklMkMlMjJiJTIyJTNBOSU3RCU3RCU1RCUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQSU3QiUyMnN0YXJ0TGluZSUyMiUzQTMlMkMlMjJsaW5lc0NvdW50JTIyJTNBNyU3RCUyQyUyMmIlMjIlM0ElN0IlMjJzdGFydExpbmUlMjIlM0EzJTJDJTIybGluZXNDb3VudCUyMiUzQTclN0QlN0QlN0QlN0Q="
-            ]
+    "file_version": "2.0.1",
+    "meta": {
+        "app_version": "0.4.1-0",
+        "file_blobs": {
+            "typing_class_basics.py": "1108d0d43eab56ff1da65f5faace6965a2a82ff8"
         }
     },
-    "diff": "ZGlmZiUyMC0tZ2l0JTIwYSUyRnR5cGluZ19jbGFzc19iYXNpY3MucHklMjBiJTJGdHlwaW5nX2NsYXNzX2Jhc2ljcy5weSUwQWluZGV4JTIwMTEwOGQwZC4uZmNlM2RlZSUyMDEwMDY0NCUwQS0tLSUyMGElMkZ0eXBpbmdfY2xhc3NfYmFzaWNzLnB5JTBBJTJCJTJCJTJCJTIwYiUyRnR5cGluZ19jbGFzc19iYXNpY3MucHklMEElNDAlNDAlMjAtMyUyQzclMjAlMkIzJTJDNyUyMCU0MCU0MCUyMGNsYXNzJTIwQSUzQSUwQSUyMCUwQSUyMCUwQSUyMGNsYXNzJTIwQiUzQSUwQS0lMjAlMjAlMjAlMjBkZWYlMjBmKHNlbGYlMkMlMjBhJTNBJTIwQSklMjAtJTNFJTIwTm9uZSUzQSUwQSUyQiUyMCUyMCUyMCUyMGRlZiUyMGYoc2VsZiUyQyUyMGEpJTNBJTBBJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwcGFzcyUyMCUyMCUyMyUyMFRoZSUyMGltcGxlbWVudGF0aW9uJTIwZG9lc24ndCUyMG1hdHRlciUyMGhlcmUlMEElMjAlMEElMjAlMEE=",
-    "solution_files": [
-        "typing_class_basics.py"
+    "content": [
+        {
+            "type": "text",
+            "text": "Function `f` of class `B` is missing type annotation - so [mypy](https://mypy.readthedocs.io/en/stable/introduction.html) is not happy.\n\nAdd the right annotation.\n\nIt would be useful to understand [MyPy's class basics](https://mypy.readthedocs.io/en/stable/class_basics.html) for that.\n\n# References\n* https://mypy.readthedocs.io/en/stable/builtin_types.html\n* https://mypy.readthedocs.io/en/stable/type_inference_and_annotations.html\n* https://mypy.readthedocs.io/en/stable/kinds_of_types.html\n* https://mypy.readthedocs.io/en/stable/class_basics.html"
+        },
+        {
+            "firstLineNumber": 3,
+            "path": "typing_class_basics.py",
+            "type": "snippet",
+            "lines": [
+                " ",
+                " ",
+                " class B:",
+                "*    def f(self, a: A) -> None:",
+                "+    def f(self, a):",
+                "         pass  # The implementation doesn't matter here",
+                " ",
+                " "
+            ],
+            "comments": []
+        },
+        {
+            "type": "text",
+            "text": ""
+        }
     ],
-    "description": "RnVuY3Rpb24lMjAlNjBmJTYwJTIwb2YlMjBjbGFzcyUyMCU2MEIlNjAlMjBpcyUyMG1pc3NpbmclMjB0eXBlJTIwYW5ub3RhdGlvbiUyMC0lMjBzbyUyMCU1Qm15cHklNUQoaHR0cHMlM0ElMkYlMkZteXB5LnJlYWR0aGVkb2NzLmlvJTJGZW4lMkZzdGFibGUlMkZpbnRyb2R1Y3Rpb24uaHRtbCklMjBpcyUyMG5vdCUyMGhhcHB5LiUwQSUwQUFkZCUyMHRoZSUyMHJpZ2h0JTIwYW5ub3RhdGlvbi4lMEElMEFJdCUyMHdvdWxkJTIwYmUlMjB1c2VmdWwlMjB0byUyMHVuZGVyc3RhbmQlMjAlNUJNeVB5J3MlMjBjbGFzcyUyMGJhc2ljcyU1RChodHRwcyUzQSUyRiUyRm15cHkucmVhZHRoZWRvY3MuaW8lMkZlbiUyRnN0YWJsZSUyRmNsYXNzX2Jhc2ljcy5odG1sKSUyMGZvciUyMHRoYXQuJTBBJTBBJTIzJTIwUmVmZXJlbmNlcyUwQSolMjBodHRwcyUzQSUyRiUyRm15cHkucmVhZHRoZWRvY3MuaW8lMkZlbiUyRnN0YWJsZSUyRmJ1aWx0aW5fdHlwZXMuaHRtbCUwQSolMjBodHRwcyUzQSUyRiUyRm15cHkucmVhZHRoZWRvY3MuaW8lMkZlbiUyRnN0YWJsZSUyRnR5cGVfaW5mZXJlbmNlX2FuZF9hbm5vdGF0aW9ucy5odG1sJTBBKiUyMGh0dHBzJTNBJTJGJTJGbXlweS5yZWFkdGhlZG9jcy5pbyUyRmVuJTJGc3RhYmxlJTJGa2luZHNfb2ZfdHlwZXMuaHRtbCUwQSolMjBodHRwcyUzQSUyRiUyRm15cHkucmVhZHRoZWRvY3MuaW8lMkZlbiUyRnN0YWJsZSUyRmNsYXNzX2Jhc2ljcy5odG1s",
-    "app_version": "0.1.2",
-    "file_version": "1.0.1"
+    "task": {
+        "dod": "Make the test pass",
+        "hints": [],
+        "tests": [
+            "mypy --strict typing_class_basics.py"
+        ]
+    }
 }
