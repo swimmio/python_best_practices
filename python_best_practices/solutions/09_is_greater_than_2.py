@@ -11,3 +11,5 @@ def is_greater_than_2(number):
     True
     """
     return number > 2
+
+# We don't need `if` or `else` here

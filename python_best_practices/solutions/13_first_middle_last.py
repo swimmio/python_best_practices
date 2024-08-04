@@ -13,3 +13,6 @@ def first_middle_last(iterable):
     print(first)
     print(middle)
     print(last)
+
+# "Tuple unpacking is cool! Read more about it:
+# https://www.geeksforgeeks.org/unpacking-a-tuple-in-python/

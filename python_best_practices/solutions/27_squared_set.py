@@ -8,3 +8,5 @@ def squared_set(iterable):
     """
     # set comprehensions are cool!
     return {x ** 2 for x in iterable}
+
+# https://python-reference.readthedocs.io/en/latest/docs/comprehensions/set_comprehension.html

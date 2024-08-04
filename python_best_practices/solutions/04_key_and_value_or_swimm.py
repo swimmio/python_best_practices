@@ -12,3 +12,5 @@ def key_and_value_or_swimm(dictionary, key):
     'swimm'
     """
     return dictionary.get(key, "swimm")
+
+# `get` has a second argument of a default value. This is a very elegant solution.

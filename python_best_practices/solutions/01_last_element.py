@@ -9,3 +9,6 @@ def last_element(my_list_or_string):
     'm'
     """
     return my_list_or_string[-1]
+
+
+# Using my_list[-1] is very convenient in Python - there's no reason to use `len(my_list)` in this case.

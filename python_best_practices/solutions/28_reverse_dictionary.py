@@ -7,3 +7,5 @@ def reverse_dictionary(input_dict):
     {'a': 1, 'b': 2, 'c': 3}
     """
     return {v: k for k, v in input_dict.items()}
+
+# [dict comprehensions](https://python-reference.readthedocs.io/en/latest/docs/comprehensions/dict_comprehension.html) are awesome

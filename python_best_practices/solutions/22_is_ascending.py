@@ -14,3 +14,5 @@ def is_ascending(a, b, c):
     True
     """
     return a < b < c
+
+# Python supports multiple comparisons in one statement - so there's no need to use `and` in this case

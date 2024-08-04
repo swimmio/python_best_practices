@@ -10,3 +10,5 @@ def default_value(argument):
     'swimm'
     """
     return argument or 'swimm'
+
+# This syntax is common for default values - you don't have to use an `if` clause here

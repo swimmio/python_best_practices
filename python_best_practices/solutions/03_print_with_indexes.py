@@ -9,3 +9,5 @@ def print_with_indexes(my_list):
     """
     for (i, value) in enumerate(my_list):
         print(f'{i}: {value}')
+
+# Using `enumerate` is very elegant in this case!

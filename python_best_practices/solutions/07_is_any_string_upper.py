@@ -9,3 +9,5 @@ def is_any_string_upper_here(iterable):
     False
     """
     return any((s.isupper() for s in iterable))
+
+# `any` is useful!

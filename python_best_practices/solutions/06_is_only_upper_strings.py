@@ -9,3 +9,5 @@ def is_only_upper_strings(iterable):
     False
     """
     return all((s.isupper() for s in iterable))
+
+# `all` is useful!

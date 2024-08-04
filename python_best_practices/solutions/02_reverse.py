@@ -8,3 +8,4 @@ def reverse(my_list_or_string):
     """
     return my_list_or_string[::-1]
 
+# Here we use the slicing operator meaning we start from index `0`, all the way to the end, with a `step` of `-1`
