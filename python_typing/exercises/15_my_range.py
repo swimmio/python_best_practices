@@ -1,7 +1,12 @@
-from typing import Generator
+# Add the type annotation
+# Test that  `mypy --strict <filename>` passes!
+# References:
+# https://mypy.readthedocs.io/en/stable/builtin_types.html
+# https://mypy.readthedocs.io/en/stable/type_inference_and_annotations.html
+# https://mypy.readthedocs.io/en/stable/kinds_of_types.html
 
 
-def my_range(start: int, end: int) -> Generator[int, None, None]:
+def my_range(start, end):
     for i in range(start, end):
         yield i
 

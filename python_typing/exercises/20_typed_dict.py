@@ -1,15 +1,13 @@
-from typing import TypedDict, List, Optional, Any
+# Add the type annotation
+# Test that  `mypy --strict <filename>` passes!
+# References:
+# https://mypy.readthedocs.io/en/stable/builtin_types.html
+
+# This is new:
+# https://mypy.readthedocs.io/en/stable/more_types.html
 
 
-class MySpecialDict(TypedDict):
-    str_field: str
-    int_field: int
-    float_field: float
-    list_field: List[Any]
-    optional_str_field: Optional[str]
-
-
-def ret_typed_dict() -> MySpecialDict:
+def ret_typed_dict():
     return {
         "str_field": "str",
         "int_field": 0,

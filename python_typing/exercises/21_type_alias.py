@@ -1,10 +1,12 @@
-import random
-from typing import Union, Dict, List
+# Add the type annotation
+# Test that  `mypy --strict <filename>` passes!
+# References:
+# https://mypy.readthedocs.io/en/stable/builtin_types.html
+# https://mypy.readthedocs.io/en/stable/type_inference_and_annotations.html
+# https://mypy.readthedocs.io/en/stable/kinds_of_types.html
 
-TypeAlias = Union[str, Dict[str, List[str]]]
 
-
-def ret_type_alias() -> TypeAlias:
+def ret_type_alias():
     """
     return a type alias for the code
     """

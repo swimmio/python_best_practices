@@ -1,11 +1,16 @@
-from typing import Iterable, Callable, List
+# Add the type annotation
+# Test that  `mypy --strict <filename>` passes!
+# References:
+# https://mypy.readthedocs.io/en/stable/builtin_types.html
+# https://mypy.readthedocs.io/en/stable/type_inference_and_annotations.html
+# https://mypy.readthedocs.io/en/stable/kinds_of_types.html
 
 
 def cb(a: int) -> int:
     return a
 
 
-def my_map(it: Iterable[int], cb: Callable[[int], int]) -> List[int]:
+def my_map(it, cb):
     ret = []
     for i in it:
         ret.append(cb(i))
