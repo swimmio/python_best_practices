@@ -8,7 +8,7 @@ This is a public repo maintinaed by [Swimm](https://swimm.io).
 
 # I want to start! What should I do?
 
-Read the instructions Swimm document.
+Read the [instructions Swimm document](.swm/instructions-python-best-practices.jo0qbkzz.sw.md).
 
 Enjoy 😎
 
