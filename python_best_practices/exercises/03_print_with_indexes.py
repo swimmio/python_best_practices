@@ -1,0 +1,10 @@
+def print_with_indexes(my_list):
+    """
+    Prints on every line: <index>: <value>
+    For example:
+    >>> print_with_indexes(['a', 'b', 'c'])
+    0: a
+    1: b
+    2: c
+    """
+    pass
